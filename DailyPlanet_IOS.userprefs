@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{7D698B11-BBA7-4290-834E-BF3C8629EF6D}|Default">
+  <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.c725c66ab497933cb2ae97b7a4e15648925e4415" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/Main.storyboard">
+    <Files>
+      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="40" Column="13" />
+      <File FileName="DailyPlanet_IOS/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/Main.cs" Line="12" Column="1" />
+      <File FileName="DailyPlanet_IOS/Entitlements.plist" />
+      <File FileName="DailyPlanet_IOS/Info.plist" />
+      <File FileName="DailyPlanet_IOS/itemViewController.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
