@@ -40,6 +40,15 @@ namespace DailyPlanet_IOS
         partial void ScanBtn_TouchUpInside(UIButton sender)
         {
             /*
+             * Below is Database code. You'll notice if you try using it
+             * it wont work on the actual iphone but will connect to the
+             * database when using the simulator. I think I know the solution
+             * but I have to do a bit more research.
+
+            */
+
+
+            /*
             MySqlConnection sqlconn;
             string connsqlstring = "Server=127.0.0.1;Port=3306;database=test;User Id=root;Password=password;charset=utf8";
             sqlconn = new MySqlConnection();
@@ -76,8 +85,16 @@ namespace DailyPlanet_IOS
             string code = result.Text;
             if (result != null)
             {
-                ItemController controller = new ItemController();
+                /*
+                 * Here is where we create a new item page every time 
+                 * something is scanned. You'll see this is where we
+                 * also set the strings we created in ItemController
+                 * so we can set it to what we want. Later we will set
+                 * it to whatever the database data is.
+                */
 
+
+                ItemController controller = new ItemController();
                 this.NavigationController.PushViewController(controller, true);
                 controller.barCodeLableText = code;
                 //controller.addLabelText = query;
@@ -87,6 +104,7 @@ namespace DailyPlanet_IOS
 
         }
 
+        //Sets camera resolution. Not sure what it really does lol 
         CameraResolution HandleCameraResolutionSelectorDelegate(List<CameraResolution> availableResolutions)
         {
             //Don't know if this will ever be null or empty

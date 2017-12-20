@@ -4,13 +4,17 @@
   </MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS>
   <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/ViewController.cs">
     <Files>
-      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="22" Column="32" />
+      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="85" Column="39" />
+      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="15" Column="63" />
+      <File FileName="DailyPlanet_IOS/ItemController.xib" />
+      <File FileName="DailyPlanet_IOS/Main.storyboard" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DailyPlanet_IOS" expanded="True">
             <Node name="DailyPlanet_IOS" expanded="True">
+              <Node name="ItemController.cs" expanded="True" />
               <Node name="ViewController.cs" expanded="True" selected="True" />
             </Node>
           </Node>
