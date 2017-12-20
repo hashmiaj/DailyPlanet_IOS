@@ -74,6 +74,7 @@
 	-(void) setBarcodeLable:(UILabel *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
+	-(void) addSwitchValueChanged:(UISwitch *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end

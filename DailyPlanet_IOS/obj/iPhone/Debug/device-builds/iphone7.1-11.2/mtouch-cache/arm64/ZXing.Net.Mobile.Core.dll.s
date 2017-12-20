@@ -1371,8 +1371,8 @@ ldr x16, [x16, #400]
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x0, [x16, #408]
-.word 0xd2800501
-.word 0xd2800501
+.word 0xd2800401
+.word 0xd2800401
 bl _p_7
 .word 0xf9001ba0
 bl _p_8
@@ -3304,8 +3304,8 @@ bl _p_18
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x0, [x16, #408]
-.word 0xd2800501
-.word 0xd2800501
+.word 0xd2800401
+.word 0xd2800401
 bl _p_7
 .word 0xf90077a0
 bl _p_8
@@ -3413,7 +3413,7 @@ bl _p_35
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x15, [x16, #656]
-.word 0x92800bf0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -3554,8 +3554,8 @@ bl _p_38
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x0, [x16, #680]
-.word 0xd2800a01
-.word 0xd2800a01
+.word 0xd2800901
+.word 0xd2800901
 bl _p_7
 .word 0xf90053a0
 bl _p_39
@@ -4452,8 +4452,8 @@ ldr x16, [x16, #776]
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x0, [x16, #784]
-.word 0xd2800a01
-.word 0xd2800a01
+.word 0xd2800901
+.word 0xd2800901
 bl _p_7
 .word 0xf9001ba0
 bl _p_57
@@ -4766,13 +4766,13 @@ ldr x16, [x16, #816]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2864c80
-.word 0xd2864c80
+.word 0xd2823f00
+.word 0xd2823f00
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801b80
+.word 0xd28013c0
 .word 0xf2a04000
-.word 0xd2801b80
+.word 0xd28013c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -4794,13 +4794,13 @@ bl _p_59
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2865740
-.word 0xd2865740
+.word 0xd28249c0
+.word 0xd28249c0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801b80
+.word 0xd28013c0
 .word 0xf2a04000
-.word 0xd2801b80
+.word 0xd28013c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -4859,127 +4859,6 @@ bl _p_61
 
 Lme_7e:
 .text
-ut_127:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
-System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset:
-.loc 2 245 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #824]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900081e
-.loc 2 246 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_7f:
-.text
-ut_128:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
-System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current:
-.loc 2 250 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #832]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9002fa0
-.word 0xf9401ba0
-bl _p_62
-.word 0xaa0003e1
-.word 0xf9402fa0
-.word 0xf9002ba1
-.word 0xf940001e
-.word 0xf90027a0
-.word 0xf9401ba0
-bl _p_63
-.word 0xaa0003e1
-.word 0xf94027a0
-.word 0xf9402baf
-.word 0xd63f0020
-.word 0x93407c00
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-bl _p_64
-.word 0xd2800301
-.word 0xd2800301
-bl _p_7
-.word 0xf94023a1
-.word 0xb9001001
-.word 0xf9400fb1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_80:
-.text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT:
@@ -4991,7 +4870,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #824]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5016,10 +4895,10 @@ ldr x16, [x16, #840]
 .word 0x910103a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_65
+bl _p_62
 .word 0xf9003ba0
 .word 0xf9402ba0
-bl _p_66
+bl _p_63
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -5036,7 +4915,7 @@ bl _p_66
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_65
+bl _p_62
 .word 0xd2800401
 .word 0xd2800401
 bl _p_7
@@ -5067,7 +4946,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_81:
+Lme_7f:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -5079,7 +4958,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5111,7 +4990,7 @@ ldr x16, [x16, #848]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_89:
+Lme_87:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -5123,7 +5002,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #840]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5149,7 +5028,7 @@ ldr x16, [x16, #856]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_8a:
+Lme_88:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -5161,7 +5040,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5177,13 +5056,13 @@ ldr x16, [x16, #864]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2856b40
-.word 0xd2856b40
+.word 0xd28195c0
+.word 0xd28195c0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -5195,7 +5074,7 @@ bl _p_59
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_8b:
+Lme_89:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_INT_T_INT
@@ -5209,7 +5088,7 @@ System_Array_InternalArray__ICollection_Add_T_INT_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5225,13 +5104,13 @@ ldr x16, [x16, #872]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2857140
-.word 0xd2857140
+.word 0xd2819bc0
+.word 0xd2819bc0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -5243,7 +5122,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8c:
+Lme_8a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
@@ -5257,7 +5136,7 @@ System_Array_InternalArray__ICollection_Remove_T_INT_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #864]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5273,13 +5152,13 @@ ldr x16, [x16, #880]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2857140
-.word 0xd2857140
+.word 0xd2819bc0
+.word 0xd2819bc0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -5291,7 +5170,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8d:
+Lme_8b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
@@ -5309,7 +5188,7 @@ System_Array_InternalArray__ICollection_Contains_T_INT_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #872]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5346,19 +5225,19 @@ ldr x16, [x16, #888]
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28578c0
-.word 0xd28578c0
+.word 0xd281a340
+.word 0xd281a340
 bl _p_58
-bl _p_67
+bl _p_64
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a1
-.word 0xd2801ee0
+.word 0xd2801700
 .word 0xf2a04000
-.word 0xd2801ee0
+.word 0xd2801700
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -5392,7 +5271,7 @@ bl _p_59
 .word 0xaa1803e0
 .word 0x9101c3a0
 .word 0xf94037a0
-bl _p_68
+bl _p_65
 .word 0x93407f00
 .word 0xd37ef400
 .word 0x8b000340
@@ -5430,7 +5309,7 @@ bl _p_68
 .word 0xb98073a0
 .word 0xf90043a0
 .word 0xf94037a0
-bl _p_69
+bl _p_66
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
@@ -5438,10 +5317,10 @@ bl _p_7
 .word 0xf94043a0
 .word 0xb90012c0
 .word 0xf94037a0
-bl _p_70
+bl _p_67
 .word 0xaa0003f5
 .word 0xf94037a0
-bl _p_71
+bl _p_68
 .word 0xd280005e
 .word 0xeb1e001f
 .word 0x540000c0
@@ -5453,7 +5332,7 @@ bl _p_71
 .word 0xb98002e0
 .word 0xf90043a0
 .word 0xf94037a0
-bl _p_69
+bl _p_66
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
@@ -5521,7 +5400,7 @@ bl _p_7
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_8e:
+Lme_8c:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
@@ -5538,7 +5417,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #880]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -5583,7 +5462,7 @@ ldr x16, [x16, #896]
 .word 0xf9403ba4
 .word 0xf9402ba0
 .word 0xaa1503e1
-bl _p_72
+bl _p_69
 .loc 2 117 0
 .word 0xf9401fb1
 .word 0xf940ee31
@@ -5599,7 +5478,7 @@ bl _p_72
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_8f:
+Lme_8d:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
@@ -5613,7 +5492,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT_get_Default:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #888]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5631,7 +5510,7 @@ ldr x16, [x16, #904]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_73
+bl _p_70
 .word 0xf9400000
 .word 0xaa0003fa
 .loc 3 33 0
@@ -5647,10 +5526,10 @@ bl _p_73
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_74
+bl _p_71
 .word 0xf90033a0
 .word 0xf9401ba0
-bl _p_75
+bl _p_72
 .word 0xf94033af
 .word 0xd63f0000
 .word 0xf9002fa0
@@ -5669,7 +5548,7 @@ bl _p_75
 .word 0xf9402ba0
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_73
+bl _p_70
 .word 0xf90023a0
 .word 0xf94027a1
 .word 0xd50330bf
@@ -5695,7 +5574,7 @@ bl _p_73
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_91:
+Lme_8f:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
@@ -5711,7 +5590,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #896]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -5731,7 +5610,7 @@ ldr x16, [x16, #912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_76
+bl _p_73
 .word 0xf90037a0
 .word 0xf94037a0
 .word 0xb4000180
@@ -5743,7 +5622,7 @@ bl _p_76
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #920]
+ldr x1, [x16, #904]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54004261
@@ -5758,7 +5637,7 @@ ldr x1, [x16, #920]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #912]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -5776,19 +5655,19 @@ ldr x0, [x16, #928]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #920]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_7
 .word 0xf9006fa0
 .word 0xf9406fa0
-bl _p_77
+bl _p_74
 .word 0xf94027b1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf90073a0
 .word 0xf9406fa0
 .word 0xb4000140
@@ -5812,7 +5691,7 @@ bl _p_78
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #944]
+ldr x0, [x16, #928]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -5830,19 +5709,19 @@ ldr x0, [x16, #944]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #952]
+ldr x0, [x16, #936]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_7
 .word 0xaa0003f7
 .word 0xaa1703e0
-bl _p_79
+bl _p_76
 .word 0xf94027b1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf9006ba0
 .word 0xb4000137
 .word 0xf94002e0
@@ -5862,13 +5741,13 @@ bl _p_78
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_80
+bl _p_77
 .word 0xaa0003e2
 .word 0xaa1a03e0
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407450
+.word 0xf9407050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -5886,17 +5765,17 @@ bl _p_80
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #944]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xf90063a0
 .word 0xf94027b1
 .word 0xf942d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf90067a0
 .word 0xf94063a0
 .word 0xb4000140
@@ -5919,7 +5798,7 @@ bl _p_78
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940ec30
+.word 0xf940e030
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -5932,7 +5811,7 @@ bl _p_78
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9409c30
+.word 0xf9409030
 .word 0xd63f0200
 .word 0xf9007fa0
 .word 0xf94027b1
@@ -5943,7 +5822,7 @@ bl _p_78
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #968]
+ldr x1, [x16, #952]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -5961,7 +5840,7 @@ ldr x1, [x16, #968]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940a030
+.word 0xf9409430
 .word 0xd63f0200
 .word 0xf9007ba0
 .word 0xf94027b1
@@ -5985,7 +5864,7 @@ ldr x1, [x16, #968]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #920]
+ldr x1, [x16, #904]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54002601
@@ -5999,15 +5878,15 @@ ldr x1, [x16, #920]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #976]
+ldr x0, [x16, #960]
 .word 0xf90087a0
 .word 0xd2800020
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #984]
+ldr x0, [x16, #968]
 .word 0xd2800021
-bl _p_82
+bl _p_79
 .word 0xf90057a0
 .word 0xf94057a0
 .word 0xf90083a0
@@ -6017,13 +5896,13 @@ bl _p_82
 .word 0xaa0303e0
 .word 0xd2800001
 .word 0xf9400063
-.word 0xf9408070
+.word 0xf9404870
 .word 0xd63f0200
 .word 0xf94083a1
 .word 0xf94087a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940a850
+.word 0xf9409c50
 .word 0xd63f0200
 .word 0xf9007fa0
 .word 0xf94027b1
@@ -6034,7 +5913,7 @@ bl _p_82
 .word 0xaa1903e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9407450
+.word 0xf9407050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -6052,17 +5931,17 @@ bl _p_82
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #992]
+ldr x0, [x16, #976]
 .word 0xaa1903e1
 .word 0xaa1903e1
-bl _p_81
+bl _p_78
 .word 0xf9005ba0
 .word 0xf94027b1
 .word 0xf9454631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf9005fa0
 .word 0xf9405ba0
 .word 0xb4000140
@@ -6089,7 +5968,7 @@ bl _p_78
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f830
+.word 0xf940e830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -6106,14 +5985,14 @@ bl _p_78
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_80
 .word 0xf90083a0
 .word 0xf94027b1
 .word 0xf9460a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
-bl _p_84
+bl _p_81
 .word 0x93407c00
 .word 0xf9007fa0
 .word 0xf94027b1
@@ -6139,7 +6018,7 @@ bl _p_84
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1000]
+ldr x0, [x16, #984]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -6151,17 +6030,17 @@ ldr x0, [x16, #1000]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1008]
+ldr x0, [x16, #992]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xf90043a0
 .word 0xf94027b1
 .word 0xf946ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf90047a0
 .word 0xf94043a0
 .word 0xb4000140
@@ -6184,17 +6063,17 @@ bl _p_78
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1000]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xaa0003f5
 .word 0xf94027b1
 .word 0xf9473631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf9003ba0
 .word 0xb4000135
 .word 0xf94002a0
@@ -6216,17 +6095,17 @@ bl _p_78
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1008]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xaa0003f3
 .word 0xf94027b1
 .word 0xf947ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf9003fa0
 .word 0xb4000133
 .word 0xf9400260
@@ -6248,17 +6127,17 @@ bl _p_78
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1032]
+ldr x0, [x16, #1016]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xf9004ba0
 .word 0xf94027b1
 .word 0xf9482631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_78
+bl _p_75
 .word 0xf9004fa0
 .word 0xf9404ba0
 .word 0xb4000140
@@ -6283,13 +6162,13 @@ bl _p_78
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_85
+bl _p_82
 .word 0xd2800201
 .word 0xd2800201
 bl _p_7
 .word 0xf9007fa0
 .word 0xf94033a0
-bl _p_86
+bl _p_83
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xf9007ba0
@@ -6310,14 +6189,14 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801b60
+.word 0xd28013a0
 .word 0xaa1103e1
-bl _p_87
-.word 0xd2801ae0
+bl _p_84
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_92:
+Lme_90:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
@@ -6336,7 +6215,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_in
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1024]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -6443,11 +6322,11 @@ ldr x16, [x16, #1040]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_95:
+Lme_93:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_LastIndexOf_T_INT___T_INT_int_int
@@ -6466,7 +6345,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT_LastIndexOf_T_INT___T_INT_in
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1032]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -6574,11 +6453,11 @@ ldr x16, [x16, #1048]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_96:
+Lme_94:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
@@ -6592,7 +6471,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEquality
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6625,11 +6504,11 @@ ldr x16, [x16, #1056]
 .word 0xf9001fba
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_88
+bl _p_85
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf9401fa0
-bl _p_89
+bl _p_86
 .word 0xb40004e0
 .word 0xf94013b1
 .word 0xf940c231
@@ -6648,7 +6527,7 @@ bl _p_89
 .word 0xf90027a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_90
+bl _p_87
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xf9402ba2
@@ -6676,7 +6555,7 @@ bl _p_90
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_91
+bl _p_88
 .loc 3 148 0
 .word 0xf94013b1
 .word 0xf9417631
@@ -6692,11 +6571,11 @@ bl _p_91
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801b60
+.word 0xd28013a0
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_97:
+Lme_95:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
@@ -6711,7 +6590,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEquality
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1048]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6766,20 +6645,20 @@ ldr x16, [x16, #1064]
 .word 0xf90023b9
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_92
+bl _p_89
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94023a0
-bl _p_89
+bl _p_86
 .word 0xb40008a0
 .word 0xf90027ba
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_92
+bl _p_89
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94027a0
-bl _p_89
+bl _p_86
 .word 0xb4000780
 .word 0xf94017b1
 .word 0xf9413e31
@@ -6798,7 +6677,7 @@ bl _p_89
 .word 0xf9003ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_93
+bl _p_90
 .word 0xaa0003e1
 .word 0xf9403ba0
 .word 0xeb01001f
@@ -6818,7 +6697,7 @@ bl _p_93
 .word 0xf9002fa0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_93
+bl _p_90
 .word 0xaa0003e2
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -6851,7 +6730,7 @@ bl _p_93
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_91
+bl _p_88
 .loc 3 156 0
 .word 0xf94017b1
 .word 0xf9425631
@@ -6867,11 +6746,11 @@ bl _p_91
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b60
+.word 0xd28013a0
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_98:
+Lme_96:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT__ctor
@@ -6882,7 +6761,7 @@ System_Collections_Generic_EqualityComparer_1_T_INT__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1056]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6903,7 +6782,7 @@ ldr x16, [x16, #1072]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_99:
+Lme_97:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
@@ -6918,7 +6797,7 @@ System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1064]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -6939,11 +6818,11 @@ ldr x16, [x16, #1080]
 .word 0xf9003fa0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_94
+bl _p_91
 .word 0xf90043a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_95
+bl _p_92
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xf94043af
@@ -6959,11 +6838,11 @@ bl _p_95
 .word 0xf90037a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_94
+bl _p_91
 .word 0xf9003ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_95
+bl _p_92
 .word 0xaa0003e1
 .word 0xf94037a0
 .word 0xf9403baf
@@ -6996,7 +6875,7 @@ bl _p_95
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_9a:
+Lme_98:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
@@ -7009,7 +6888,7 @@ System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7030,11 +6909,11 @@ ldr x16, [x16, #1088]
 .word 0xf9002ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_96
+bl _p_93
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_97
+bl _p_94
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xf9402faf
@@ -7053,7 +6932,7 @@ bl _p_97
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9100e3a0
-bl _p_98
+bl _p_95
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -7069,7 +6948,7 @@ bl _p_98
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_99:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
@@ -7081,7 +6960,7 @@ System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1080]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7102,7 +6981,7 @@ ldr x16, [x16, #1096]
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_99
+bl _p_96
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd63f0020
@@ -7118,59 +6997,7 @@ bl _p_99
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9c:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
-System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext:
-.loc 3 439 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf90017a3
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1104]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf9401bb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf940001e
-.word 0xf9002ba0
-.word 0xf9400ba0
-.word 0xf9400000
-bl _p_100
-.word 0xaa0003e1
-.word 0xf9402ba0
-.word 0xd63f0020
-.word 0xf9401bb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_9d:
+Lme_9a:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
@@ -7185,7 +7012,7 @@ System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1088]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -7204,7 +7031,7 @@ ldr x16, [x16, #1112]
 .word 0xf94017b9
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_101
+bl _p_97
 .word 0xf90027a0
 .word 0xaa1903f7
 .word 0xeb1f033f
@@ -7236,7 +7063,7 @@ bl _p_101
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9e:
+Lme_9b:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
@@ -7248,7 +7075,7 @@ System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7275,7 +7102,7 @@ ldr x16, [x16, #1120]
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9405830
+.word 0xf9405430
 .word 0xd63f0200
 .word 0xf9001fa0
 .word 0xf9400fb1
@@ -7302,7 +7129,7 @@ ldr x16, [x16, #1120]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9f:
+Lme_9c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
@@ -7318,7 +7145,7 @@ wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXi
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1104]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7335,10 +7162,10 @@ ldr x16, [x16, #1128]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -7441,11 +7268,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_a4:
+Lme_a1:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
@@ -7462,7 +7289,7 @@ wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_Z
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1120]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7479,10 +7306,10 @@ ldr x16, [x16, #1144]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -7591,13 +7418,13 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_aa:
+Lme_a7:
 .text
-ut_171:
+ut_168:
 add x0, x0, 16
 b System_Nullable_1_bool__ctor_bool
 .text
@@ -7614,7 +7441,7 @@ System_Nullable_1_bool__ctor_bool:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1128]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7656,9 +7483,9 @@ ldr x16, [x16, #1152]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ab:
+Lme_a8:
 .text
-ut_172:
+ut_169:
 add x0, x0, 16
 b System_Nullable_1_bool_get_HasValue
 .text
@@ -7672,7 +7499,7 @@ System_Nullable_1_bool_get_HasValue:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1136]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7698,9 +7525,9 @@ ldr x16, [x16, #1160]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ac:
+Lme_a9:
 .text
-ut_173:
+ut_170:
 add x0, x0, 16
 b System_Nullable_1_bool_get_Value
 .text
@@ -7715,7 +7542,7 @@ System_Nullable_1_bool_get_Value:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7739,13 +7566,13 @@ ldr x16, [x16, #1168]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2950b60
-.word 0xd2950b60
+.word 0xd28e9840
+.word 0xd28e9840
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801b80
+.word 0xd28013c0
 .word 0xf2a04000
-.word 0xd2801b80
+.word 0xd28013c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -7765,9 +7592,9 @@ bl _p_59
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ad:
+Lme_aa:
 .text
-ut_174:
+ut_171:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_object
 .text
@@ -7784,7 +7611,7 @@ System_Nullable_1_bool_Equals_object:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1152]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -7829,7 +7656,7 @@ ldr x16, [x16, #1176]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1160]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -7857,7 +7684,7 @@ ldr x15, [x16, #640]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
-bl _p_103
+bl _p_99
 .word 0xf9402bbe
 .word 0xf90003c0
 
@@ -7867,7 +7694,7 @@ ldr x15, [x16, #640]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
-bl _p_104
+bl _p_100
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -7885,9 +7712,9 @@ bl _p_104
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_ae:
+Lme_ab:
 .text
-ut_175:
+ut_172:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_System_Nullable_1_bool
 .text
@@ -7903,7 +7730,7 @@ System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1168]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7976,7 +7803,7 @@ bl _p_7
 .word 0xf9402fa0
 .word 0xf94033a2
 .word 0x39004022
-bl _p_105
+bl _p_101
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -7993,9 +7820,9 @@ bl _p_105
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_af:
+Lme_ac:
 .text
-ut_176:
+ut_173:
 add x0, x0, 16
 b System_Nullable_1_bool_GetHashCode
 .text
@@ -8010,7 +7837,7 @@ System_Nullable_1_bool_GetHashCode:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1176]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8045,7 +7872,7 @@ ldr x16, [x16, #1200]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_106
+bl _p_102
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -8062,9 +7889,9 @@ bl _p_106
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b0:
+Lme_ad:
 .text
-ut_177:
+ut_174:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault
 .text
@@ -8078,7 +7905,7 @@ System_Nullable_1_bool_GetValueOrDefault:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1184]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8104,9 +7931,9 @@ ldr x16, [x16, #1208]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b1:
+Lme_ae:
 .text
-ut_178:
+ut_175:
 add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
@@ -8121,7 +7948,7 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1192]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8148,7 +7975,7 @@ ldr x16, [x16, #1216]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_107
+bl _p_103
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9409631
@@ -8164,7 +7991,7 @@ bl _p_107
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1200]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -8175,9 +8002,9 @@ ldr x0, [x16, #1224]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b2:
+Lme_af:
 .text
-ut_179:
+ut_176:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -8191,7 +8018,7 @@ System_Nullable_1_bool_Box_System_Nullable_1_bool:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1208]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8255,9 +8082,9 @@ bl _p_7
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_b0:
 .text
-ut_180:
+ut_177:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -8272,7 +8099,7 @@ System_Nullable_1_bool_Unbox_object:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1216]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8332,7 +8159,7 @@ ldr x16, [x16, #1240]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1160]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004a1
@@ -8347,7 +8174,7 @@ ldr x1, [x16, #1184]
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x15, [x16, #640]
-bl _p_108
+bl _p_104
 .word 0x910143a0
 .word 0x910103a0
 .word 0x398143a0
@@ -8373,11 +8200,11 @@ bl _p_108
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801b60
+.word 0xd28013a0
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_b4:
+Lme_b1:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
@@ -8393,7 +8220,7 @@ wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_Re
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1224]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8409,10 +8236,10 @@ ldr x16, [x16, #1248]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -8507,11 +8334,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_b5:
+Lme_b2:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
@@ -8527,7 +8354,7 @@ wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1232]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8543,10 +8370,10 @@ ldr x16, [x16, #1256]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -8641,11 +8468,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_b6:
+Lme_b3:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_INT_int_T_INT
@@ -8660,7 +8487,7 @@ System_Array_InternalArray__Insert_T_INT_int_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1240]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8676,13 +8503,13 @@ ldr x16, [x16, #1264]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2857140
-.word 0xd2857140
+.word 0xd2819bc0
+.word 0xd2819bc0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -8694,7 +8521,7 @@ bl _p_59
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_bc:
+Lme_b9:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
@@ -8707,7 +8534,7 @@ System_Array_InternalArray__RemoveAt_int:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1248]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8723,13 +8550,13 @@ ldr x16, [x16, #1272]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2857140
-.word 0xd2857140
+.word 0xd2819bc0
+.word 0xd2819bc0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -8741,7 +8568,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_bd:
+Lme_ba:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_INT_T_INT
@@ -8759,7 +8586,7 @@ System_Array_InternalArray__IndexOf_T_INT_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1256]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8796,19 +8623,19 @@ ldr x16, [x16, #1280]
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28578c0
-.word 0xd28578c0
+.word 0xd281a340
+.word 0xd281a340
 bl _p_58
-bl _p_67
+bl _p_64
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a1
-.word 0xd2801ee0
+.word 0xd2801700
 .word 0xf2a04000
-.word 0xd2801ee0
+.word 0xd2801700
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -8842,7 +8669,7 @@ bl _p_59
 .word 0xaa1703e0
 .word 0x9101c3a0
 .word 0xf94037a0
-bl _p_109
+bl _p_105
 .word 0x93407ee0
 .word 0xd37ef400
 .word 0x8b000320
@@ -8898,17 +8725,17 @@ bl _p_109
 .word 0x9101c3b6
 .word 0xaa1a03e0
 .word 0xf94037a0
-bl _p_110
+bl _p_106
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
 .word 0xaa0003f5
 .word 0xb90012ba
 .word 0xf94037a0
-bl _p_111
+bl _p_107
 .word 0xaa0003f4
 .word 0xf94037a0
-bl _p_112
+bl _p_108
 .word 0xd280005e
 .word 0xeb1e001f
 .word 0x540000c0
@@ -8920,7 +8747,7 @@ bl _p_112
 .word 0xb98002c0
 .word 0xf90063a0
 .word 0xf94037a0
-bl _p_110
+bl _p_106
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
@@ -9024,7 +8851,7 @@ bl _p_7
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_be:
+Lme_bb:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INT_int
@@ -9039,7 +8866,7 @@ System_Array_InternalArray__get_Item_T_INT_int:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1264]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9072,13 +8899,13 @@ ldr x16, [x16, #1288]
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
+.word 0xd2807620
+.word 0xd2807620
 bl _p_58
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2800960
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2800960
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -9091,7 +8918,7 @@ bl _p_59
 .word 0xaa1a03e0
 .word 0x910103a0
 .word 0xf9401fa0
-bl _p_113
+bl _p_109
 .word 0x93407f40
 .word 0xd37ef400
 .word 0x8b000320
@@ -9113,7 +8940,7 @@ bl _p_113
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_bf:
+Lme_bc:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__set_Item_T_INT_int_T_INT
@@ -9132,7 +8959,7 @@ System_Array_InternalArray__set_Item_T_INT_int_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1272]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9165,13 +8992,13 @@ ldr x16, [x16, #1296]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
+.word 0xd2807620
+.word 0xd2807620
 bl _p_58
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2800960
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2800960
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -9197,13 +9024,13 @@ bl _p_59
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1304]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x540000e1
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1312]
+ldr x0, [x16, #1288]
 .word 0xeb00029f
 .word 0x54000040
 .word 0xd2800016
@@ -9226,7 +9053,7 @@ ldr x0, [x16, #1312]
 .word 0xb9804ba0
 .word 0xf9003ba0
 .word 0xf94037a0
-bl _p_114
+bl _p_110
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
@@ -9236,7 +9063,7 @@ bl _p_7
 .word 0xaa1803e0
 .word 0xaa1a03e1
 .word 0xf9400303
-.word 0xf9408070
+.word 0xf9404870
 .word 0xd63f0200
 .loc 2 189 0
 .word 0xf9402bb1
@@ -9253,7 +9080,7 @@ bl _p_7
 .word 0xaa1a03e0
 .word 0x910123a0
 .word 0xf94037a0
-bl _p_115
+bl _p_111
 .word 0x93407f40
 .word 0xd37ef400
 .word 0x8b000320
@@ -9277,7 +9104,7 @@ bl _p_115
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_c0:
+Lme_bd:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResult_T_byte__
@@ -9293,7 +9120,7 @@ wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResul
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1296]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9310,10 +9137,10 @@ ldr x16, [x16, #1320]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -9414,11 +9241,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_c1:
+Lme_be:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
@@ -9434,7 +9261,7 @@ wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invo
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1304]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9451,10 +9278,10 @@ ldr x16, [x16, #1328]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -9555,11 +9382,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_c2:
+Lme_bf:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
@@ -9578,7 +9405,7 @@ wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_Bi
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1312]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -9595,10 +9422,10 @@ ldr x16, [x16, #1336]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf90043a0
 .word 0xf94043a1
 .word 0xf94043a0
@@ -9712,11 +9539,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_c7:
+Lme_c4:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
@@ -9729,7 +9556,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9754,11 +9581,11 @@ ldr x16, [x16, #1344]
 .word 0x910103a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_116
+bl _p_112
 .word 0xaa0003ef
 .word 0xf94033a0
 .word 0xf94037a1
-bl _p_117
+bl _p_113
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -9770,7 +9597,7 @@ bl _p_117
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_116
+bl _p_112
 .word 0xd2800401
 .word 0xd2800401
 bl _p_7
@@ -9801,9 +9628,9 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_c8:
+Lme_c5:
 .text
-ut_201:
+ut_198:
 add x0, x0, 16
 b System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
 .text
@@ -9821,7 +9648,7 @@ System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Gene
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9867,7 +9694,7 @@ ldr x1, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
-.word 0xb9802740
+.word 0xb9801f40
 .word 0xb9000f20
 .loc 5 1160 0
 .word 0xf94013b1
@@ -9891,9 +9718,9 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_c9:
+Lme_c6:
 .text
-ut_202:
+ut_199:
 add x0, x0, 16
 b System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
 .text
@@ -9908,7 +9735,7 @@ System_Collections_Generic_List_1_Enumerator_T_INT_Dispose:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9932,9 +9759,9 @@ ldr x16, [x16, #1360]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ca:
+Lme_c7:
 .text
-ut_203:
+ut_200:
 add x0, x0, 16
 b System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
 .text
@@ -9950,7 +9777,7 @@ System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1344]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9978,13 +9805,13 @@ ldr x16, [x16, #1368]
 .word 0xaa1a03e0
 .word 0xb9800f40
 .word 0xaa1903e1
-.word 0xb9802721
+.word 0xb9801f21
 .word 0x6b01001f
 .word 0x54000541
 .word 0xaa1a03e0
 .word 0xb9800b40
 .word 0xaa1903e1
-.word 0xb9802321
+.word 0xb9801b21
 .word 0x6b01001f
 .word 0x54000482
 .loc 5 1172 0
@@ -10036,11 +9863,11 @@ ldr x16, [x16, #1368]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9401fa0
-bl _p_118
+bl _p_114
 .word 0xf90027a0
 .word 0xf940035e
 .word 0xf9401fa0
-bl _p_119
+bl _p_115
 .word 0xaa0003e1
 .word 0xf94027af
 .word 0xaa1a03e0
@@ -10060,13 +9887,13 @@ bl _p_119
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_cb:
+Lme_c8:
 .text
-ut_204:
+ut_201:
 add x0, x0, 16
 b System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
 .text
@@ -10082,7 +9909,7 @@ System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10102,7 +9929,7 @@ ldr x16, [x16, #1376]
 .word 0xb9800f40
 .word 0xaa1a03e1
 .word 0xf9400341
-.word 0xb9802421
+.word 0xb9801c21
 .word 0x6b01001f
 .word 0x54000100
 .loc 5 1182 0
@@ -10112,7 +9939,7 @@ ldr x16, [x16, #1376]
 .word 0xd63f0220
 .word 0xd2800400
 .word 0xd2800400
-bl _p_120
+bl _p_116
 .loc 5 1185 0
 .word 0xf94013b1
 .word 0xf9400231
@@ -10125,7 +9952,7 @@ bl _p_120
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400340
-.word 0xb9802000
+.word 0xb9801800
 .word 0x11000400
 .word 0xb9000b40
 .loc 5 1186 0
@@ -10152,9 +9979,9 @@ bl _p_120
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_cc:
+Lme_c9:
 .text
-ut_205:
+ut_202:
 add x0, x0, 16
 b System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
 .text
@@ -10169,7 +9996,7 @@ System_Collections_Generic_List_1_Enumerator_T_INT_get_Current:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10195,801 +10022,9 @@ ldr x16, [x16, #1384]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_cd:
+Lme_ca:
 .text
-ut_206:
-add x0, x0, 16
-b System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
-System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current:
-.loc 5 1198 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xf9001baf
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1392]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x34000120
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0xaa1a03e1
-.word 0xf9400341
-.word 0xb9802021
-.word 0x11000421
-.word 0x6b01001f
-.word 0x54000181
-.loc 5 1199 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd28003e0
-.word 0xd28003e0
-bl _p_120
-.loc 5 1201 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9401ba0
-bl _p_121
-.word 0xf90027a0
-.word 0xf940035e
-.word 0xf9401ba0
-bl _p_122
-.word 0xaa0003e1
-.word 0xf94027af
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x93407c00
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf9411631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-bl _p_123
-.word 0xd2800301
-.word 0xd2800301
-bl _p_7
-.word 0xf94023a1
-.word 0xb9001001
-.word 0xf9400fb1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_ce:
-.text
-ut_207:
-add x0, x0, 16
-b System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
-System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset:
-.loc 5 1206 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xf9001baf
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1400]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800f40
-.word 0xaa1a03e1
-.word 0xf9400341
-.word 0xb9802421
-.word 0x6b01001f
-.word 0x54000100
-.loc 5 1207 0
-.word 0xf9400fb1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800400
-.word 0xd2800400
-bl _p_120
-.loc 5 1210 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xb9000b5f
-.loc 5 1211 0
-.word 0xf9400fb1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xb900001f
-.loc 5 1212 0
-.word 0xf9400fb1
-.word 0xf940ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_cf:
-.text
-ut_219:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.loc 2 215 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9001faf
-.word 0xaa0003f9
-.word 0xf9000fa1
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1408]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400fa0
-.word 0xf9000320
-.word 0xaa1903e1
-.word 0xd349ff21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 216 0
-.word 0xf94013b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x92800020
-.word 0xf2bfffe0
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb9000b3e
-.loc 2 217 0
-.word 0xf94013b1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_db:
-.text
-ut_220:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_Dispose
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_Dispose
-System_Array_InternalEnumerator_1_T_INST_Dispose:
-.loc 2 221 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1416]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900081e
-.loc 2 222 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_dc:
-.text
-ut_221:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_MoveNext
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext
-System_Array_InternalEnumerator_1_T_INST_MoveNext:
-.loc 2 226 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xf9001faf
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1424]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xd2800019
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x54000201
-.loc 2 227 0
-.word 0xf94013b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xb9801800
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xb9000b40
-.loc 2 229 0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x54000260
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x51000400
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xb9000b40
-.word 0xaa1903e0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e033f
-.word 0x9a9f17e0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9f17e0
-.word 0x14000003
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf94013b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_dd:
-.text
-ut_222:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_get_Current
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current
-System_Array_InternalEnumerator_1_T_INST_get_Current:
-.loc 2 234 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xf9002baf
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1432]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x540001e1
-.loc 2 235 0
-.word 0xf94017b1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2864c80
-.word 0xd2864c80
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801b80
-.word 0xf2a04000
-.word 0xd2801b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 2 236 0
-.word 0xf94017b1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x540001e1
-.loc 2 237 0
-.word 0xf94017b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2865740
-.word 0xd2865740
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801b80
-.word 0xf2a04000
-.word 0xd2801b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 2 239 0
-.word 0xf94017b1
-.word 0xf9412a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xf9003fa0
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xb9801800
-.word 0xf90043a0
-.word 0xf94017b1
-.word 0xf9415631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0x51000400
-.word 0xaa1a03e1
-.word 0xb9800b41
-.word 0x4b010000
-.word 0xf90037a0
-.word 0xf9402ba0
-bl _p_124
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf940001e
-.word 0xf940001e
-.word 0xf90033a0
-.word 0xf9402ba0
-bl _p_125
-.word 0xaa0003e2
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403baf
-.word 0x910103a3
-.word 0xf9002fa3
-.word 0xd63f0040
-.word 0xf9402fbe
-.word 0xf90003c0
-.word 0xf90007c1
-.word 0xf94017b1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910103a0
-.word 0x910063a0
-.word 0xf94023a0
-.word 0xf9000fa0
-.word 0xf94027a0
-.word 0xf90013a0
-.word 0xf94017b1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_de:
-.text
-ut_223:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
-.loc 2 245 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1440]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900081e
-.loc 2 246 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_df:
-.text
-ut_224:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current:
-.loc 2 250 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf90023af
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1448]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf90033a0
-.word 0xf94023a0
-bl _p_126
-.word 0xaa0003e1
-.word 0xf94033a0
-.word 0xf9002fa1
-.word 0xf940001e
-.word 0xf9002ba0
-.word 0xf94023a0
-bl _p_127
-.word 0xaa0003e1
-.word 0xf9402ba0
-.word 0xf9402faf
-.word 0x9100c3a2
-.word 0xf90027a2
-.word 0xd63f0020
-.word 0xf94027be
-.word 0xf90003c0
-.word 0xf90007c1
-.word 0xf9400fb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-bl _p_128
-.word 0xd2800401
-.word 0xd2800401
-bl _p_7
-.word 0x9100c3a1
-.word 0x91004002
-.word 0xaa0203e1
-.word 0xf9401ba3
-.word 0xf9000043
-.word 0x91002022
-.word 0xf9401fa1
-.word 0xf9000041
-.word 0xd349fc42
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0xf9400fb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_e0:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
-.loc 2 71 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9002baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1456]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf90037a0
-.word 0x910103a0
-.word 0xd2800000
-.word 0xf90023a0
-.word 0xf90027a0
-.word 0x910103a0
-.word 0xf90033a0
-.word 0xf9402ba0
-bl _p_129
-.word 0xf9003ba0
-.word 0xf9402ba0
-bl _p_130
-.word 0xaa0003e2
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403baf
-.word 0xd63f0040
-.word 0x910103a0
-.word 0x9100c3a0
-.word 0xf94023a0
-.word 0xf9001ba0
-.word 0xf94027a0
-.word 0xf9001fa0
-.word 0xf9400fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-bl _p_129
-.word 0xd2800401
-.word 0xd2800401
-bl _p_7
-.word 0x9100c3a1
-.word 0x91004003
-.word 0xaa0303e1
-.word 0xf9401ba2
-.word 0xf9000062
-.word 0xd349fc23
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0063
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x4, [x16, #16]
-.word 0x8b040063
-.word 0xd280003e
-.word 0x3900007e
-.word 0x91002021
-.word 0xf9401fa2
-.word 0xf9000022
-.word 0xf9400fb1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_e1:
-.text
-ut_226:
+ut_205:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF
 .text
@@ -11008,7 +10043,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TVa
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1368]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11061,9 +10096,9 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_e2:
+Lme_cd:
 .text
-ut_227:
+ut_206:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key
 .text
@@ -11078,7 +10113,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11104,9 +10139,9 @@ ldr x16, [x16, #1472]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e3:
+Lme_ce:
 .text
-ut_228:
+ut_207:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value
 .text
@@ -11121,7 +10156,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11147,9 +10182,9 @@ ldr x16, [x16, #1480]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e4:
+Lme_cf:
 .text
-ut_229:
+ut_208:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString
 .text
@@ -11165,7 +10200,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11183,11 +10218,11 @@ ldr x16, [x16, #1488]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9401ba0
-bl _p_131
+bl _p_117
 .word 0xf90037a0
 .word 0xf940035e
 .word 0xf9401ba0
-bl _p_132
+bl _p_118
 .word 0xaa0003e1
 .word 0xf94037af
 .word 0xaa1a03e0
@@ -11199,7 +10234,7 @@ bl _p_132
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_133
+bl _p_119
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
@@ -11208,11 +10243,11 @@ bl _p_7
 .word 0xf90027a0
 .word 0xaa1a03e0
 .word 0xf9401ba0
-bl _p_131
+bl _p_117
 .word 0xf9002fa0
 .word 0xf940035e
 .word 0xf9401ba0
-bl _p_134
+bl _p_120
 .word 0xaa0003e1
 .word 0xf9402faf
 .word 0xaa1a03e0
@@ -11224,7 +10259,7 @@ bl _p_134
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_135
+bl _p_121
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9411e31
@@ -11240,7 +10275,7 @@ bl _p_135
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_e5:
+Lme_d0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
@@ -11255,7 +10290,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1400]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11284,13 +10319,13 @@ ldr x16, [x16, #1496]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd293ca80
-.word 0xd293ca80
+.word 0xd28d3b00
+.word 0xd28d3b00
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -11328,101 +10363,7 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e6:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator
-System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator:
-.loc 7 1013 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xf9000ba8
-.word 0xf9000fa0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1504]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0xf9400800
-.word 0xf9003fa0
-.word 0x910143a0
-.word 0xd2800000
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0xf90033a0
-.word 0x910143a0
-.word 0xf9003ba0
-.word 0xf9400fa0
-.word 0xf9400000
-bl _p_136
-.word 0xf90043a0
-.word 0xf9400fa0
-.word 0xf9400000
-bl _p_137
-.word 0xaa0003e2
-.word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043af
-.word 0xd63f0040
-.word 0x910143a0
-.word 0x9100e3a0
-.word 0xf9402ba0
-.word 0xf9001fa0
-.word 0xf9402fa0
-.word 0xf90023a0
-.word 0xf94033a0
-.word 0xf90027a0
-.word 0xf94013b1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x9100e3a1
-.word 0xaa0003e1
-.word 0xaa0003e1
-.word 0xf9401fa1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf94023a1
-.word 0xf9000001
-.word 0x91002000
-.word 0xf94027a1
-.word 0xf9000001
-.word 0xf94013b1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_e7:
+Lme_d1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo_TKey_INT___int
@@ -11439,7 +10380,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1408]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -11465,13 +10406,13 @@ ldr x16, [x16, #1512]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd284b260
-.word 0xd284b260
+.word 0xd280ee60
+.word 0xd280ee60
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -11498,28 +10439,28 @@ bl _p_59
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
+.word 0xd2807620
+.word 0xd2807620
 bl _p_58
 .word 0xf90037a0
 .word 0xaa1a03e0
-.word 0xd2801b20
-.word 0xd2801b20
-bl _p_138
+.word 0xd2801360
+.word 0xd2801360
+bl _p_122
 .word 0xb900101a
 .word 0xf9003ba0
-.word 0xd2853000
-.word 0xd2853000
+.word 0xd2816580
+.word 0xd2816580
 bl _p_58
 .word 0xf9003fa0
-.word 0xd28010a0
-.word 0xd28010a0
-bl _p_138
+.word 0xd2800960
+.word 0xd2800960
+bl _p_122
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xf9403fa3
 .word 0xf90033a0
-bl _p_139
+bl _p_123
 .word 0xf94027b1
 .word 0xf9416e31
 .word 0xb4000051
@@ -11542,7 +10483,7 @@ bl _p_59
 .word 0xf9003ba0
 .word 0xf94023a0
 .word 0xf9400000
-bl _p_140
+bl _p_124
 .word 0xaa0003e1
 .word 0xf9403ba0
 .word 0xd63f0020
@@ -11561,13 +10502,13 @@ bl _p_140
 .word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd287af40
-.word 0xd287af40
+.word 0xd28d8de0
+.word 0xd28d8de0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801060
+.word 0xd2800920
 .word 0xf2a04000
-.word 0xd2801060
+.word 0xd2800920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -11578,7 +10519,7 @@ bl _p_59
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf9400800
-.word 0xb9804000
+.word 0xb9803800
 .word 0xaa0003f8
 .loc 7 1034 0
 .word 0xf94027b1
@@ -11687,11 +10628,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_e8:
+Lme_d2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Count
@@ -11703,7 +10644,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Co
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11725,7 +10666,7 @@ ldr x16, [x16, #1520]
 .word 0xf9001fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_141
+bl _p_125
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xd63f0020
@@ -11744,7 +10685,7 @@ bl _p_141
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e9:
+Lme_d3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
@@ -11756,7 +10697,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1424]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11782,7 +10723,7 @@ ldr x16, [x16, #1528]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ea:
+Lme_d4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Add_TKey_INT
@@ -11795,7 +10736,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11811,13 +10752,13 @@ ldr x16, [x16, #1536]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2947c80
-.word 0xd2947c80
+.word 0xd28e0960
+.word 0xd28e0960
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -11829,7 +10770,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_eb:
+Lme_d5:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Clear
@@ -11841,7 +10782,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11857,13 +10798,13 @@ ldr x16, [x16, #1544]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2947c80
-.word 0xd2947c80
+.word 0xd28e0960
+.word 0xd28e0960
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -11875,7 +10816,7 @@ bl _p_59
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ec:
+Lme_d6:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Contains_TKey_INT
@@ -11888,7 +10829,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11912,7 +10853,7 @@ ldr x16, [x16, #1552]
 .word 0xf90027a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_142
+bl _p_126
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xf9402ba1
@@ -11932,7 +10873,7 @@ bl _p_142
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_ed:
+Lme_d7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Remove_TKey_INT
@@ -11945,7 +10886,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11961,13 +10902,13 @@ ldr x16, [x16, #1560]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2947c80
-.word 0xd2947c80
+.word 0xd28e0960
+.word 0xd28e0960
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -11979,7 +10920,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ee:
+Lme_d8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
@@ -11991,7 +10932,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12019,11 +10960,11 @@ ldr x16, [x16, #1568]
 .word 0xf90033a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_143
+bl _p_127
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_144
+bl _p_128
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -12043,7 +10984,7 @@ bl _p_144
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_143
+bl _p_127
 .word 0xd2800501
 .word 0xd2800501
 bl _p_7
@@ -12077,7 +11018,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_ef:
+Lme_d9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
@@ -12089,7 +11030,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12117,11 +11058,11 @@ ldr x16, [x16, #1576]
 .word 0xf90033a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_145
+bl _p_129
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_146
+bl _p_130
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -12141,7 +11082,7 @@ bl _p_146
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_145
+bl _p_129
 .word 0xd2800501
 .word 0xd2800501
 bl _p_7
@@ -12175,690 +11116,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_f0:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int:
-.loc 7 1084 0 prologue_end
-.word 0xa9b17bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xf9002ba0
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1584]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402fb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb5000279
-.loc 7 1086 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801080
-.word 0xf2a04000
-.word 0xd2801080
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 7 1089 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400320
-.word 0x3940b000
-.word 0xf9006ba0
-.word 0xf9402fb1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x54000300
-.loc 7 1091 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd284c560
-.word 0xd284c560
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1094 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9419e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xf9400b33
-.word 0xeb1f027f
-.word 0x54000080
-.word 0xb9800660
-.word 0xf9003ba0
-.word 0x14000002
-.word 0xf9003bbf
-.word 0xf9403ba0
-.word 0xf9003ba0
-.word 0xf9402fb1
-.word 0xf941da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0x34000300
-.loc 7 1096 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9420231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2941c20
-.word 0xd2941c20
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1099 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9425e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0x6b1f035f
-.word 0x5400018b
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xb9801b20
-.word 0xf9006ba0
-.word 0xf9402fb1
-.word 0xf9428e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0x6b00035f
-.word 0x540004ad
-.loc 7 1101 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf942ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
-bl _p_58
-.word 0xf9006fa0
-.word 0xaa1a03e0
-.word 0xd2801b20
-.word 0xd2801b20
-bl _p_138
-.word 0xb900101a
-.word 0xf90073a0
-.word 0xd2853000
-.word 0xd2853000
-bl _p_58
-.word 0xf90077a0
-.word 0xd28010a0
-.word 0xd28010a0
-bl _p_138
-.word 0xf9406fa1
-.word 0xf94073a2
-.word 0xf94077a3
-.word 0xf9006ba0
-bl _p_139
-.word 0xf9402fb1
-.word 0xf9432231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-bl _p_59
-.loc 7 1104 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9434a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb9801b20
-.word 0xf90077a0
-.word 0xf9402fb1
-.word 0xf9436631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a0
-.word 0xaa1a03e1
-.word 0x4b1a0000
-.word 0xf9006ba0
-.word 0xf9402ba0
-.word 0xf9400800
-.word 0xf940001e
-.word 0xf90073a0
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_147
-.word 0xaa0003e1
-.word 0xf94073a0
-.word 0xd63f0020
-.word 0x93407c00
-.word 0xf9006fa0
-.word 0xf9402fb1
-.word 0xf943b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0xf9406fa1
-.word 0x6b01001f
-.word 0x5400026a
-.loc 7 1106 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf943e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd287af40
-.word 0xd287af40
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 7 1109 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9442e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9003fb9
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_148
-.word 0xaa0003e2
-.word 0xf9400441
-.word 0xf9403fa0
-bl _p_89
-.word 0xaa0003f8
-.loc 7 1110 0
-.word 0xf9402fb1
-.word 0xf9446231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xb4000378
-.loc 7 1112 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9448a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xaa1803e1
-.word 0xaa1a03e1
-.word 0xf940001e
-.word 0xf9006ba0
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_149
-.word 0xaa0003e3
-.word 0xf9406ba0
-.word 0xaa1803e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.loc 7 1113 0
-.word 0xf9402fb1
-.word 0xf944ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x140000ea
-.loc 7 1116 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf944f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf90043b9
-.word 0xf94043a0
-.word 0xf90047a0
-.word 0xf94043a0
-.word 0xeb1f001f
-.word 0x54000380
-.word 0xf94043a0
-.word 0xf9400001
-.word 0xf9004ba1
-.word 0xf9400800
-.word 0xb50002c0
-.word 0xf9404ba0
-.word 0x3940b000
-.word 0xd280003e
-.word 0xeb1e001f
-.word 0x54000221
-.word 0xf9404ba0
-.word 0xf9400000
-.word 0xf9400400
-.word 0xf90053a0
-.word 0xf9401400
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1304]
-.word 0xeb01001f
-.word 0x54000101
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1312]
-.word 0xf94053a0
-.word 0xeb01001f
-.word 0x54000040
-.word 0xf90047bf
-.word 0xf94047a0
-.word 0xaa0003f7
-.loc 7 1117 0
-.word 0xf9402fb1
-.word 0xf9458e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xb5000317
-.loc 7 1119 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf945b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29427a0
-.word 0xd29427a0
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1122 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9461231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9400800
-.word 0xb9804000
-.word 0xaa0003f6
-.loc 7 1123 0
-.word 0xf9402fb1
-.word 0xf9463231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9400800
-.word 0xf9400c00
-.word 0xaa0003f5
-.loc 7 1127 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9466231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800014
-.word 0x1400004e
-.loc 7 1129 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9468a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1503e0
-.word 0xaa1403e0
-.word 0x93407e80
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54001009
-.word 0xd280031e
-.word 0x9b1e7c00
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xb9800000
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x5400058b
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf946e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1a03e0
-.word 0xb9009bba
-.word 0xb9809ba0
-.word 0xf9006fa0
-.word 0xb9809ba0
-.word 0x11000400
-.word 0xaa0003fa
-.word 0xaa1503e0
-.word 0xaa1403e0
-.word 0x93407e80
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000c29
-.word 0xd280031e
-.word 0x9b1e7c00
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xb9800800
-.word 0xf9006ba0
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_150
-.word 0xd2800301
-.word 0xd2800301
-bl _p_7
-.word 0xaa0003e2
-.word 0xf9406ba0
-.word 0xf9406fa1
-.word 0xb9001040
-.word 0xaa1703e0
-.word 0xf94002e3
-.word 0xf9408070
-.word 0xd63f0200
-.loc 7 1127 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9479231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0x11000680
-.word 0xaa0003f4
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf947be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1603e0
-.word 0x6b16029f
-.word 0x54fff50b
-.loc 7 1131 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf947ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400001a
-.word 0xf90057a0
-.word 0xf94057a0
-.loc 7 1132 0
-.word 0xf9402fb1
-.word 0xf9480a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 1134 0
-.word 0xf9402fb1
-.word 0xf9481a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29427a0
-.word 0xd29427a0
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1137 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9487631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9488631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8cf7bfd
-.word 0xd65f03c0
-.word 0xd2801ae0
-.word 0xaa1103e1
-bl _p_87
-
-Lme_f1:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized:
-.loc 7 1141 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1592]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_f2:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot:
-.loc 7 1146 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1600]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400801
-.word 0xaa0103e0
-.word 0xf9400021
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x15, [x16, #1608]
-.word 0x928004f0
-.word 0xf2bffff0
-.word 0xf8706830
-.word 0xd63f0200
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_f3:
+Lme_da:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
@@ -12872,7 +11130,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__cto
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1480]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12901,13 +11159,13 @@ ldr x16, [x16, #1616]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd293ca80
-.word 0xd293ca80
+.word 0xd28d3b00
+.word 0xd28d3b00
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -12945,7 +11203,7 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f4:
+Lme_db:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetEnumerator
@@ -12958,7 +11216,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetE
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1488]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12986,11 +11244,11 @@ ldr x16, [x16, #1624]
 .word 0xf9003ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_151
+bl _p_131
 .word 0xf90043a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_152
+bl _p_132
 .word 0xaa0003e2
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -13050,7 +11308,7 @@ ldr x2, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_f5:
+Lme_dc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_CopyTo_TValue_REF___int
@@ -13067,7 +11325,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Copy
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1496]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -13093,13 +11351,13 @@ ldr x16, [x16, #1632]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd284b260
-.word 0xd284b260
+.word 0xd280ee60
+.word 0xd280ee60
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -13126,28 +11384,28 @@ bl _p_59
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
+.word 0xd2807620
+.word 0xd2807620
 bl _p_58
 .word 0xf90037a0
 .word 0xaa1a03e0
-.word 0xd2801b20
-.word 0xd2801b20
-bl _p_138
+.word 0xd2801360
+.word 0xd2801360
+bl _p_122
 .word 0xb900101a
 .word 0xf9003ba0
-.word 0xd2853000
-.word 0xd2853000
+.word 0xd2816580
+.word 0xd2816580
 bl _p_58
 .word 0xf9003fa0
-.word 0xd28010a0
-.word 0xd28010a0
-bl _p_138
+.word 0xd2800960
+.word 0xd2800960
+bl _p_122
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xf9403fa3
 .word 0xf90033a0
-bl _p_139
+bl _p_123
 .word 0xf94027b1
 .word 0xf9416e31
 .word 0xb4000051
@@ -13170,7 +11428,7 @@ bl _p_59
 .word 0xf9003ba0
 .word 0xf94023a0
 .word 0xf9400000
-bl _p_153
+bl _p_133
 .word 0xaa0003e1
 .word 0xf9403ba0
 .word 0xd63f0020
@@ -13189,13 +11447,13 @@ bl _p_153
 .word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd287af40
-.word 0xd287af40
+.word 0xd28d8de0
+.word 0xd28d8de0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801060
+.word 0xd2800920
 .word 0xf2a04000
-.word 0xd2801060
+.word 0xd2800920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -13206,7 +11464,7 @@ bl _p_59
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf9400800
-.word 0xb9804000
+.word 0xb9803800
 .word 0xaa0003f8
 .loc 7 1265 0
 .word 0xf94027b1
@@ -13269,7 +11527,7 @@ bl _p_59
 .word 0xf9400802
 .word 0xaa1903e0
 .word 0xf9400323
-.word 0xf9408070
+.word 0xf9404870
 .word 0xd63f0200
 .loc 7 1267 0
 .word 0xf9402bb1
@@ -13310,11 +11568,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_f6:
+Lme_dd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_get_Count
@@ -13326,7 +11584,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_get_
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13348,7 +11606,7 @@ ldr x16, [x16, #1640]
 .word 0xf9001fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_154
+bl _p_134
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xd63f0020
@@ -13367,7 +11625,7 @@ bl _p_154
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f7:
+Lme_de:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
@@ -13379,7 +11637,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13405,7 +11663,7 @@ ldr x16, [x16, #1648]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f8:
+Lme_df:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Add_TValue_REF
@@ -13418,7 +11676,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13434,13 +11692,13 @@ ldr x16, [x16, #1656]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29493e0
-.word 0xd29493e0
+.word 0xd28e20c0
+.word 0xd28e20c0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -13452,7 +11710,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f9:
+Lme_e0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Remove_TValue_REF
@@ -13465,7 +11723,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13481,13 +11739,13 @@ ldr x16, [x16, #1664]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29493e0
-.word 0xd29493e0
+.word 0xd28e20c0
+.word 0xd28e20c0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -13499,7 +11757,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_fa:
+Lme_e1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Clear
@@ -13511,7 +11769,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13527,13 +11785,13 @@ ldr x16, [x16, #1672]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29493e0
-.word 0xd29493e0
+.word 0xd28e20c0
+.word 0xd28e20c0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -13545,7 +11803,7 @@ bl _p_59
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_fb:
+Lme_e2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Contains_TValue_REF
@@ -13558,7 +11816,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1544]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13582,7 +11840,7 @@ ldr x16, [x16, #1680]
 .word 0xf90027a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_155
+bl _p_135
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xf9402ba1
@@ -13602,7 +11860,7 @@ bl _p_155
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_fc:
+Lme_e3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
@@ -13614,7 +11872,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13642,11 +11900,11 @@ ldr x16, [x16, #1688]
 .word 0xf90033a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_156
+bl _p_136
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_157
+bl _p_137
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -13666,7 +11924,7 @@ bl _p_157
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_156
+bl _p_136
 .word 0xd2800501
 .word 0xd2800501
 bl _p_7
@@ -13711,7 +11969,7 @@ ldr x3, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_fd:
+Lme_e4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
@@ -13723,7 +11981,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_Syst
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13751,11 +12009,11 @@ ldr x16, [x16, #1696]
 .word 0xf90033a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_158
+bl _p_138
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_159
+bl _p_139
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -13775,7 +12033,7 @@ bl _p_159
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_158
+bl _p_138
 .word 0xd2800501
 .word 0xd2800501
 bl _p_7
@@ -13820,1299 +12078,7 @@ ldr x3, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_fe:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int:
-.loc 7 1315 0 prologue_end
-.word 0xa9b17bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xf9002ba0
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1704]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402fb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb5000279
-.loc 7 1317 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801080
-.word 0xf2a04000
-.word 0xd2801080
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 7 1320 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400320
-.word 0x3940b000
-.word 0xf9006ba0
-.word 0xf9402fb1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x54000300
-.loc 7 1322 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd284c560
-.word 0xd284c560
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1325 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9419e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xf9400b33
-.word 0xeb1f027f
-.word 0x54000080
-.word 0xb9800660
-.word 0xf9003ba0
-.word 0x14000002
-.word 0xf9003bbf
-.word 0xf9403ba0
-.word 0xf9003ba0
-.word 0xf9402fb1
-.word 0xf941da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0x34000300
-.loc 7 1327 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9420231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2941c20
-.word 0xd2941c20
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1330 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9425e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0x6b1f035f
-.word 0x5400018b
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xb9801b20
-.word 0xf9006ba0
-.word 0xf9402fb1
-.word 0xf9428e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0x6b00035f
-.word 0x540004ad
-.loc 7 1332 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf942ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
-bl _p_58
-.word 0xf9006fa0
-.word 0xaa1a03e0
-.word 0xd2801b20
-.word 0xd2801b20
-bl _p_138
-.word 0xb900101a
-.word 0xf90073a0
-.word 0xd2853000
-.word 0xd2853000
-bl _p_58
-.word 0xf90077a0
-.word 0xd28010a0
-.word 0xd28010a0
-bl _p_138
-.word 0xf9406fa1
-.word 0xf94073a2
-.word 0xf94077a3
-.word 0xf9006ba0
-bl _p_139
-.word 0xf9402fb1
-.word 0xf9432231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-bl _p_59
-.loc 7 1335 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9434a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb9801b20
-.word 0xf90077a0
-.word 0xf9402fb1
-.word 0xf9436631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a0
-.word 0xaa1a03e1
-.word 0x4b1a0000
-.word 0xf9006ba0
-.word 0xf9402ba0
-.word 0xf9400800
-.word 0xf940001e
-.word 0xf90073a0
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_160
-.word 0xaa0003e1
-.word 0xf94073a0
-.word 0xd63f0020
-.word 0x93407c00
-.word 0xf9006fa0
-.word 0xf9402fb1
-.word 0xf943b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0xf9406fa1
-.word 0x6b01001f
-.word 0x5400026a
-.loc 7 1336 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf943e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd287af40
-.word 0xd287af40
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 7 1338 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9442e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9003fb9
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_161
-.word 0xaa0003e2
-.word 0xf9400441
-.word 0xf9403fa0
-bl _p_89
-.word 0xaa0003f8
-.loc 7 1339 0
-.word 0xf9402fb1
-.word 0xf9446231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xb4000378
-.loc 7 1341 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9448a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xaa1803e1
-.word 0xaa1a03e1
-.word 0xf940001e
-.word 0xf9006ba0
-.word 0xf9402ba0
-.word 0xf9400000
-bl _p_162
-.word 0xaa0003e3
-.word 0xf9406ba0
-.word 0xaa1803e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.loc 7 1342 0
-.word 0xf9402fb1
-.word 0xf944ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x140000de
-.loc 7 1345 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf944f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf90043b9
-.word 0xf94043a0
-.word 0xf90047a0
-.word 0xf94043a0
-.word 0xeb1f001f
-.word 0x54000380
-.word 0xf94043a0
-.word 0xf9400001
-.word 0xf9004ba1
-.word 0xf9400800
-.word 0xb50002c0
-.word 0xf9404ba0
-.word 0x3940b000
-.word 0xd280003e
-.word 0xeb1e001f
-.word 0x54000221
-.word 0xf9404ba0
-.word 0xf9400000
-.word 0xf9400400
-.word 0xf90053a0
-.word 0xf9401400
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1304]
-.word 0xeb01001f
-.word 0x54000101
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1312]
-.word 0xf94053a0
-.word 0xeb01001f
-.word 0x54000040
-.word 0xf90047bf
-.word 0xf94047a0
-.word 0xaa0003f7
-.loc 7 1346 0
-.word 0xf9402fb1
-.word 0xf9458e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xb5000317
-.loc 7 1348 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf945b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29427a0
-.word 0xd29427a0
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1351 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9461231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9400800
-.word 0xb9804000
-.word 0xaa0003f6
-.loc 7 1352 0
-.word 0xf9402fb1
-.word 0xf9463231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9400800
-.word 0xf9400c00
-.word 0xaa0003f5
-.loc 7 1356 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9466231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800014
-.word 0x14000042
-.loc 7 1358 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9468a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1503e0
-.word 0xaa1403e0
-.word 0x93407e80
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000e89
-.word 0xd280031e
-.word 0x9b1e7c00
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xb9800000
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x5400040b
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf946e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1a03e0
-.word 0xb9009bba
-.word 0xb9809ba1
-.word 0xb9809ba0
-.word 0x11000400
-.word 0xaa0003fa
-.word 0xaa1503e0
-.word 0xaa1403e0
-.word 0x93407e80
-.word 0xb9801aa2
-.word 0xeb00005f
-.word 0x10000011
-.word 0x54000ac9
-.word 0xd280031e
-.word 0x9b1e7c00
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xf9400802
-.word 0xaa1703e0
-.word 0xf94002e3
-.word 0xf9408070
-.word 0xd63f0200
-.loc 7 1356 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9476231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0x11000680
-.word 0xaa0003f4
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9478e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1603e0
-.word 0x6b16029f
-.word 0x54fff68b
-.loc 7 1360 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf947be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400001a
-.word 0xf90057a0
-.word 0xf94057a0
-.loc 7 1361 0
-.word 0xf9402fb1
-.word 0xf947da31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 1363 0
-.word 0xf9402fb1
-.word 0xf947ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29427a0
-.word 0xd29427a0
-bl _p_58
-.word 0xf9006ba0
-.word 0xd284b260
-.word 0xd284b260
-bl _p_58
-.word 0xaa0003e2
-.word 0xf9406ba1
-.word 0xd2801060
-.word 0xf2a04000
-.word 0xd2801060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_59
-.loc 7 1366 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9484631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9485631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8cf7bfd
-.word 0xd65f03c0
-.word 0xd2801ae0
-.word 0xaa1103e1
-bl _p_87
-
-Lme_ff:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized:
-.loc 7 1370 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1712]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_100:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot:
-.loc 7 1375 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1720]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400801
-.word 0xaa0103e0
-.word 0xf9400021
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x15, [x16, #1608]
-.word 0x928004f0
-.word 0xf2bffff0
-.word 0xf8706830
-.word 0xd63f0200
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_101:
-.text
-ut_259:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0
-System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0:
-.loc 2 215 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9001faf
-.word 0xaa0003f9
-.word 0xf9000fa1
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1728]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400fa0
-.word 0xf9000320
-.word 0xaa1903e1
-.word 0xd349ff21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 216 0
-.word 0xf94013b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x92800020
-.word 0xf2bfffe0
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb9000b3e
-.loc 2 217 0
-.word 0xf94013b1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_103:
-.text
-ut_260:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_Dispose_0
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_Dispose_0
-System_Array_InternalEnumerator_1_T_INST_Dispose_0:
-.loc 2 221 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1736]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900081e
-.loc 2 222 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_104:
-.text
-ut_261:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_MoveNext_0
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext_0
-System_Array_InternalEnumerator_1_T_INST_MoveNext_0:
-.loc 2 226 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xf9001faf
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1744]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xd2800019
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x54000201
-.loc 2 227 0
-.word 0xf94013b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xb9801800
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xb9000b40
-.loc 2 229 0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x54000260
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x51000400
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xb9000b40
-.word 0xaa1903e0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e033f
-.word 0x9a9f17e0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9f17e0
-.word 0x14000003
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf94013b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_105:
-.text
-ut_262:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_get_Current_0
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current_0
-System_Array_InternalEnumerator_1_T_INST_get_Current_0:
-.loc 2 234 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xf9002baf
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1752]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x540001e1
-.loc 2 235 0
-.word 0xf94017b1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2864c80
-.word 0xd2864c80
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801b80
-.word 0xf2a04000
-.word 0xd2801b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 2 236 0
-.word 0xf94017b1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x540001e1
-.loc 2 237 0
-.word 0xf94017b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2865740
-.word 0xd2865740
-bl _p_58
-.word 0xaa0003e1
-.word 0xd2801b80
-.word 0xf2a04000
-.word 0xd2801b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 2 239 0
-.word 0xf94017b1
-.word 0xf9412a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xf9003fa0
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xb9801800
-.word 0xf90043a0
-.word 0xf94017b1
-.word 0xf9415631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0x51000400
-.word 0xaa1a03e1
-.word 0xb9800b41
-.word 0x4b010000
-.word 0xf90037a0
-.word 0xf9402ba0
-bl _p_163
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf940001e
-.word 0xf940001e
-.word 0xf90033a0
-.word 0xf9402ba0
-bl _p_164
-.word 0xaa0003e2
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403baf
-.word 0x910103a3
-.word 0xf9002fa3
-.word 0xd63f0040
-.word 0xf9402fbe
-.word 0xf90003c0
-.word 0xf90007c1
-.word 0xf94017b1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910103a0
-.word 0x910063a0
-.word 0xf94023a0
-.word 0xf9000fa0
-.word 0xf94027a0
-.word 0xf90013a0
-.word 0xf94017b1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_106:
-.text
-ut_263:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0
-System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0:
-.loc 2 245 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1760]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900081e
-.loc 2 246 0
-.word 0xf9400fb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_107:
-.text
-ut_264:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0
-System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0:
-.loc 2 250 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf90023af
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1768]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf90033a0
-.word 0xf94023a0
-bl _p_165
-.word 0xaa0003e1
-.word 0xf94033a0
-.word 0xf9002fa1
-.word 0xf940001e
-.word 0xf9002ba0
-.word 0xf94023a0
-bl _p_166
-.word 0xaa0003e1
-.word 0xf9402ba0
-.word 0xf9402faf
-.word 0x9100c3a2
-.word 0xf90027a2
-.word 0xd63f0020
-.word 0xf94027be
-.word 0xf90003c0
-.word 0xf90007c1
-.word 0xf9400fb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-bl _p_167
-.word 0xd2800401
-.word 0xd2800401
-bl _p_7
-.word 0x9100c3a1
-.word 0x91004003
-.word 0xaa0303e1
-.word 0xf9401ba2
-.word 0xf9000062
-.word 0xd349fc23
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0063
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x4, [x16, #16]
-.word 0x8b040063
-.word 0xd280003e
-.word 0x3900007e
-.word 0x91002022
-.word 0xf9401fa1
-.word 0xf9000041
-.word 0xd349fc42
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0xf9400fb1
-.word 0xf9414a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_108:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0
-System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0:
-.loc 2 71 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9002baf
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1776]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf90037a0
-.word 0x910103a0
-.word 0xd2800000
-.word 0xf90023a0
-.word 0xf90027a0
-.word 0x910103a0
-.word 0xf90033a0
-.word 0xf9402ba0
-bl _p_168
-.word 0xf9003ba0
-.word 0xf9402ba0
-bl _p_169
-.word 0xaa0003e2
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403baf
-.word 0xd63f0040
-.word 0x910103a0
-.word 0x9100c3a0
-.word 0xf94023a0
-.word 0xf9001ba0
-.word 0xf94027a0
-.word 0xf9001fa0
-.word 0xf9400fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-bl _p_168
-.word 0xd2800401
-.word 0xd2800401
-bl _p_7
-.word 0x9100c3a1
-.word 0x91004003
-.word 0xaa0303e1
-.word 0xf9401ba2
-.word 0xf9000062
-.word 0xd349fc23
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0063
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x4, [x16, #16]
-.word 0x8b040063
-.word 0xd280003e
-.word 0x3900007e
-.word 0x91002021
-.word 0xf9401fa2
-.word 0xf9000022
-.word 0xf9400fb1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_109:
+Lme_e5:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -15126,7 +12092,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15142,13 +12108,13 @@ ldr x16, [x16, #1784]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2857140
-.word 0xd2857140
+.word 0xd2819bc0
+.word 0xd2819bc0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -15160,7 +12126,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_10a:
+Lme_e6:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -15174,7 +12140,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15190,13 +12156,13 @@ ldr x16, [x16, #1792]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2857140
-.word 0xd2857140
+.word 0xd2819bc0
+.word 0xd2819bc0
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
-.word 0xd2801d40
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -15208,7 +12174,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_10b:
+Lme_e7:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -15224,7 +12190,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1584]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15261,19 +12227,19 @@ ldr x16, [x16, #1800]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28578c0
-.word 0xd28578c0
+.word 0xd281a340
+.word 0xd281a340
 bl _p_58
-bl _p_67
+bl _p_64
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801ee0
+.word 0xd2801700
 .word 0xf2a04000
-.word 0xd2801ee0
+.word 0xd2801700
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -15307,7 +12273,7 @@ bl _p_59
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_170
+bl _p_140
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
@@ -15405,7 +12371,7 @@ bl _p_170
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_10c:
+Lme_e8:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -15422,7 +12388,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1592]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -15467,7 +12433,7 @@ ldr x16, [x16, #1808]
 .word 0xf9403ba4
 .word 0xf9402ba0
 .word 0xaa1503e1
-bl _p_72
+bl _p_69
 .loc 2 117 0
 .word 0xf9401fb1
 .word 0xf940ee31
@@ -15483,7 +12449,7 @@ bl _p_72
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_10d:
+Lme_e9:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
@@ -15499,7 +12465,7 @@ wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1600]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15516,10 +12482,10 @@ ldr x16, [x16, #1816]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -15622,11 +12588,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_10e:
+Lme_ea:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
@@ -15643,7 +12609,7 @@ wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1608]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15660,10 +12626,10 @@ ldr x16, [x16, #1824]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000140
-bl _p_102
+bl _p_98
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -15772,11 +12738,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_10f:
+Lme_eb:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
@@ -15794,7 +12760,7 @@ wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_objec
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1616]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -15825,7 +12791,7 @@ ldr x16, [x16, #1832]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x340002e0
 .word 0xf9402bb1
@@ -15840,7 +12806,7 @@ ldr x0, [x16, #1136]
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_171
+bl _p_141
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -15867,7 +12833,7 @@ add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x15, [x16, #640]
 .word 0x9101e3a1
 .word 0xf9004ba1
-bl _p_103
+bl _p_99
 .word 0xf9404bbe
 .word 0xf90003c0
 .word 0x9101e3a0
@@ -15944,7 +12910,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x340002e0
 .word 0xf9402bb1
@@ -15959,7 +12925,7 @@ ldr x0, [x16, #1136]
 .word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_171
+bl _p_141
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0xaa1703e1
@@ -15986,7 +12952,7 @@ add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x15, [x16, #640]
 .word 0x9101c3a1
 .word 0xf9004ba1
-bl _p_103
+bl _p_99
 .word 0xf9404bbe
 .word 0xf90003c0
 .word 0x9101c3a0
@@ -16027,7 +12993,7 @@ bl _p_103
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_110:
+Lme_ec:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
@@ -16044,7 +13010,7 @@ wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1624]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -16069,7 +13035,7 @@ ldr x16, [x16, #1840]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1112]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -16080,7 +13046,7 @@ ldr x0, [x16, #1136]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_102
+bl _p_98
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -16269,11 +13235,11 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_111:
+Lme_ed:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_CameraResolution_AsyncCallback_object_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_System_AsyncCallback_object
@@ -16290,7 +13256,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_C
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1632]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -16380,7 +13346,7 @@ ldr x16, [x16, #1848]
 .word 0xf9401ba0
 .word 0xaa1603e1
 .word 0xaa1603e1
-bl _p_172
+bl _p_142
 .word 0xf9003ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -16401,7 +13367,7 @@ bl _p_172
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_112:
+Lme_ee:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncResult_System_IAsyncResult
@@ -16416,7 +13382,7 @@ wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncRe
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1640]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -16474,7 +13440,7 @@ ldr x16, [x16, #1856]
 .word 0xf9401ba0
 .word 0xaa1603e1
 .word 0xaa1603e1
-bl _p_173
+bl _p_143
 .word 0xf90033a0
 .word 0xf94027b1
 .word 0xf9400231
@@ -16495,7 +13461,7 @@ bl _p_173
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_113:
+Lme_ef:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INT__ctor
@@ -16507,7 +13473,7 @@ System_Collections_Generic_List_1_T_INT__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1648]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16533,13 +13499,13 @@ ldr x16, [x16, #1864]
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_174
+bl _p_144
 .word 0x3980b410
 .word 0xb5000050
-bl _p_175
+bl _p_145
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_176
+bl _p_146
 .word 0xf9401ba1
 .word 0xf9400000
 .word 0xf9000820
@@ -16568,7 +13534,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_114:
+Lme_f0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INT_GetEnumerator
@@ -16581,7 +13547,7 @@ System_Collections_Generic_List_1_T_INT_GetEnumerator:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1656]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16608,11 +13574,11 @@ ldr x16, [x16, #1872]
 .word 0xf9003ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_177
+bl _p_147
 .word 0xf90043a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_178
+bl _p_148
 .word 0xaa0003e2
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -16661,7 +13627,7 @@ ldr x3, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_115:
+Lme_f1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INT_get_Count
@@ -16673,7 +13639,7 @@ System_Collections_Generic_List_1_T_INT_get_Count:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1664]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16690,7 +13656,7 @@ ldr x16, [x16, #1880]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.word 0xb9802000
+.word 0xb9801800
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -16699,7 +13665,7 @@ ldr x16, [x16, #1880]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_116:
+Lme_f2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
@@ -16713,7 +13679,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1672]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16739,7 +13705,7 @@ ldr x16, [x16, #1888]
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_179
+bl _p_149
 .word 0xaa0003e4
 .word 0xf94023a0
 .word 0xf94027a1
@@ -16764,7 +13730,7 @@ bl _p_179
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_117:
+Lme_f3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
@@ -16776,7 +13742,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1680]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16799,7 +13765,7 @@ ldr x16, [x16, #1896]
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_180
+bl _p_150
 .word 0xaa0003e3
 .word 0xf9401ba0
 .word 0xd2800001
@@ -16817,7 +13783,7 @@ bl _p_180
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_118:
+Lme_f4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
@@ -16828,7 +13794,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1688]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16841,7 +13807,7 @@ ldr x16, [x16, #1904]
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_181
+bl _p_151
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd63f0020
@@ -16857,7 +13823,7 @@ bl _p_181
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_119:
+Lme_f5:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
@@ -16871,7 +13837,7 @@ System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1696]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16902,9 +13868,9 @@ ldr x16, [x16, #1912]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_11a:
+Lme_f6:
 .text
-ut_283:
+ut_247:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -16921,7 +13887,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1704]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16977,137 +13943,112 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_11b:
+Lme_f7:
 .text
 	.align 4
-	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
-System_Array_InternalArray__get_Item_T_INST_int:
-.loc 2 173 0 prologue_end
-.word 0xa9b77bfd
+	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
+System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count:
+.loc 7 158 0 prologue_end
+.word 0xa9bd7bfd
 .word 0x910003fd
-.word 0xa9016bb9
-.word 0xf90037af
-.word 0xaa0003f9
-.word 0xaa0103fa
+.word 0xf9000ba0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1928]
-.word 0xf9001bb0
+ldr x16, [x16, #1712]
+.word 0xf9000fb0
 .word 0xf9400a11
-.word 0xf9001fb1
-.word 0x9101c3a0
-.word 0xd2800000
-.word 0xf9003ba0
-.word 0xf9003fa0
-.word 0xf9401bb1
-.word 0xf9404e31
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
+.word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406e31
+.word 0xf9400fb1
+.word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xb9801b20
-.word 0xf90043a0
-.word 0xf9401bb1
-.word 0xf9408e31
+.word 0xf9400ba0
+.word 0xb9803800
+.word 0xf9400ba1
+.word 0xb9804421
+.word 0x4b010000
+.word 0xf9400fb1
+.word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a0
-.word 0x6b00035f
-.word 0x540001e3
-.loc 2 174 0
-.word 0xf9401bb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010a0
-.word 0xf2a04000
-.word 0xd28010a0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 2 177 0
-.word 0xf9401bb1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0x9101c3a0
-.word 0xf90043a0
-.word 0xf94037a0
-bl _p_182
-.word 0xf94043a1
-.word 0x93407f40
-.word 0xd37cec00
-.word 0x8b000320
-.word 0x91008000
-.word 0x910163a2
-.word 0xf9400002
-.word 0xf9002fa2
-.word 0xf9400400
-.word 0xf90033a0
-.word 0x910163a0
-.word 0xaa0103e0
-.word 0xf9402fa2
-.word 0xf9000022
-.word 0x91002001
-.word 0xf94033a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_f8:
+.text
+	.align 4
+	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
+System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT:
+.loc 7 279 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 178 0
-.word 0xf9401bb1
-.word 0xf9417631
+ldr x16, [x16, #1720]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x9101c3a0
-.word 0x910123a0
-.word 0xf9403ba0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xb9801ba1
+.word 0xf9002ba1
+.word 0xf940001e
 .word 0xf90027a0
-.word 0xf9403fa0
-.word 0xf9002ba0
-.word 0x910123a0
-.word 0x910083a0
+.word 0xf9400ba0
+.word 0xf9400000
+bl _p_152
+.word 0xaa0003e2
 .word 0xf94027a0
-.word 0xf90013a0
-.word 0xf9402ba0
-.word 0xf90017a0
-.word 0xf9401bb1
-.word 0xf941b631
+.word 0xf9402ba1
+.word 0xd63f0040
+.word 0x93407c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa9416bb9
-.word 0xf94013a0
-.word 0xf94017a1
+.word 0xf94023a0
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9fa7e0
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0xf94013b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
 .word 0x910003bf
-.word 0xa8c97bfd
+.word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_11c:
+Lme_f9:
 .text
-ut_285:
+ut_250:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 .text
@@ -17124,7 +14065,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17162,7 +14103,7 @@ ldr x1, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
-.word 0xb9804740
+.word 0xb9803f40
 .word 0xb9000f20
 .loc 7 1161 0
 .word 0xf94013b1
@@ -17194,112 +14135,9 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_11d:
+Lme_fa:
 .text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
-System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count:
-.loc 7 158 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1944]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xb9804000
-.word 0xf9400ba1
-.word 0xb9804c21
-.word 0x4b010000
-.word 0xf9400fb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_11e:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
-System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT:
-.loc 7 279 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1952]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xb9801ba1
-.word 0xf9002ba1
-.word 0xf940001e
-.word 0xf90027a0
-.word 0xf9400ba0
-.word 0xf9400000
-bl _p_183
-.word 0xaa0003e2
-.word 0xf94027a0
-.word 0xf9402ba1
-.word 0xd63f0040
-.word 0x93407c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9fa7e0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9f17e0
-.word 0xf94013b1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_11f:
-.text
-ut_288:
+ut_251:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 .text
@@ -17316,7 +14154,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TVal
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1736]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17354,7 +14192,7 @@ ldr x1, [x16, #16]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
-.word 0xb9804740
+.word 0xb9803f40
 .word 0xb9000f20
 .loc 7 1390 0
 .word 0xf94013b1
@@ -17386,7 +14224,7 @@ ldr x1, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_120:
+Lme_fb:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF
@@ -17401,7 +14239,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1744]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -17493,7 +14331,7 @@ ldr x16, [x16, #1968]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9401ba0
-.word 0xb9804000
+.word 0xb9803800
 .word 0x6b00033f
 .word 0x54fff80b
 .loc 7 290 0
@@ -17509,9 +14347,9 @@ ldr x16, [x16, #1968]
 .word 0xd63f0220
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_184
+bl _p_153
 .word 0xaa0003ef
-bl _p_185
+bl _p_154
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf941da31
@@ -17604,7 +14442,7 @@ bl _p_185
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf9401ba0
-.word 0xb9804000
+.word 0xb9803800
 .word 0x6b0002ff
 .word 0x54fff64b
 .loc 7 299 0
@@ -17627,150 +14465,11 @@ bl _p_185
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_121:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int_0
-System_Array_InternalArray__get_Item_T_INST_int_0:
-.loc 2 173 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xf90037af
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1976]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0x9101c3a0
-.word 0xd2800000
-.word 0xf9003ba0
-.word 0xf9003fa0
-.word 0xf9401bb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xb9801b20
-.word 0xf90043a0
-.word 0xf9401bb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0x6b00035f
-.word 0x540001e3
-.loc 2 174 0
-.word 0xf9401bb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd28187e0
-.word 0xd28187e0
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010a0
-.word 0xf2a04000
-.word 0xd28010a0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_59
-.loc 2 177 0
-.word 0xf9401bb1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0x9101c3a0
-.word 0xf90043a0
-.word 0xf94037a0
-bl _p_186
-.word 0xf94043a2
-.word 0x93407f40
-.word 0xd37cec00
-.word 0x8b000320
-.word 0x91008000
-.word 0x910163a1
-.word 0xf9400001
-.word 0xf9002fa1
-.word 0xf9400400
-.word 0xf90033a0
-.word 0x910163a0
-.word 0xaa0203e0
-.word 0xf9402fa1
-.word 0xf9000041
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002001
-.word 0xf94033a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 178 0
-.word 0xf9401bb1
-.word 0xf9419e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9101c3a0
-.word 0x910123a0
-.word 0xf9403ba0
-.word 0xf90027a0
-.word 0xf9403fa0
-.word 0xf9002ba0
-.word 0x910123a0
-.word 0x910083a0
-.word 0xf94027a0
-.word 0xf90013a0
-.word 0xf9402ba0
-.word 0xf90017a0
-.word 0xf9401bb1
-.word 0xf941de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9416bb9
-.word 0xf94013a0
-.word 0xf94017a1
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_122:
+Lme_fc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior
@@ -17789,7 +14488,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_T
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1752]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -17817,13 +14516,13 @@ ldr x16, [x16, #1984]
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd293d440
-.word 0xd293d440
+.word 0xd28d4600
+.word 0xd28d4600
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -17845,7 +14544,7 @@ bl _p_59
 .word 0xf9004ba0
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_187
+bl _p_155
 .word 0xaa0003e2
 .word 0xf9404ba0
 .word 0xd2800001
@@ -17865,13 +14564,13 @@ bl _p_187
 .word 0xaa1803e0
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_188
+bl _p_156
 .word 0xaa0003ef
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf9400042
-.word 0x928009f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -17995,14 +14694,14 @@ bl _p_188
 .word 0xaa1803e0
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_189
+bl _p_157
 .word 0xaa0003ef
 .word 0xf9404fa1
 .word 0xf94053a3
 .word 0xaa0303e0
 .word 0xaa1803e2
 .word 0xf9400063
-.word 0x928007f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -18062,9 +14761,9 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402ba1
-.word 0xb9804421
+.word 0xb9803c21
 .word 0x11000421
-.word 0xb9004401
+.word 0xb9003c01
 .loc 7 406 0
 .word 0xf94037b1
 .word 0xf9446231
@@ -18088,32 +14787,32 @@ ldr x2, [x16, #16]
 .word 0xf944a231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29c1f40
+.word 0xd287e840
 .word 0xf2a00020
-.word 0xd29c1f40
+.word 0xd287e840
 .word 0xf2a00020
 bl _p_58
 .word 0xf9004fa0
 .word 0xaa1803e0
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_190
+bl _p_158
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
 .word 0xaa0003e1
 .word 0xf9404fa0
 .word 0xb9001038
-bl _p_191
+bl _p_159
 .word 0xf9004ba0
 .word 0xf94037b1
 .word 0xf944fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba1
-.word 0xd2801060
+.word 0xd2800920
 .word 0xf2a04000
-.word 0xd2801060
+.word 0xd2800920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -18174,7 +14873,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xb9804c00
+.word 0xb9804400
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x5400052d
@@ -18184,7 +14883,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xb9804800
+.word 0xb9804000
 .word 0xaa0003f4
 .loc 7 424 0
 .word 0xf94037b1
@@ -18205,7 +14904,7 @@ bl _p_59
 .word 0x8b020021
 .word 0x91008021
 .word 0xb9800421
-.word 0xb9004801
+.word 0xb9004001
 .loc 7 425 0
 .word 0xf94037b1
 .word 0xf9467231
@@ -18213,9 +14912,9 @@ bl _p_59
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402ba1
-.word 0xb9804c21
+.word 0xb9804421
 .word 0x51000421
-.word 0xb9004c01
+.word 0xb9004401
 .loc 7 426 0
 .word 0xf94037b1
 .word 0xf9469631
@@ -18228,7 +14927,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xb9804000
+.word 0xb9803800
 .word 0xf9402ba1
 .word 0xf9400c21
 .word 0xb9801821
@@ -18244,7 +14943,7 @@ bl _p_59
 .word 0xf9004ba0
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_192
+bl _p_160
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd63f0020
@@ -18301,7 +15000,7 @@ bl _p_192
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xb9804000
+.word 0xb9803800
 .word 0xaa0003f4
 .loc 7 435 0
 .word 0xf94037b1
@@ -18310,9 +15009,9 @@ bl _p_192
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402ba1
-.word 0xb9804021
+.word 0xb9803821
 .word 0x11000421
-.word 0xb9004001
+.word 0xb9003801
 .loc 7 438 0
 .word 0xf9403bb1
 .word 0xf9400231
@@ -18441,9 +15140,9 @@ ldr x2, [x16, #16]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402ba1
-.word 0xb9804421
+.word 0xb9803c21
 .word 0x11000421
-.word 0xb9004401
+.word 0xb9003c01
 .loc 7 445 0
 .word 0xf94037b1
 .word 0xf949f231
@@ -18466,7 +15165,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #1992]
+ldr x1, [x16, #1760]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800019
@@ -18482,8 +15181,8 @@ ldr x1, [x16, #1992]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x15, [x16, #2000]
-bl _p_193
+ldr x15, [x16, #1768]
+bl _p_161
 .word 0xf90043a0
 .word 0xf94037b1
 .word 0xf94a8631
@@ -18491,11 +15190,11 @@ bl _p_193
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_194
+bl _p_162
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94043a0
-bl _p_195
+bl _p_163
 .word 0xf94053a1
 .word 0xf9001020
 .word 0x91008021
@@ -18525,7 +15224,7 @@ ldr x2, [x16, #16]
 .word 0xf9004ba0
 .word 0xf9402ba0
 .word 0xf9400000
-bl _p_196
+bl _p_164
 .word 0xaa0003e3
 .word 0xf9404ba0
 .word 0xf9404fa1
@@ -18553,17 +15252,17 @@ bl _p_196
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
-.word 0xd2801e40
+bl _p_84
+.word 0xd2801660
 .word 0xaa1103e1
-bl _p_87
-.word 0xd28014a0
+bl _p_84
+.word 0xd2800ce0
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_123:
+Lme_fd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Collections_Generic_IEqualityComparer_1_TKey_INT
@@ -18579,7 +15278,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Col
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #1776]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -18609,28 +15308,28 @@ ldr x16, [x16, #2008]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd293c1c0
-.word 0xd293c1c0
+.word 0xd28d3240
+.word 0xd28d3240
 bl _p_58
 .word 0xf90037a0
 .word 0xaa1903e0
-.word 0xd2801b20
-.word 0xd2801b20
-bl _p_138
+.word 0xd2801360
+.word 0xd2801360
+bl _p_122
 .word 0xb9001019
 .word 0xf9003ba0
-.word 0xd284b5e0
-.word 0xd284b5e0
+.word 0xd280f1e0
+.word 0xd280f1e0
 bl _p_58
 .word 0xf9003fa0
-.word 0xd28010a0
-.word 0xd28010a0
-bl _p_138
+.word 0xd2800960
+.word 0xd2800960
+bl _p_122
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xf9403fa3
 .word 0xf90033a0
-bl _p_139
+bl _p_123
 .word 0xf94023b1
 .word 0xf940fe31
 .word 0xb4000051
@@ -18656,7 +15355,7 @@ bl _p_59
 .word 0xf90033a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_197
+bl _p_165
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xaa1903e1
@@ -18682,11 +15381,11 @@ bl _p_197
 .word 0xaa1603e0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_198
+bl _p_166
 .word 0xf90037a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_199
+bl _p_167
 .word 0xf94037af
 .word 0xd63f0000
 .word 0xf90033a0
@@ -18726,7 +15425,7 @@ ldr x1, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_124:
+Lme_fe:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT
@@ -18741,7 +15440,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #1784]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -18766,13 +15465,13 @@ ldr x16, [x16, #2016]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd293d440
-.word 0xd293d440
+.word 0xd28d4600
+.word 0xd28d4600
 bl _p_58
 .word 0xaa0003e1
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
-.word 0xd2801080
+.word 0xd2800940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_59
@@ -18795,13 +15494,13 @@ bl _p_59
 .word 0xaa1a03e0
 .word 0xf94017a0
 .word 0xf9400000
-bl _p_200
+bl _p_168
 .word 0xaa0003ef
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0x928009f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -18912,14 +15611,14 @@ bl _p_200
 .word 0xaa1a03e0
 .word 0xf94017a0
 .word 0xf9400000
-bl _p_201
+bl _p_169
 .word 0xaa0003ef
 .word 0xf9402fa1
 .word 0xf94033a3
 .word 0xaa0303e0
 .word 0xaa1a03e2
 .word 0xf9400063
-.word 0x928007f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -18995,17 +15694,17 @@ bl _p_201
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
-.word 0xd2801e40
+bl _p_84
+.word 0xd2801660
 .word 0xaa1103e1
-bl _p_87
-.word 0xd28014a0
+bl _p_84
+.word 0xd2800ce0
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_125:
+Lme_ff:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
@@ -19018,7 +15717,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #1792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19036,7 +15735,7 @@ ldr x16, [x16, #2024]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_202
+bl _p_170
 .word 0xf9400000
 .word 0xaa0003fa
 .loc 3 33 0
@@ -19052,9 +15751,9 @@ bl _p_202
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
-bl _p_203
+bl _p_171
 .word 0xaa0003ef
-bl _p_204
+bl _p_172
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf940b631
@@ -19071,7 +15770,7 @@ bl _p_204
 .word 0xf9402ba0
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_202
+bl _p_170
 .word 0xf90023a0
 .word 0xf94027a1
 .word 0xd50330bf
@@ -19097,7 +15796,7 @@ bl _p_202
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_126:
+Lme_100:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize_int_bool
@@ -19115,7 +15814,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize_int_bool:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #1800]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -19141,9 +15840,9 @@ ldr x16, [x16, #2032]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2040]
+ldr x0, [x16, #1808]
 .word 0xaa1903e1
-bl _p_82
+bl _p_79
 .word 0xaa0003f8
 .loc 7 511 0
 .word 0xf9402fb1
@@ -19199,9 +15898,9 @@ bl _p_82
 .word 0xaa1903e0
 .word 0xf94027a0
 .word 0xf9400000
-bl _p_205
+bl _p_173
 .word 0xaa1903e1
-bl _p_82
+bl _p_79
 .word 0xaa0003f7
 .loc 7 514 0
 .word 0xf9402fb1
@@ -19214,11 +15913,11 @@ bl _p_82
 .word 0xaa1703e1
 .word 0xd2800001
 .word 0xf94027a1
-.word 0xb9804024
+.word 0xb9803824
 .word 0xd2800001
 .word 0xaa1703e2
 .word 0xd2800003
-bl _p_72
+bl _p_69
 .loc 7 516 0
 .word 0xf9402fb1
 .word 0xf941ca31
@@ -19291,13 +15990,13 @@ bl _p_72
 .word 0xf90043a0
 .word 0xf94027a0
 .word 0xf9400000
-bl _p_206
+bl _p_174
 .word 0xaa0003ef
 .word 0xf94043a1
 .word 0xf94047a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0x928009f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -19335,7 +16034,7 @@ bl _p_206
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xf94027a0
-.word 0xb9804000
+.word 0xb9803800
 .word 0x6b0002bf
 .word 0x54fff36b
 .loc 7 527 0
@@ -19488,7 +16187,7 @@ bl _p_206
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xf94027a0
-.word 0xb9804000
+.word 0xb9803800
 .word 0x6b00029f
 .word 0x54ffef0b
 .loc 7 537 0
@@ -19547,17 +16246,17 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
-.word 0xd2801e40
+bl _p_84
+.word 0xd2801660
 .word 0xaa1103e1
-bl _p_87
-.word 0xd28014a0
+bl _p_84
+.word 0xd2800ce0
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_127:
+Lme_101:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize
@@ -19569,7 +16268,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #1816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19588,8 +16287,8 @@ ldr x16, [x16, #2048]
 .word 0xf9400ba0
 .word 0xf90023a0
 .word 0xf9400ba0
-.word 0xb9804000
-bl _p_207
+.word 0xb9803800
+bl _p_175
 .word 0x93407c00
 .word 0xf9001fa0
 .word 0xf9400fb1
@@ -19602,7 +16301,7 @@ bl _p_207
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_208
+bl _p_176
 .word 0xaa0003e3
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -19621,7 +16320,7 @@ bl _p_208
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_128:
+Lme_102:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Initialize_int
@@ -19635,7 +16334,7 @@ System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Initialize_int:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #1824]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -19654,7 +16353,7 @@ ldr x16, [x16, #2056]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9802ba0
-bl _p_209
+bl _p_177
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -19676,8 +16375,8 @@ bl _p_209
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2040]
-bl _p_82
+ldr x0, [x16, #1808]
+bl _p_79
 .word 0xf9402ba1
 .word 0xf9000820
 .word 0x91004021
@@ -19750,9 +16449,9 @@ ldr x2, [x16, #16]
 .word 0xaa1903e0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_210
+bl _p_178
 .word 0xaa1903e1
-bl _p_82
+bl _p_79
 .word 0xf9402ba1
 .word 0xf9000c20
 .word 0x91006021
@@ -19777,7 +16476,7 @@ ldr x2, [x16, #16]
 .word 0xf2bfffe1
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb900481e
+.word 0xb900401e
 .loc 7 384 0
 .word 0xf9401bb1
 .word 0xf9424a31
@@ -19791,11 +16490,11 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801ae0
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_129:
+Lme_103:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
@@ -19811,7 +16510,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #1832]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -19831,7 +16530,7 @@ ldr x16, [x16, #2064]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_211
+bl _p_179
 .word 0xf90037a0
 .word 0xf94037a0
 .word 0xb4000180
@@ -19843,7 +16542,7 @@ bl _p_211
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #920]
+ldr x1, [x16, #904]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540041c1
@@ -19858,7 +16557,7 @@ ldr x1, [x16, #920]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2072]
+ldr x0, [x16, #1840]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -19876,19 +16575,19 @@ ldr x0, [x16, #2072]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #920]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_7
 .word 0xf9006fa0
 .word 0xf9406fa0
-bl _p_77
+bl _p_74
 .word 0xf94027b1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf90073a0
 .word 0xf9406fa0
 .word 0xb4000140
@@ -19912,7 +16611,7 @@ bl _p_212
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2080]
+ldr x0, [x16, #1848]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -19930,19 +16629,19 @@ ldr x0, [x16, #2080]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #952]
+ldr x0, [x16, #936]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_7
 .word 0xaa0003f7
 .word 0xaa1703e0
-bl _p_79
+bl _p_76
 .word 0xf94027b1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf9006ba0
 .word 0xb4000137
 .word 0xf94002e0
@@ -19962,13 +16661,13 @@ bl _p_212
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_213
+bl _p_181
 .word 0xaa0003e2
 .word 0xaa1a03e0
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407450
+.word 0xf9407050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -19986,17 +16685,17 @@ bl _p_213
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2088]
+ldr x0, [x16, #1856]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xf90063a0
 .word 0xf94027b1
 .word 0xf942d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf90067a0
 .word 0xf94063a0
 .word 0xb4000140
@@ -20019,7 +16718,7 @@ bl _p_212
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940ec30
+.word 0xf940e030
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -20032,7 +16731,7 @@ bl _p_212
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9409c30
+.word 0xf9409030
 .word 0xd63f0200
 .word 0xf9007fa0
 .word 0xf94027b1
@@ -20043,7 +16742,7 @@ bl _p_212
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #2096]
+ldr x1, [x16, #1864]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -20061,7 +16760,7 @@ ldr x1, [x16, #2096]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940a030
+.word 0xf9409430
 .word 0xd63f0200
 .word 0xf9007ba0
 .word 0xf94027b1
@@ -20085,7 +16784,7 @@ ldr x1, [x16, #2096]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x1, [x16, #920]
+ldr x1, [x16, #904]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54002561
@@ -20099,15 +16798,15 @@ ldr x1, [x16, #920]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2104]
+ldr x0, [x16, #1872]
 .word 0xf90087a0
 .word 0xd2800020
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #984]
+ldr x0, [x16, #968]
 .word 0xd2800021
-bl _p_82
+bl _p_79
 .word 0xf90057a0
 .word 0xf94057a0
 .word 0xf90083a0
@@ -20117,13 +16816,13 @@ bl _p_82
 .word 0xaa0303e0
 .word 0xd2800001
 .word 0xf9400063
-.word 0xf9408070
+.word 0xf9404870
 .word 0xd63f0200
 .word 0xf94083a1
 .word 0xf94087a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940a850
+.word 0xf9409c50
 .word 0xd63f0200
 .word 0xf9007fa0
 .word 0xf94027b1
@@ -20134,7 +16833,7 @@ bl _p_82
 .word 0xaa1903e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9407450
+.word 0xf9407050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -20152,17 +16851,17 @@ bl _p_82
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #1880]
 .word 0xaa1903e1
 .word 0xaa1903e1
-bl _p_81
+bl _p_78
 .word 0xf9005ba0
 .word 0xf94027b1
 .word 0xf9454631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf9005fa0
 .word 0xf9405ba0
 .word 0xb4000140
@@ -20189,7 +16888,7 @@ bl _p_212
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f830
+.word 0xf940e830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9007ba0
@@ -20206,14 +16905,14 @@ bl _p_212
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_80
 .word 0xf90083a0
 .word 0xf94027b1
 .word 0xf9460a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
-bl _p_84
+bl _p_81
 .word 0x93407c00
 .word 0xf9007fa0
 .word 0xf94027b1
@@ -20239,7 +16938,7 @@ bl _p_84
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2120]
+ldr x0, [x16, #1888]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -20251,17 +16950,17 @@ ldr x0, [x16, #2120]
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #1896]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xf90043a0
 .word 0xf94027b1
 .word 0xf946ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf90047a0
 .word 0xf94043a0
 .word 0xb4000140
@@ -20284,17 +16983,17 @@ bl _p_212
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #1904]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xaa0003f5
 .word 0xf94027b1
 .word 0xf9473631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf9003ba0
 .word 0xb4000135
 .word 0xf94002a0
@@ -20316,17 +17015,17 @@ bl _p_212
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2144]
+ldr x0, [x16, #1912]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xaa0003f3
 .word 0xf94027b1
 .word 0xf947ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf9003fa0
 .word 0xb4000133
 .word 0xf9400260
@@ -20348,17 +17047,17 @@ bl _p_212
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x0, [x16, #2152]
+ldr x0, [x16, #1920]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_81
+bl _p_78
 .word 0xf9004ba0
 .word 0xf94027b1
 .word 0xf9482631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_212
+bl _p_180
 .word 0xf9004fa0
 .word 0xf9404ba0
 .word 0xb4000140
@@ -20383,12 +17082,12 @@ bl _p_212
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_214
+bl _p_182
 .word 0xd2800201
 .word 0xd2800201
 bl _p_7
 .word 0xf9007ba0
-bl _p_215
+bl _p_183
 .word 0xf94027b1
 .word 0xf948b231
 .word 0xb4000051
@@ -20405,14 +17104,14 @@ bl _p_215
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801b60
+.word 0xd28013a0
 .word 0xaa1103e1
-bl _p_87
-.word 0xd2801ae0
+bl _p_84
+.word 0xd2801320
 .word 0xaa1103e1
-bl _p_87
+bl _p_84
 
-Lme_12a:
+Lme_104:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
@@ -20423,7 +17122,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #1928]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20432,7 +17131,7 @@ ldr x16, [x16, #2160]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_216
+bl _p_184
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -20445,7 +17144,7 @@ bl _p_216
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_12b:
+Lme_105:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF__ctor
@@ -20456,7 +17155,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #1936]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20477,7 +17176,7 @@ ldr x16, [x16, #2168]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_12c:
+Lme_106:
 .text
 	.align 3
 jit_code_end:
@@ -20614,8 +17313,6 @@ bl System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
 bl System_Array_InternalEnumerator_1_T_INT_Dispose
 bl System_Array_InternalEnumerator_1_T_INT_MoveNext
 bl System_Array_InternalEnumerator_1_T_INT_get_Current
-bl System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
-bl System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
 bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
 bl method_addresses
 bl method_addresses
@@ -20644,7 +17341,6 @@ bl System_Collections_Generic_EqualityComparer_1_T_INT__ctor
 bl System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
 bl System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
 bl System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
-bl System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
 bl System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
 bl System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
 bl method_addresses
@@ -20693,32 +17389,13 @@ bl System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
 bl System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
 bl System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
 bl System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
-bl System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
-bl System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
 bl method_addresses
 bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl method_addresses
-bl System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-bl System_Array_InternalEnumerator_1_T_INST_Dispose
-bl System_Array_InternalEnumerator_1_T_INST_MoveNext
-bl System_Array_InternalEnumerator_1_T_INST_get_Current
-bl System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-bl System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 bl System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF
 bl System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key
 bl System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value
 bl System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo_TKey_INT___int
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Count
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
@@ -20728,9 +17405,6 @@ bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_Sys
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Remove_TKey_INT
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
 bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
-bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-bl System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
 bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetEnumerator
 bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_CopyTo_TValue_REF___int
@@ -20742,17 +17416,6 @@ bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_S
 bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Contains_TValue_REF
 bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
 bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
-bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-bl System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-bl method_addresses
-bl System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0
-bl System_Array_InternalEnumerator_1_T_INST_Dispose_0
-bl System_Array_InternalEnumerator_1_T_INST_MoveNext_0
-bl System_Array_InternalEnumerator_1_T_INST_get_Current_0
-bl System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0
-bl System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0
-bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0
 bl System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 bl System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 bl System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -20771,13 +17434,11 @@ bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
 bl System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
 bl System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
 bl System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-bl System_Array_InternalArray__get_Item_T_INST_int
-bl System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
 bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
+bl System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 bl System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF
-bl System_Array_InternalArray__get_Item_T_INST_int_0
 bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior
 bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Collections_Generic_IEqualityComparer_1_TKey_INT
 bl System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT
@@ -20794,12 +17455,10 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 123,124,125,126,127,128,171,172
-	.long 173,174,175,176,177,178,179,180
-	.long 201,202,203,204,205,206,207,219
-	.long 220,221,222,223,224,226,227,228
-	.long 229,259,260,261,262,263,264,283
-	.long 285,288
+	.long 123,124,125,126,168,169,170,171
+	.long 172,173,174,175,176,177,198,199
+	.long 200,201,202,205,206,207,208,247
+	.long 250,251
 unbox_trampolines_end:
 
 	.long 0
@@ -20810,8 +17469,9 @@ bl ut_123
 bl ut_124
 bl ut_125
 bl ut_126
-bl ut_127
-bl ut_128
+bl ut_168
+bl ut_169
+bl ut_170
 bl ut_171
 bl ut_172
 bl ut_173
@@ -20819,35 +17479,18 @@ bl ut_174
 bl ut_175
 bl ut_176
 bl ut_177
-bl ut_178
-bl ut_179
-bl ut_180
+bl ut_198
+bl ut_199
+bl ut_200
 bl ut_201
 bl ut_202
-bl ut_203
-bl ut_204
 bl ut_205
 bl ut_206
 bl ut_207
-bl ut_219
-bl ut_220
-bl ut_221
-bl ut_222
-bl ut_223
-bl ut_224
-bl ut_226
-bl ut_227
-bl ut_228
-bl ut_229
-bl ut_259
-bl ut_260
-bl ut_261
-bl ut_262
-bl ut_263
-bl ut_264
-bl ut_283
-bl ut_285
-bl ut_288
+bl ut_208
+bl ut_247
+bl ut_250
+bl ut_251
 
 	.long 0
 .section __TEXT, __const
@@ -20861,12 +17504,12 @@ unwind_info:
 	.byte 0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68
 	.byte 153,14,154,13,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,16,12,31,0,68,14,96,157,12
 	.byte 158,11,68,13,29,68,154,10,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,18,12,31,0,68,14,80
-	.byte 157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,13,12,31
-	.byte 0,68,14,96,157,12,158,11,68,13,29,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29,32,12,31,0,68,14
-	.byte 144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10,22,12,31,0,68
-	.byte 14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12,32,12,31,0,68,14,144,2,157,34,158,33,68,13
-	.byte 29,68,147,32,68,149,31,150,30,68,151,29,152,28,68,153,27,154,26,26,12,31,0,68,14,112,157,14,158,13,68,13
-	.byte 29,68,149,12,150,11,68,151,10,152,9,68,153,8,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16
+	.byte 157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,14,12,31
+	.byte 0,68,14,128,1,157,16,158,15,68,13,29,32,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15
+	.byte 68,150,14,151,13,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150
+	.byte 13,68,152,12,32,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,68,149,31,150,30,68,151,29,152,28
+	.byte 68,153,27,154,26,26,12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,13,12,31,0,68,14,96,157,12,158,11,68,13,29
 	.byte 19,12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,68,153,7,34,12,31,0,68,14,144,1,157,18,158,17
 	.byte 68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,23,12,31,0,68,14,112,157,14
 	.byte 158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147
@@ -20875,18 +17518,15 @@ unwind_info:
 	.byte 68,13,29,68,153,10,154,9,32,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151
 	.byte 11,68,152,10,153,9,68,154,8,34,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16
 	.byte 150,15,68,151,14,152,13,68,153,12,154,11,13,12,31,0,68,14,112,157,14,158,13,68,13,29,18,12,31,0,68,14
-	.byte 64,157,8,158,7,68,13,29,68,153,6,154,5,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,17,12
-	.byte 31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152
-	.byte 8,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,29,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68
-	.byte 149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28
-	.byte 148,27,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68
-	.byte 152,12,153,11,68,154,10,29,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21
-	.byte 68,153,20,154,19,24,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,23,12
-	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,19,12,31,0,68,14,144,1,157,18
-	.byte 158,17,68,13,29,68,153,16,154,15,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8
-	.byte 154,7,34,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15
-	.byte 68,153,14,154,13,32,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151
-	.byte 12,152,11,68,153,10,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
+	.byte 64,157,8,158,7,68,13,29,68,153,6,154,5,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,29,12
+	.byte 31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,14,12,31,0
+	.byte 68,14,144,1,157,18,158,17,68,13,29,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154
+	.byte 10,29,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19,24
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,23,12,31,0,68,14,112,157
+	.byte 14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151
+	.byte 10,152,9,68,153,8,154,7,34,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150
+	.byte 17,68,151,16,152,15,68,153,14,154,13,32,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68
+	.byte 149,14,150,13,68,151,12,152,11,68,153,10,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
 
 .text
 	.align 4
@@ -20897,1733 +17537,1477 @@ plt_ZXing_Mobile_MobileBarcodeScannerBase_set_CancelButtonText_string:
 _p_1:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #1952]
 br x16
-.word 5183
+.word 4361
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_set_FlashButtonText_string
 plt_ZXing_Mobile_MobileBarcodeScannerBase_set_FlashButtonText_string:
 _p_2:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #1960]
 br x16
-.word 5185
+.word 4363
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_set_CameraUnsupportedMessage_string
 plt_ZXing_Mobile_MobileBarcodeScannerBase_set_CameraUnsupportedMessage_string:
 _p_3:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #1968]
 br x16
-.word 5187
+.word 4365
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default:
 _p_4:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #1976]
 br x16
-.word 5189
+.word 4367
 	.no_dead_strip plt_System_EventArgs__ctor
 plt_System_EventArgs__ctor:
 _p_5:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #1984]
 br x16
-.word 5191
+.word 4369
 	.no_dead_strip plt_ZXing_Mobile_CancelScanRequestEventArgs_set_Cancel_bool
 plt_ZXing_Mobile_CancelScanRequestEventArgs_set_Cancel_bool:
 _p_6:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #1992]
 br x16
-.word 5196
+.word 4374
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_7:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2000]
 br x16
-.word 5198
+.word 4376
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat__ctor
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat__ctor:
 _p_8:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2008]
 br x16
-.word 5206
+.word 4384
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_PossibleFormats_System_Collections_Generic_List_1_ZXing_BarcodeFormat
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_PossibleFormats_System_Collections_Generic_List_1_ZXing_BarcodeFormat:
 _p_9:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2016]
 br x16
-.word 5217
+.word 4395
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenAnalyzingFrames_int
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenAnalyzingFrames_int:
 _p_10:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2024]
 br x16
-.word 5219
+.word 4397
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_InitialDelayBeforeAnalyzingFrames_int
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_InitialDelayBeforeAnalyzingFrames_int:
 _p_11:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2032]
 br x16
-.word 5221
+.word 4399
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenContinuousScans_int
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenContinuousScans_int:
 _p_12:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2040]
 br x16
-.word 5223
+.word 4401
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_UseNativeScanning_bool
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_set_UseNativeScanning_bool:
 _p_13:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2048]
 br x16
-.word 5225
+.word 4403
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions__ctor
 plt_ZXing_Mobile_MobileBarcodeScanningOptions__ctor:
 _p_14:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2056]
 br x16
-.word 5227
+.word 4405
 	.no_dead_strip plt_ZXing_BarcodeReader__ctor
 plt_ZXing_BarcodeReader__ctor:
 _p_15:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2064]
 br x16
-.word 5229
+.word 4407
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_TryHarder
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_TryHarder:
 _p_16:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2072]
 br x16
-.word 5234
+.word 4412
 	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
 plt_System_Nullable_1_bool_get_HasValue:
 _p_17:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2080]
 br x16
-.word 5236
+.word 4414
 	.no_dead_strip plt_ZXing_BarcodeReaderGeneric_1_byte___get_Options
 plt_ZXing_BarcodeReaderGeneric_1_byte___get_Options:
 _p_18:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2088]
 br x16
-.word 5247
+.word 4425
 	.no_dead_strip plt_System_Nullable_1_bool_get_Value
 plt_System_Nullable_1_bool_get_Value:
 _p_19:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2096]
 br x16
-.word 5258
+.word 4436
 	.no_dead_strip plt_ZXing_Common_DecodingOptions_set_TryHarder_bool
 plt_ZXing_Common_DecodingOptions_set_TryHarder_bool:
 _p_20:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2104]
 br x16
-.word 5269
+.word 4447
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_PureBarcode
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_PureBarcode:
 _p_21:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2112]
 br x16
-.word 5274
+.word 4452
 	.no_dead_strip plt_ZXing_Common_DecodingOptions_set_PureBarcode_bool
 plt_ZXing_Common_DecodingOptions_set_PureBarcode_bool:
 _p_22:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2120]
 br x16
-.word 5276
+.word 4454
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate:
 _p_23:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2128]
 br x16
-.word 5281
+.word 4459
 	.no_dead_strip plt_ZXing_BarcodeReaderGeneric_1_byte___set_AutoRotate_bool
 plt_ZXing_BarcodeReaderGeneric_1_byte___set_AutoRotate_bool:
 _p_24:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2136]
 br x16
-.word 5283
+.word 4461
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_CharacterSet
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_CharacterSet:
 _p_25:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2144]
 br x16
-.word 5294
+.word 4472
 	.no_dead_strip plt_string_IsNullOrEmpty_string
 plt_string_IsNullOrEmpty_string:
 _p_26:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2152]
 br x16
-.word 5296
+.word 4474
 	.no_dead_strip plt_ZXing_Common_DecodingOptions_set_CharacterSet_string
 plt_ZXing_Common_DecodingOptions_set_CharacterSet_string:
 _p_27:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2160]
 br x16
-.word 5301
+.word 4479
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_TryInverted
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_TryInverted:
 _p_28:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2168]
 br x16
-.word 5306
+.word 4484
 	.no_dead_strip plt_ZXing_BarcodeReaderGeneric_1_byte___set_TryInverted_bool
 plt_ZXing_BarcodeReaderGeneric_1_byte___set_TryInverted_bool:
 _p_29:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2176]
 br x16
-.word 5308
+.word 4486
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats:
 _p_30:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2184]
 br x16
-.word 5319
+.word 4497
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_get_Count
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_get_Count:
 _p_31:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2192]
 br x16
-.word 5321
+.word 4499
 	.no_dead_strip plt_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat
 plt_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat:
 _p_32:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2200]
 br x16
-.word 5332
+.word 4510
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator:
 _p_33:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2208]
 br x16
-.word 5337
+.word 4515
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_get_Current
 plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_get_Current:
 _p_34:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2216]
 br x16
-.word 5348
+.word 4526
 	.no_dead_strip plt_ZXing_Common_DecodingOptions_get_PossibleFormats
 plt_ZXing_Common_DecodingOptions_get_PossibleFormats:
 _p_35:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2224]
 br x16
-.word 5359
+.word 4537
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext:
 _p_36:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2232]
 br x16
-.word 5364
+.word 4542
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_Dispose
 plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_Dispose:
 _p_37:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2240]
 br x16
-.word 5375
+.word 4553
 	.no_dead_strip plt_ZXing_MultiFormatReader__ctor
 plt_ZXing_MultiFormatReader__ctor:
 _p_38:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2248]
 br x16
-.word 5396
+.word 4574
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ZXing_DecodeHintType_object__ctor
 plt_System_Collections_Generic_Dictionary_2_ZXing_DecodeHintType_object__ctor:
 _p_39:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2256]
 br x16
-.word 5401
+.word 4579
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ZXing_DecodeHintType_object_Add_ZXing_DecodeHintType_object
 plt_System_Collections_Generic_Dictionary_2_ZXing_DecodeHintType_object_Add_ZXing_DecodeHintType_object:
 _p_40:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2264]
 br x16
-.word 5412
+.word 4590
 	.no_dead_strip plt_ZXing_MultiFormatReader_set_Hints_System_Collections_Generic_IDictionary_2_ZXing_DecodeHintType_object
 plt_ZXing_MultiFormatReader_set_Hints_System_Collections_Generic_IDictionary_2_ZXing_DecodeHintType_object:
 _p_41:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2272]
 br x16
-.word 5423
+.word 4601
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_CameraResolutionSelector
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_CameraResolutionSelector:
 _p_42:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2280]
 br x16
-.word 5428
+.word 4606
 	.no_dead_strip plt_System_Guid_NewGuid
 plt_System_Guid_NewGuid:
 _p_43:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2288]
 br x16
-.word 5430
+.word 4608
 	.no_dead_strip plt_System_Guid_ToString
 plt_System_Guid_ToString:
 _p_44:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2296]
 br x16
-.word 5435
+.word 4613
 	.no_dead_strip plt_System_Diagnostics_Stopwatch__ctor
 plt_System_Diagnostics_Stopwatch__ctor:
 _p_45:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2304]
 br x16
-.word 5440
+.word 4618
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_Add_string_System_Diagnostics_Stopwatch
 plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_Add_string_System_Diagnostics_Stopwatch:
 _p_46:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2312]
 br x16
-.word 5445
+.word 4623
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_Start
 plt_System_Diagnostics_Stopwatch_Start:
 _p_47:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2320]
 br x16
-.word 5456
+.word 4634
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_ContainsKey_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_ContainsKey_string:
 _p_48:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2328]
 br x16
-.word 5461
+.word 4639
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_get_Item_string:
 _p_49:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2336]
 br x16
-.word 5472
+.word 4650
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_Stop
 plt_System_Diagnostics_Stopwatch_Stop:
 _p_50:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2344]
 br x16
-.word 5483
+.word 4661
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_Remove_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch_Remove_string:
 _p_51:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2352]
 br x16
-.word 5488
+.word 4666
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_get_Elapsed
 plt_System_Diagnostics_Stopwatch_get_Elapsed:
 _p_52:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2360]
 br x16
-.word 5499
+.word 4677
 	.no_dead_strip plt_ZXing_Mobile_PerformanceCounter_Stop_string
 plt_ZXing_Mobile_PerformanceCounter_Stop_string:
 _p_53:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2368]
 br x16
-.word 5504
+.word 4682
 	.no_dead_strip plt_string_Contains_string
 plt_string_Contains_string:
 _p_54:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2376]
 br x16
-.word 5506
+.word 4684
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_55:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2384]
 br x16
-.word 5511
+.word 4689
 	.no_dead_strip plt_System_Diagnostics_Debugger_get_IsAttached
 plt_System_Diagnostics_Debugger_get_IsAttached:
 _p_56:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2392]
 br x16
-.word 5516
+.word 4694
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch__ctor
 plt_System_Collections_Generic_Dictionary_2_string_System_Diagnostics_Stopwatch__ctor:
 _p_57:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2400]
 br x16
-.word 5521
+.word 4699
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_58:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2408]
 br x16
-.word 5532
+.word 4710
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_59:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2416]
 br x16
-.word 5561
+.word 4739
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_60:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2424]
 br x16
-.word 5607
+.word 4785
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_61:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2432]
 br x16
-.word 5630
+.word 4808
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_62:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2440]
 br x16
-.word 5671
+.word 4857
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_63:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2448]
 br x16
-.word 5679
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
+.word 4865
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
 _p_64:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2456]
 br x16
-.word 5702
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
+.word 4888
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
 _p_65:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2464]
 br x16
-.word 5736
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
+.word 4911
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
 _p_66:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2472]
 br x16
-.word 5744
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
+.word 4934
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
 _p_67:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2480]
 br x16
-.word 5767
+.word 4942
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_68:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2488]
 br x16
-.word 5790
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
+.word 4956
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_69:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2496]
 br x16
-.word 5813
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
+.word 4970
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
 _p_70:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2504]
 br x16
-.word 5821
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
+.word 4993
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
 _p_71:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2512]
 br x16
-.word 5835
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+.word 5001
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
 _p_72:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2520]
 br x16
-.word 5849
+.word 5009
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_73:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2528]
 br x16
-.word 5872
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
+.word 5050
+	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
+plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_74:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2536]
 br x16
-.word 5880
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
+.word 5058
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
 _p_75:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2544]
 br x16
-.word 5888
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
+.word 5063
+	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
+plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_76:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2552]
 br x16
-.word 5929
-	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
-plt_System_Collections_Generic_ByteEqualityComparer__ctor:
+.word 5071
+	.no_dead_strip plt__rgctx_fetch_13
+plt__rgctx_fetch_13:
 _p_77:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2560]
 br x16
-.word 5937
-	.no_dead_strip plt__rgctx_fetch_15
-plt__rgctx_fetch_15:
+.word 5085
+	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
+plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_78:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2568]
 br x16
-.word 5942
-	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
-plt_System_Collections_Generic_InternalStringComparer__ctor:
+.word 5093
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_79:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2576]
 br x16
-.word 5950
-	.no_dead_strip plt__rgctx_fetch_16
-plt__rgctx_fetch_16:
+.word 5098
+	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
+plt_System_Enum_GetUnderlyingType_System_Type:
 _p_80:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2584]
 br x16
-.word 5964
-	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
-plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
+.word 5106
+	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
+plt_System_Type_GetTypeCode_System_Type:
 _p_81:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2592]
 br x16
-.word 5972
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+.word 5111
+	.no_dead_strip plt__rgctx_fetch_14
+plt__rgctx_fetch_14:
 _p_82:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2600]
 br x16
-.word 5977
-	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
-plt_System_Enum_GetUnderlyingType_System_Type:
+.word 5125
+	.no_dead_strip plt__rgctx_fetch_15
+plt__rgctx_fetch_15:
 _p_83:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2608]
 br x16
-.word 5985
-	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
-plt_System_Type_GetTypeCode_System_Type:
+.word 5133
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_84:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2616]
 br x16
-.word 5990
-	.no_dead_strip plt__rgctx_fetch_17
-plt__rgctx_fetch_17:
+.word 5156
+	.no_dead_strip plt__rgctx_fetch_16
+plt__rgctx_fetch_16:
 _p_85:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2624]
 br x16
-.word 6004
-	.no_dead_strip plt__rgctx_fetch_18
-plt__rgctx_fetch_18:
+.word 5209
+	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_86:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2632]
 br x16
-.word 6012
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
+.word 5217
+	.no_dead_strip plt__rgctx_fetch_17
+plt__rgctx_fetch_17:
 _p_87:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2640]
 br x16
-.word 6035
-	.no_dead_strip plt__rgctx_fetch_19
-plt__rgctx_fetch_19:
+.word 5225
+	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
+plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_88:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2648]
 br x16
-.word 6088
-	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
-plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
+.word 5233
+	.no_dead_strip plt__rgctx_fetch_18
+plt__rgctx_fetch_18:
 _p_89:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2656]
 br x16
-.word 6096
-	.no_dead_strip plt__rgctx_fetch_20
-plt__rgctx_fetch_20:
+.word 5256
+	.no_dead_strip plt__rgctx_fetch_19
+plt__rgctx_fetch_19:
 _p_90:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2664]
 br x16
-.word 6104
-	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
-plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
+.word 5264
+	.no_dead_strip plt__rgctx_fetch_20
+plt__rgctx_fetch_20:
 _p_91:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2672]
 br x16
-.word 6112
+.word 5290
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_92:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2680]
 br x16
-.word 6135
+.word 5314
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_93:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2688]
 br x16
-.word 6143
+.word 5356
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_94:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2696]
 br x16
-.word 6169
-	.no_dead_strip plt__rgctx_fetch_24
-plt__rgctx_fetch_24:
+.word 5380
+	.no_dead_strip plt_int_GetHashCode
+plt_int_GetHashCode:
 _p_95:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2704]
 br x16
-.word 6193
-	.no_dead_strip plt__rgctx_fetch_25
-plt__rgctx_fetch_25:
+.word 5404
+	.no_dead_strip plt__rgctx_fetch_24
+plt__rgctx_fetch_24:
 _p_96:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2712]
 br x16
-.word 6235
-	.no_dead_strip plt__rgctx_fetch_26
-plt__rgctx_fetch_26:
+.word 5436
+	.no_dead_strip plt__rgctx_fetch_25
+plt__rgctx_fetch_25:
 _p_97:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2720]
 br x16
-.word 6259
-	.no_dead_strip plt_int_GetHashCode
-plt_int_GetHashCode:
+.word 5477
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_98:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2728]
 br x16
-.word 6283
-	.no_dead_strip plt__rgctx_fetch_27
-plt__rgctx_fetch_27:
+.word 5485
+	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
+plt_System_Nullable_1_bool_Unbox_object:
 _p_99:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2736]
 br x16
-.word 6315
-	.no_dead_strip plt__rgctx_fetch_28
-plt__rgctx_fetch_28:
+.word 5523
+	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_100:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2744]
 br x16
-.word 6356
-	.no_dead_strip plt__rgctx_fetch_29
-plt__rgctx_fetch_29:
+.word 5544
+	.no_dead_strip plt_bool_Equals_object
+plt_bool_Equals_object:
 _p_101:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #2752]
 br x16
-.word 6397
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
+.word 5565
+	.no_dead_strip plt_bool_GetHashCode
+plt_bool_GetHashCode:
 _p_102:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #2760]
 br x16
-.word 6405
-	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
-plt_System_Nullable_1_bool_Unbox_object:
+.word 5570
+	.no_dead_strip plt_bool_ToString
+plt_bool_ToString:
 _p_103:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #2768]
 br x16
-.word 6443
-	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
-plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
+.word 5575
+	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
+plt_System_Nullable_1_bool__ctor_bool:
 _p_104:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #2776]
 br x16
-.word 6465
-	.no_dead_strip plt_bool_Equals_object
-plt_bool_Equals_object:
+.word 5580
+	.no_dead_strip plt__rgctx_fetch_26
+plt__rgctx_fetch_26:
 _p_105:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #2784]
 br x16
-.word 6487
-	.no_dead_strip plt_bool_GetHashCode
-plt_bool_GetHashCode:
+.word 5619
+	.no_dead_strip plt__rgctx_fetch_27
+plt__rgctx_fetch_27:
 _p_106:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #2792]
 br x16
-.word 6492
-	.no_dead_strip plt_bool_ToString
-plt_bool_ToString:
+.word 5642
+	.no_dead_strip plt__rgctx_fetch_28
+plt__rgctx_fetch_28:
 _p_107:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #2800]
 br x16
-.word 6497
-	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
-plt_System_Nullable_1_bool__ctor_bool:
+.word 5650
+	.no_dead_strip plt__rgctx_fetch_29
+plt__rgctx_fetch_29:
 _p_108:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #2808]
 br x16
-.word 6502
+.word 5664
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_109:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #2816]
 br x16
-.word 6542
+.word 5696
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_110:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #2824]
 br x16
-.word 6565
+.word 5737
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_111:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #2832]
 br x16
-.word 6573
+.word 5745
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_112:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #2840]
 br x16
-.word 6587
-	.no_dead_strip plt__rgctx_fetch_34
-plt__rgctx_fetch_34:
+.word 5794
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_113:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #2848]
 br x16
-.word 6619
-	.no_dead_strip plt__rgctx_fetch_35
-plt__rgctx_fetch_35:
+.word 5802
+	.no_dead_strip plt__rgctx_fetch_34
+plt__rgctx_fetch_34:
 _p_114:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #2856]
 br x16
-.word 6660
-	.no_dead_strip plt__rgctx_fetch_36
-plt__rgctx_fetch_36:
+.word 5839
+	.no_dead_strip plt__rgctx_fetch_35
+plt__rgctx_fetch_35:
 _p_115:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #2864]
 br x16
-.word 6668
-	.no_dead_strip plt__rgctx_fetch_37
-plt__rgctx_fetch_37:
+.word 5847
+	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource
+plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource:
 _p_116:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #2872]
 br x16
-.word 6717
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+.word 5870
+	.no_dead_strip plt__rgctx_fetch_36
+plt__rgctx_fetch_36:
 _p_117:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #2880]
 br x16
-.word 6725
-	.no_dead_strip plt__rgctx_fetch_38
-plt__rgctx_fetch_38:
+.word 5896
+	.no_dead_strip plt__rgctx_fetch_37
+plt__rgctx_fetch_37:
 _p_118:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #2888]
 br x16
-.word 6762
-	.no_dead_strip plt__rgctx_fetch_39
-plt__rgctx_fetch_39:
+.word 5904
+	.no_dead_strip plt__rgctx_fetch_38
+plt__rgctx_fetch_38:
 _p_119:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #2896]
 br x16
-.word 6770
-	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource
-plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource:
+.word 5930
+	.no_dead_strip plt__rgctx_fetch_39
+plt__rgctx_fetch_39:
 _p_120:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #2904]
 br x16
-.word 6793
-	.no_dead_strip plt__rgctx_fetch_40
-plt__rgctx_fetch_40:
+.word 5938
+	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_PairToString_object_object
+plt_System_Collections_Generic_KeyValuePair_PairToString_object_object:
 _p_121:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #2912]
 br x16
-.word 6816
-	.no_dead_strip plt__rgctx_fetch_41
-plt__rgctx_fetch_41:
+.word 5964
+	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
+plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_122:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #2920]
 br x16
-.word 6824
-	.no_dead_strip plt__rgctx_fetch_42
-plt__rgctx_fetch_42:
+.word 5969
+	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
+plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_123:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #2928]
 br x16
-.word 6847
-	.no_dead_strip plt__rgctx_fetch_43
-plt__rgctx_fetch_43:
+.word 5999
+	.no_dead_strip plt__rgctx_fetch_40
+plt__rgctx_fetch_40:
 _p_124:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #2936]
 br x16
-.word 6873
-	.no_dead_strip plt__rgctx_fetch_44
-plt__rgctx_fetch_44:
+.word 6037
+	.no_dead_strip plt__rgctx_fetch_41
+plt__rgctx_fetch_41:
 _p_125:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #2944]
 br x16
-.word 6896
-	.no_dead_strip plt__rgctx_fetch_45
-plt__rgctx_fetch_45:
+.word 6084
+	.no_dead_strip plt__rgctx_fetch_42
+plt__rgctx_fetch_42:
 _p_126:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #2952]
 br x16
-.word 6937
-	.no_dead_strip plt__rgctx_fetch_46
-plt__rgctx_fetch_46:
+.word 6131
+	.no_dead_strip plt__rgctx_fetch_43
+plt__rgctx_fetch_43:
 _p_127:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #2960]
 br x16
-.word 6945
-	.no_dead_strip plt__rgctx_fetch_47
-plt__rgctx_fetch_47:
+.word 6190
+	.no_dead_strip plt__rgctx_fetch_44
+plt__rgctx_fetch_44:
 _p_128:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #2968]
 br x16
-.word 6968
-	.no_dead_strip plt__rgctx_fetch_48
-plt__rgctx_fetch_48:
+.word 6198
+	.no_dead_strip plt__rgctx_fetch_45
+plt__rgctx_fetch_45:
 _p_129:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #2976]
 br x16
-.word 7002
-	.no_dead_strip plt__rgctx_fetch_49
-plt__rgctx_fetch_49:
+.word 6245
+	.no_dead_strip plt__rgctx_fetch_46
+plt__rgctx_fetch_46:
 _p_130:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #2984]
 br x16
-.word 7010
-	.no_dead_strip plt__rgctx_fetch_50
-plt__rgctx_fetch_50:
+.word 6253
+	.no_dead_strip plt__rgctx_fetch_47
+plt__rgctx_fetch_47:
 _p_131:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #2992]
 br x16
-.word 7054
-	.no_dead_strip plt__rgctx_fetch_51
-plt__rgctx_fetch_51:
+.word 6312
+	.no_dead_strip plt__rgctx_fetch_48
+plt__rgctx_fetch_48:
 _p_132:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3000]
 br x16
-.word 7062
-	.no_dead_strip plt__rgctx_fetch_52
-plt__rgctx_fetch_52:
+.word 6320
+	.no_dead_strip plt__rgctx_fetch_49
+plt__rgctx_fetch_49:
 _p_133:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3008]
 br x16
-.word 7088
-	.no_dead_strip plt__rgctx_fetch_53
-plt__rgctx_fetch_53:
+.word 6379
+	.no_dead_strip plt__rgctx_fetch_50
+plt__rgctx_fetch_50:
 _p_134:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3248]
+ldr x16, [x16, #3016]
 br x16
-.word 7096
-	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_PairToString_object_object
-plt_System_Collections_Generic_KeyValuePair_PairToString_object_object:
+.word 6426
+	.no_dead_strip plt__rgctx_fetch_51
+plt__rgctx_fetch_51:
 _p_135:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3024]
 br x16
-.word 7122
-	.no_dead_strip plt__rgctx_fetch_54
-plt__rgctx_fetch_54:
+.word 6473
+	.no_dead_strip plt__rgctx_fetch_52
+plt__rgctx_fetch_52:
 _p_136:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3264]
+ldr x16, [x16, #3032]
 br x16
-.word 7160
-	.no_dead_strip plt__rgctx_fetch_55
-plt__rgctx_fetch_55:
+.word 6520
+	.no_dead_strip plt__rgctx_fetch_53
+plt__rgctx_fetch_53:
 _p_137:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3040]
 br x16
-.word 7168
-	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
-plt__jit_icall_mono_helper_newobj_mscorlib:
+.word 6528
+	.no_dead_strip plt__rgctx_fetch_54
+plt__rgctx_fetch_54:
 _p_138:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3048]
 br x16
-.word 7194
-	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
-plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
+.word 6575
+	.no_dead_strip plt__rgctx_fetch_55
+plt__rgctx_fetch_55:
 _p_139:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3056]
 br x16
-.word 7224
+.word 6583
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_140:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3064]
 br x16
-.word 7262
+.word 6627
+	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
+plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
+_p_141:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3072]
+br x16
+.word 6650
+	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
+plt__jit_icall_mono_delegate_begin_invoke:
+_p_142:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3080]
+br x16
+.word 6702
+	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
+plt__jit_icall_mono_delegate_end_invoke:
+_p_143:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3088]
+br x16
+.word 6731
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
-_p_141:
+_p_144:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3096]
+br x16
+.word 6776
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_145:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3104]
+br x16
+.word 6784
+	.no_dead_strip plt__rgctx_fetch_58
+plt__rgctx_fetch_58:
+_p_146:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3112]
+br x16
+.word 6810
+	.no_dead_strip plt__rgctx_fetch_59
+plt__rgctx_fetch_59:
+_p_147:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3120]
+br x16
+.word 6845
+	.no_dead_strip plt__rgctx_fetch_60
+plt__rgctx_fetch_60:
+_p_148:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3128]
+br x16
+.word 6853
+	.no_dead_strip plt__rgctx_fetch_61
+plt__rgctx_fetch_61:
+_p_149:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3136]
+br x16
+.word 6897
+	.no_dead_strip plt__rgctx_fetch_62
+plt__rgctx_fetch_62:
+_p_150:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3144]
+br x16
+.word 6944
+	.no_dead_strip plt__rgctx_fetch_63
+plt__rgctx_fetch_63:
+_p_151:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3152]
+br x16
+.word 6997
+	.no_dead_strip plt__rgctx_fetch_64
+plt__rgctx_fetch_64:
+_p_152:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3160]
+br x16
+.word 7041
+	.no_dead_strip plt__rgctx_fetch_65
+plt__rgctx_fetch_65:
+_p_153:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3168]
+br x16
+.word 7097
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default
+plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default:
+_p_154:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3176]
+br x16
+.word 7105
+	.no_dead_strip plt__rgctx_fetch_66
+plt__rgctx_fetch_66:
+_p_155:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3184]
+br x16
+.word 7145
+	.no_dead_strip plt__rgctx_fetch_67
+plt__rgctx_fetch_67:
+_p_156:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3192]
+br x16
+.word 7180
+	.no_dead_strip plt__rgctx_fetch_68
+plt__rgctx_fetch_68:
+_p_157:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3200]
+br x16
+.word 7203
+	.no_dead_strip plt__rgctx_fetch_69
+plt__rgctx_fetch_69:
+_p_158:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3208]
+br x16
+.word 7226
+	.no_dead_strip plt_SR_Format_string_object
+plt_SR_Format_string_object:
+_p_159:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3216]
+br x16
+.word 7234
+	.no_dead_strip plt__rgctx_fetch_70
+plt__rgctx_fetch_70:
+_p_160:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3224]
+br x16
+.word 7239
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_string_get_Default
+plt_System_Collections_Generic_EqualityComparer_1_string_get_Default:
+_p_161:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3232]
+br x16
+.word 7265
+	.no_dead_strip plt__rgctx_fetch_71
+plt__rgctx_fetch_71:
+_p_162:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3240]
+br x16
+.word 7285
+	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
+_p_163:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3248]
+br x16
+.word 7293
+	.no_dead_strip plt__rgctx_fetch_72
+plt__rgctx_fetch_72:
+_p_164:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3256]
+br x16
+.word 7301
+	.no_dead_strip plt__rgctx_fetch_73
+plt__rgctx_fetch_73:
+_p_165:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3264]
+br x16
+.word 7348
+	.no_dead_strip plt__rgctx_fetch_74
+plt__rgctx_fetch_74:
+_p_166:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3272]
+br x16
+.word 7383
+	.no_dead_strip plt__rgctx_fetch_75
+plt__rgctx_fetch_75:
+_p_167:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3280]
+br x16
+.word 7391
+	.no_dead_strip plt__rgctx_fetch_76
+plt__rgctx_fetch_76:
+_p_168:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3288]
+br x16
+.word 7435
+	.no_dead_strip plt__rgctx_fetch_77
+plt__rgctx_fetch_77:
+_p_169:
+adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
+add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
+ldr x16, [x16, #3296]
+br x16
+.word 7458
+	.no_dead_strip plt__rgctx_fetch_78
+plt__rgctx_fetch_78:
+_p_170:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 7309
-	.no_dead_strip plt__rgctx_fetch_58
-plt__rgctx_fetch_58:
-_p_142:
+.word 7499
+	.no_dead_strip plt__rgctx_fetch_79
+plt__rgctx_fetch_79:
+_p_171:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 7356
-	.no_dead_strip plt__rgctx_fetch_59
-plt__rgctx_fetch_59:
-_p_143:
+.word 7507
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
+plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
+_p_172:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 7403
-	.no_dead_strip plt__rgctx_fetch_60
-plt__rgctx_fetch_60:
-_p_144:
+.word 7515
+	.no_dead_strip plt__rgctx_fetch_80
+plt__rgctx_fetch_80:
+_p_173:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 7411
-	.no_dead_strip plt__rgctx_fetch_61
-plt__rgctx_fetch_61:
-_p_145:
+.word 7567
+	.no_dead_strip plt__rgctx_fetch_81
+plt__rgctx_fetch_81:
+_p_174:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 7458
-	.no_dead_strip plt__rgctx_fetch_62
-plt__rgctx_fetch_62:
-_p_146:
+.word 7577
+	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
+plt_System_Collections_HashHelpers_ExpandPrime_int:
+_p_175:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 7466
-	.no_dead_strip plt__rgctx_fetch_63
-plt__rgctx_fetch_63:
-_p_147:
+.word 7600
+	.no_dead_strip plt__rgctx_fetch_82
+plt__rgctx_fetch_82:
+_p_176:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 7513
-	.no_dead_strip plt__rgctx_fetch_64
-plt__rgctx_fetch_64:
-_p_148:
+.word 7626
+	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
+plt_System_Collections_HashHelpers_GetPrime_int:
+_p_177:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 7539
-	.no_dead_strip plt__rgctx_fetch_65
-plt__rgctx_fetch_65:
-_p_149:
+.word 7652
+	.no_dead_strip plt__rgctx_fetch_83
+plt__rgctx_fetch_83:
+_p_178:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 7549
-	.no_dead_strip plt__rgctx_fetch_66
-plt__rgctx_fetch_66:
-_p_150:
+.word 7678
+	.no_dead_strip plt__rgctx_fetch_84
+plt__rgctx_fetch_84:
+_p_179:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 7575
-	.no_dead_strip plt__rgctx_fetch_67
-plt__rgctx_fetch_67:
-_p_151:
+.word 7706
+	.no_dead_strip plt__rgctx_fetch_85
+plt__rgctx_fetch_85:
+_p_180:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 7616
-	.no_dead_strip plt__rgctx_fetch_68
-plt__rgctx_fetch_68:
-_p_152:
+.word 7714
+	.no_dead_strip plt__rgctx_fetch_86
+plt__rgctx_fetch_86:
+_p_181:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 7624
-	.no_dead_strip plt__rgctx_fetch_69
-plt__rgctx_fetch_69:
-_p_153:
+.word 7731
+	.no_dead_strip plt__rgctx_fetch_87
+plt__rgctx_fetch_87:
+_p_182:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 7683
-	.no_dead_strip plt__rgctx_fetch_70
-plt__rgctx_fetch_70:
-_p_154:
+.word 7748
+	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
+plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
+_p_183:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 7730
-	.no_dead_strip plt__rgctx_fetch_71
-plt__rgctx_fetch_71:
-_p_155:
+.word 7756
+	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
+plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
+_p_184:
 adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 7777
-	.no_dead_strip plt__rgctx_fetch_72
-plt__rgctx_fetch_72:
-_p_156:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3424]
-br x16
-.word 7824
-	.no_dead_strip plt__rgctx_fetch_73
-plt__rgctx_fetch_73:
-_p_157:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3432]
-br x16
-.word 7832
-	.no_dead_strip plt__rgctx_fetch_74
-plt__rgctx_fetch_74:
-_p_158:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3440]
-br x16
-.word 7879
-	.no_dead_strip plt__rgctx_fetch_75
-plt__rgctx_fetch_75:
-_p_159:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3448]
-br x16
-.word 7887
-	.no_dead_strip plt__rgctx_fetch_76
-plt__rgctx_fetch_76:
-_p_160:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3456]
-br x16
-.word 7934
-	.no_dead_strip plt__rgctx_fetch_77
-plt__rgctx_fetch_77:
-_p_161:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3464]
-br x16
-.word 7960
-	.no_dead_strip plt__rgctx_fetch_78
-plt__rgctx_fetch_78:
-_p_162:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3472]
-br x16
-.word 7970
-	.no_dead_strip plt__rgctx_fetch_79
-plt__rgctx_fetch_79:
-_p_163:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3480]
-br x16
-.word 8014
-	.no_dead_strip plt__rgctx_fetch_80
-plt__rgctx_fetch_80:
-_p_164:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3488]
-br x16
-.word 8037
-	.no_dead_strip plt__rgctx_fetch_81
-plt__rgctx_fetch_81:
-_p_165:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3496]
-br x16
-.word 8078
-	.no_dead_strip plt__rgctx_fetch_82
-plt__rgctx_fetch_82:
-_p_166:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3504]
-br x16
-.word 8086
-	.no_dead_strip plt__rgctx_fetch_83
-plt__rgctx_fetch_83:
-_p_167:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3512]
-br x16
-.word 8109
-	.no_dead_strip plt__rgctx_fetch_84
-plt__rgctx_fetch_84:
-_p_168:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3520]
-br x16
-.word 8143
-	.no_dead_strip plt__rgctx_fetch_85
-plt__rgctx_fetch_85:
-_p_169:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3528]
-br x16
-.word 8151
-	.no_dead_strip plt__rgctx_fetch_86
-plt__rgctx_fetch_86:
-_p_170:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3536]
-br x16
-.word 8192
-	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
-plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
-_p_171:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3544]
-br x16
-.word 8215
-	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
-plt__jit_icall_mono_delegate_begin_invoke:
-_p_172:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3552]
-br x16
-.word 8267
-	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
-plt__jit_icall_mono_delegate_end_invoke:
-_p_173:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3560]
-br x16
-.word 8296
-	.no_dead_strip plt__rgctx_fetch_87
-plt__rgctx_fetch_87:
-_p_174:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3568]
-br x16
-.word 8341
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_175:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3576]
-br x16
-.word 8349
-	.no_dead_strip plt__rgctx_fetch_88
-plt__rgctx_fetch_88:
-_p_176:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3584]
-br x16
-.word 8375
-	.no_dead_strip plt__rgctx_fetch_89
-plt__rgctx_fetch_89:
-_p_177:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3592]
-br x16
-.word 8410
-	.no_dead_strip plt__rgctx_fetch_90
-plt__rgctx_fetch_90:
-_p_178:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3600]
-br x16
-.word 8418
-	.no_dead_strip plt__rgctx_fetch_91
-plt__rgctx_fetch_91:
-_p_179:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3608]
-br x16
-.word 8462
-	.no_dead_strip plt__rgctx_fetch_92
-plt__rgctx_fetch_92:
-_p_180:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3616]
-br x16
-.word 8509
-	.no_dead_strip plt__rgctx_fetch_93
-plt__rgctx_fetch_93:
-_p_181:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3624]
-br x16
-.word 8562
-	.no_dead_strip plt__rgctx_fetch_94
-plt__rgctx_fetch_94:
-_p_182:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3632]
-br x16
-.word 8603
-	.no_dead_strip plt__rgctx_fetch_95
-plt__rgctx_fetch_95:
-_p_183:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3640]
-br x16
-.word 8647
-	.no_dead_strip plt__rgctx_fetch_96
-plt__rgctx_fetch_96:
-_p_184:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3648]
-br x16
-.word 8703
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default
-plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default:
-_p_185:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3656]
-br x16
-.word 8711
-	.no_dead_strip plt__rgctx_fetch_97
-plt__rgctx_fetch_97:
-_p_186:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3664]
-br x16
-.word 8748
-	.no_dead_strip plt__rgctx_fetch_98
-plt__rgctx_fetch_98:
-_p_187:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3672]
-br x16
-.word 8792
-	.no_dead_strip plt__rgctx_fetch_99
-plt__rgctx_fetch_99:
-_p_188:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3680]
-br x16
-.word 8827
-	.no_dead_strip plt__rgctx_fetch_100
-plt__rgctx_fetch_100:
-_p_189:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3688]
-br x16
-.word 8850
-	.no_dead_strip plt__rgctx_fetch_101
-plt__rgctx_fetch_101:
-_p_190:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3696]
-br x16
-.word 8873
-	.no_dead_strip plt_SR_Format_string_object
-plt_SR_Format_string_object:
-_p_191:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3704]
-br x16
-.word 8881
-	.no_dead_strip plt__rgctx_fetch_102
-plt__rgctx_fetch_102:
-_p_192:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3712]
-br x16
-.word 8886
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_string_get_Default
-plt_System_Collections_Generic_EqualityComparer_1_string_get_Default:
-_p_193:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3720]
-br x16
-.word 8912
-	.no_dead_strip plt__rgctx_fetch_103
-plt__rgctx_fetch_103:
-_p_194:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3728]
-br x16
-.word 8932
-	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
-plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
-_p_195:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3736]
-br x16
-.word 8940
-	.no_dead_strip plt__rgctx_fetch_104
-plt__rgctx_fetch_104:
-_p_196:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3744]
-br x16
-.word 8948
-	.no_dead_strip plt__rgctx_fetch_105
-plt__rgctx_fetch_105:
-_p_197:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3752]
-br x16
-.word 8995
-	.no_dead_strip plt__rgctx_fetch_106
-plt__rgctx_fetch_106:
-_p_198:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3760]
-br x16
-.word 9030
-	.no_dead_strip plt__rgctx_fetch_107
-plt__rgctx_fetch_107:
-_p_199:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3768]
-br x16
-.word 9038
-	.no_dead_strip plt__rgctx_fetch_108
-plt__rgctx_fetch_108:
-_p_200:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3776]
-br x16
-.word 9082
-	.no_dead_strip plt__rgctx_fetch_109
-plt__rgctx_fetch_109:
-_p_201:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3784]
-br x16
-.word 9105
-	.no_dead_strip plt__rgctx_fetch_110
-plt__rgctx_fetch_110:
-_p_202:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3792]
-br x16
-.word 9146
-	.no_dead_strip plt__rgctx_fetch_111
-plt__rgctx_fetch_111:
-_p_203:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3800]
-br x16
-.word 9154
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
-_p_204:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3808]
-br x16
-.word 9162
-	.no_dead_strip plt__rgctx_fetch_112
-plt__rgctx_fetch_112:
-_p_205:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3816]
-br x16
-.word 9214
-	.no_dead_strip plt__rgctx_fetch_113
-plt__rgctx_fetch_113:
-_p_206:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3824]
-br x16
-.word 9224
-	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
-plt_System_Collections_HashHelpers_ExpandPrime_int:
-_p_207:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3832]
-br x16
-.word 9247
-	.no_dead_strip plt__rgctx_fetch_114
-plt__rgctx_fetch_114:
-_p_208:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3840]
-br x16
-.word 9273
-	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
-plt_System_Collections_HashHelpers_GetPrime_int:
-_p_209:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3848]
-br x16
-.word 9299
-	.no_dead_strip plt__rgctx_fetch_115
-plt__rgctx_fetch_115:
-_p_210:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3856]
-br x16
-.word 9325
-	.no_dead_strip plt__rgctx_fetch_116
-plt__rgctx_fetch_116:
-_p_211:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3864]
-br x16
-.word 9353
-	.no_dead_strip plt__rgctx_fetch_117
-plt__rgctx_fetch_117:
-_p_212:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3872]
-br x16
-.word 9361
-	.no_dead_strip plt__rgctx_fetch_118
-plt__rgctx_fetch_118:
-_p_213:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3880]
-br x16
-.word 9378
-	.no_dead_strip plt__rgctx_fetch_119
-plt__rgctx_fetch_119:
-_p_214:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3888]
-br x16
-.word 9395
-	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
-_p_215:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3896]
-br x16
-.word 9403
-	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
-plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
-_p_216:
-adrp x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGE+0
-add x16, x16, mono_aot_ZXing_Net_Mobile_Core_got@PAGEOFF
-ldr x16, [x16, #3904]
-br x16
-.word 9431
+.word 7784
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_ZXing_Net_Mobile_Core_got, 3912
+.lcomm mono_aot_ZXing_Net_Mobile_Core_got, 3424
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -22731,13 +19115,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 272,3912,217,301,70,391195135,0,36803
-	.long 128,8,8,10,0,24,43712,6896
-	.long 6544,5496,0,5960,6512,5584,0,3984
-	.long 456,0,0,0,0,0,0,0
+	.long 243,3424,185,263,70,391195135,0,30829
+	.long 128,8,8,10,0,24,37064,6224
+	.long 5872,4936,0,5360,5840,5024,0,3728
+	.long 408,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 67,73,140,72,218,249,250,47,195,158,251,89,200,126,202,171
+	.byte 8,84,26,110,226,74,6,134,62,191,208,36,248,229,125,66
 	.globl _mono_aot_module_ZXing_Net_Mobile_Core_info
 	.align 3
 _mono_aot_module_ZXing_Net_Mobile_Core_info:
@@ -23715,7 +20099,7 @@ LTDIE_12:
 	.byte 5
 	.asciz "System_DelegateData"
 
-	.byte 40,16
+	.byte 32,16
 LDIFF_SYM119=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM119
 	.byte 2,35,0,6
@@ -23728,155 +20112,150 @@ LDIFF_SYM120=LTDIE_13_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM121=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM121
-	.byte 2,35,24,6
-	.asciz "curried_first_arg"
-
-LDIFF_SYM122=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM122
-	.byte 2,35,32,0,7
+	.byte 2,35,24,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM123=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM123
+LDIFF_SYM122=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM122
 LTDIE_12_POINTER:
 
 	.byte 13
-LDIFF_SYM124=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM124
+LDIFF_SYM123=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM123
 LTDIE_12_REFERENCE:
 
 	.byte 14
-LDIFF_SYM125=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM125
+LDIFF_SYM124=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM124
 LTDIE_8:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 104,16
-LDIFF_SYM126=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM126
+LDIFF_SYM125=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM125
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM127=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM127
+LDIFF_SYM126=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM126
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM128=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM128
+LDIFF_SYM127=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM127
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM129=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM129
+LDIFF_SYM128=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM128
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM130=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM130
+LDIFF_SYM129=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM129
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM131=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM131
+LDIFF_SYM130=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM130
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM132=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM132
+LDIFF_SYM131=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM131
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM133=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM133
+LDIFF_SYM132=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM132
 	.byte 2,35,64,6
 	.asciz "method_info"
 
-LDIFF_SYM134=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM134
+LDIFF_SYM133=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM133
 	.byte 2,35,72,6
 	.asciz "original_method_info"
 
-LDIFF_SYM135=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM135
+LDIFF_SYM134=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM134
 	.byte 2,35,80,6
 	.asciz "data"
 
-LDIFF_SYM136=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM136
+LDIFF_SYM135=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM135
 	.byte 2,35,88,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM137=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM137
+LDIFF_SYM136=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM136
 	.byte 2,35,96,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM138=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM138
+LDIFF_SYM137=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM137
 LTDIE_8_POINTER:
 
 	.byte 13
-LDIFF_SYM139=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM139
+LDIFF_SYM138=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM138
 LTDIE_8_REFERENCE:
 
 	.byte 14
-LDIFF_SYM140=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM140
+LDIFF_SYM139=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM139
 LTDIE_7:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 112,16
-LDIFF_SYM141=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM141
+LDIFF_SYM140=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM140
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM142=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM142
+LDIFF_SYM141=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM141
 	.byte 2,35,104,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM143=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM143
+LDIFF_SYM142=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM142
 LTDIE_7_POINTER:
 
 	.byte 13
-LDIFF_SYM144=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM144
+LDIFF_SYM143=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM143
 LTDIE_7_REFERENCE:
 
 	.byte 14
-LDIFF_SYM145=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM145
+LDIFF_SYM144=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM144
 LTDIE_6:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM146=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM146
+LDIFF_SYM145=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM145
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM147=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM147
+LDIFF_SYM146=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM146
 LTDIE_6_POINTER:
 
 	.byte 13
-LDIFF_SYM148=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM148
+LDIFF_SYM147=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM147
 LTDIE_6_REFERENCE:
 
 	.byte 14
-LDIFF_SYM149=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM149
+LDIFF_SYM148=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM148
 	.byte 2
 	.asciz "ZXing.Mobile.MobileBarcodeScannerBase:ScanContinuously"
 	.asciz "ZXing_Mobile_MobileBarcodeScannerBase_ScanContinuously_System_Action_1_ZXing_Result"
@@ -23888,27 +20267,27 @@ LDIFF_SYM149=LTDIE_6 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM150=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM150
+LDIFF_SYM149=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM149
 	.byte 2,141,16,3
 	.asciz "scanHandler"
 
-LDIFF_SYM151=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM151
+LDIFF_SYM150=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM150
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM152=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM152
+LDIFF_SYM151=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM151
 Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScannerBase_ScanContinuously_System_Action_1_ZXing_Result
 
-LDIFF_SYM153=Lme_33 - ZXing_Mobile_MobileBarcodeScannerBase_ScanContinuously_System_Action_1_ZXing_Result
-	.long LDIFF_SYM153
+LDIFF_SYM152=Lme_33 - ZXing_Mobile_MobileBarcodeScannerBase_ScanContinuously_System_Action_1_ZXing_Result
+	.long LDIFF_SYM152
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -23921,51 +20300,51 @@ LTDIE_15:
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM154=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM154
+LDIFF_SYM153=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM153
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM155=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM155
+LDIFF_SYM154=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM154
 LTDIE_15_POINTER:
 
 	.byte 13
-LDIFF_SYM156=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM156
+LDIFF_SYM155=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM155
 LTDIE_15_REFERENCE:
 
 	.byte 14
-LDIFF_SYM157=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM157
+LDIFF_SYM156=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM156
 LTDIE_14:
 
 	.byte 5
 	.asciz "ZXing_Mobile_CancelScanRequestEventArgs"
 
 	.byte 17,16
-LDIFF_SYM158=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM158
+LDIFF_SYM157=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM157
 	.byte 2,35,0,6
 	.asciz "<Cancel>k__BackingField"
 
-LDIFF_SYM159=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM159
+LDIFF_SYM158=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM158
 	.byte 2,35,16,0,7
 	.asciz "ZXing_Mobile_CancelScanRequestEventArgs"
 
-LDIFF_SYM160=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM160
+LDIFF_SYM159=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM159
 LTDIE_14_POINTER:
 
 	.byte 13
-LDIFF_SYM161=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM161
+LDIFF_SYM160=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM160
 LTDIE_14_REFERENCE:
 
 	.byte 14
-LDIFF_SYM162=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM162
+LDIFF_SYM161=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM161
 	.byte 2
 	.asciz "ZXing.Mobile.CancelScanRequestEventArgs:.ctor"
 	.asciz "ZXing_Mobile_CancelScanRequestEventArgs__ctor"
@@ -23977,22 +20356,22 @@ LDIFF_SYM162=LTDIE_14 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM163=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM163
+LDIFF_SYM162=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM162
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM164=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM164
+LDIFF_SYM163=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM163
 Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_CancelScanRequestEventArgs__ctor
 
-LDIFF_SYM165=Lme_3c - ZXing_Mobile_CancelScanRequestEventArgs__ctor
-	.long LDIFF_SYM165
+LDIFF_SYM164=Lme_3c - ZXing_Mobile_CancelScanRequestEventArgs__ctor
+	.long LDIFF_SYM164
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -24011,22 +20390,22 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM166=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM166
+LDIFF_SYM165=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM165
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM167=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM167
+LDIFF_SYM166=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM166
 Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_CancelScanRequestEventArgs_get_Cancel
 
-LDIFF_SYM168=Lme_3d - ZXing_Mobile_CancelScanRequestEventArgs_get_Cancel
-	.long LDIFF_SYM168
+LDIFF_SYM167=Lme_3d - ZXing_Mobile_CancelScanRequestEventArgs_get_Cancel
+	.long LDIFF_SYM167
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24045,27 +20424,27 @@ Lfde21_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM169=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM169
+LDIFF_SYM168=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM168
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM170=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM170
+LDIFF_SYM169=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM169
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM171=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM171
+LDIFF_SYM170=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM170
 Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_CancelScanRequestEventArgs_set_Cancel_bool
 
-LDIFF_SYM172=Lme_3e - ZXing_Mobile_CancelScanRequestEventArgs_set_Cancel_bool
-	.long LDIFF_SYM172
+LDIFF_SYM171=Lme_3e - ZXing_Mobile_CancelScanRequestEventArgs_set_Cancel_bool
+	.long LDIFF_SYM171
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24078,149 +20457,144 @@ LTDIE_17:
 	.asciz "_CameraResolutionSelectorDelegate"
 
 	.byte 112,16
-LDIFF_SYM173=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM173
+LDIFF_SYM172=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM172
 	.byte 2,35,0,0,7
 	.asciz "_CameraResolutionSelectorDelegate"
 
-LDIFF_SYM174=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM174
+LDIFF_SYM173=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM173
 LTDIE_17_POINTER:
 
 	.byte 13
-LDIFF_SYM175=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM175
+LDIFF_SYM174=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM174
 LTDIE_17_REFERENCE:
 
 	.byte 14
-LDIFF_SYM176=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM176
+LDIFF_SYM175=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM175
 LTDIE_18:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
-	.byte 40,16
-LDIFF_SYM177=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM177
+	.byte 32,16
+LDIFF_SYM176=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM176
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM178=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM178
+LDIFF_SYM177=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM177
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM179=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM179
-	.byte 2,35,32,6
+LDIFF_SYM178=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM178
+	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM180=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM180
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM181=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM181
-	.byte 2,35,24,0,7
+LDIFF_SYM179=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM179
+	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM182=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM182
+LDIFF_SYM180=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM180
 LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM183=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM183
+LDIFF_SYM181=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM181
 LTDIE_18_REFERENCE:
 
 	.byte 14
-LDIFF_SYM184=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM184
+LDIFF_SYM182=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM182
 LTDIE_16:
 
 	.byte 5
 	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions"
 
 	.byte 64,16
-LDIFF_SYM185=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM185
+LDIFF_SYM183=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM183
 	.byte 2,35,0,6
 	.asciz "<CameraResolutionSelector>k__BackingField"
 
-LDIFF_SYM186=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM186
+LDIFF_SYM184=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM184
 	.byte 2,35,16,6
 	.asciz "<PossibleFormats>k__BackingField"
 
-LDIFF_SYM187=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM187
+LDIFF_SYM185=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM185
 	.byte 2,35,24,6
 	.asciz "<TryHarder>k__BackingField"
 
-LDIFF_SYM188=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM188
+LDIFF_SYM186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM186
 	.byte 2,35,40,6
 	.asciz "<PureBarcode>k__BackingField"
 
-LDIFF_SYM189=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM189
+LDIFF_SYM187=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM187
 	.byte 2,35,42,6
 	.asciz "<AutoRotate>k__BackingField"
 
-LDIFF_SYM190=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM190
+LDIFF_SYM188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM188
 	.byte 2,35,44,6
 	.asciz "<CharacterSet>k__BackingField"
 
-LDIFF_SYM191=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM191
+LDIFF_SYM189=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM189
 	.byte 2,35,32,6
 	.asciz "<TryInverted>k__BackingField"
 
-LDIFF_SYM192=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM192
+LDIFF_SYM190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM190
 	.byte 2,35,46,6
 	.asciz "<UseFrontCameraIfAvailable>k__BackingField"
 
-LDIFF_SYM193=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM193
+LDIFF_SYM191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM191
 	.byte 2,35,48,6
 	.asciz "<UseNativeScanning>k__BackingField"
 
-LDIFF_SYM194=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM194
+LDIFF_SYM192=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM192
 	.byte 2,35,50,6
 	.asciz "<DelayBetweenContinuousScans>k__BackingField"
 
-LDIFF_SYM195=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM195
+LDIFF_SYM193=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM193
 	.byte 2,35,52,6
 	.asciz "<DelayBetweenAnalyzingFrames>k__BackingField"
 
-LDIFF_SYM196=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM196
+LDIFF_SYM194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM194
 	.byte 2,35,56,6
 	.asciz "<InitialDelayBeforeAnalyzingFrames>k__BackingField"
 
-LDIFF_SYM197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM197
+LDIFF_SYM195=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM195
 	.byte 2,35,60,0,7
 	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions"
 
-LDIFF_SYM198=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM196=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM196
 LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM199=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM199
+LDIFF_SYM197=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM197
 LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM200=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM200
+LDIFF_SYM198=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM198
 	.byte 2
 	.asciz "ZXing.Mobile.MobileBarcodeScanningOptions:.ctor"
 	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions__ctor"
@@ -24232,22 +20606,22 @@ LDIFF_SYM200=LTDIE_16 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM201=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM201
+LDIFF_SYM199=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM199
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM202=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM202
+LDIFF_SYM200=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM200
 Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions__ctor
 
-LDIFF_SYM203=Lme_3f - ZXing_Mobile_MobileBarcodeScanningOptions__ctor
-	.long LDIFF_SYM203
+LDIFF_SYM201=Lme_3f - ZXing_Mobile_MobileBarcodeScanningOptions__ctor
+	.long LDIFF_SYM201
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -24266,22 +20640,22 @@ Lfde23_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM204=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM204
+LDIFF_SYM202=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM202
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM205=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM205
+LDIFF_SYM203=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM203
 Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_CameraResolutionSelector
 
-LDIFF_SYM206=Lme_40 - ZXing_Mobile_MobileBarcodeScanningOptions_get_CameraResolutionSelector
-	.long LDIFF_SYM206
+LDIFF_SYM204=Lme_40 - ZXing_Mobile_MobileBarcodeScanningOptions_get_CameraResolutionSelector
+	.long LDIFF_SYM204
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24300,27 +20674,27 @@ Lfde24_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM207=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM207
+LDIFF_SYM205=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM205
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM208=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM208
+LDIFF_SYM206=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM206
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM209=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM209
+LDIFF_SYM207=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM207
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_CameraResolutionSelector_ZXing_Mobile_MobileBarcodeScanningOptions_CameraResolutionSelectorDelegate
 
-LDIFF_SYM210=Lme_41 - ZXing_Mobile_MobileBarcodeScanningOptions_set_CameraResolutionSelector_ZXing_Mobile_MobileBarcodeScanningOptions_CameraResolutionSelectorDelegate
-	.long LDIFF_SYM210
+LDIFF_SYM208=Lme_41 - ZXing_Mobile_MobileBarcodeScanningOptions_set_CameraResolutionSelector_ZXing_Mobile_MobileBarcodeScanningOptions_CameraResolutionSelectorDelegate
+	.long LDIFF_SYM208
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24339,22 +20713,22 @@ Lfde25_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM211=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM211
+LDIFF_SYM209=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM209
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM212=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM212
+LDIFF_SYM210=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM210
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats
 
-LDIFF_SYM213=Lme_42 - ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats
-	.long LDIFF_SYM213
+LDIFF_SYM211=Lme_42 - ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats
+	.long LDIFF_SYM211
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24373,27 +20747,27 @@ Lfde26_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM214=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM214
+LDIFF_SYM212=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM212
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM215=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM215
+LDIFF_SYM213=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM213
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM216=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM216
+LDIFF_SYM214=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM214
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_PossibleFormats_System_Collections_Generic_List_1_ZXing_BarcodeFormat
 
-LDIFF_SYM217=Lme_43 - ZXing_Mobile_MobileBarcodeScanningOptions_set_PossibleFormats_System_Collections_Generic_List_1_ZXing_BarcodeFormat
-	.long LDIFF_SYM217
+LDIFF_SYM215=Lme_43 - ZXing_Mobile_MobileBarcodeScanningOptions_set_PossibleFormats_System_Collections_Generic_List_1_ZXing_BarcodeFormat
+	.long LDIFF_SYM215
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24412,22 +20786,22 @@ Lfde27_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM218=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM218
+LDIFF_SYM216=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM216
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM219=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM219
+LDIFF_SYM217=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM217
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_TryHarder
 
-LDIFF_SYM220=Lme_44 - ZXing_Mobile_MobileBarcodeScanningOptions_get_TryHarder
-	.long LDIFF_SYM220
+LDIFF_SYM218=Lme_44 - ZXing_Mobile_MobileBarcodeScanningOptions_get_TryHarder
+	.long LDIFF_SYM218
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24446,27 +20820,27 @@ Lfde28_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM221=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM221
+LDIFF_SYM219=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM219
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM222
+LDIFF_SYM220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM220
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM223=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM223
+LDIFF_SYM221=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM221
 Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_TryHarder_System_Nullable_1_bool
 
-LDIFF_SYM224=Lme_45 - ZXing_Mobile_MobileBarcodeScanningOptions_set_TryHarder_System_Nullable_1_bool
-	.long LDIFF_SYM224
+LDIFF_SYM222=Lme_45 - ZXing_Mobile_MobileBarcodeScanningOptions_set_TryHarder_System_Nullable_1_bool
+	.long LDIFF_SYM222
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24485,22 +20859,22 @@ Lfde29_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM225=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM225
+LDIFF_SYM223=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM223
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM226=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM226
+LDIFF_SYM224=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM224
 Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_PureBarcode
 
-LDIFF_SYM227=Lme_46 - ZXing_Mobile_MobileBarcodeScanningOptions_get_PureBarcode
-	.long LDIFF_SYM227
+LDIFF_SYM225=Lme_46 - ZXing_Mobile_MobileBarcodeScanningOptions_get_PureBarcode
+	.long LDIFF_SYM225
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24519,27 +20893,27 @@ Lfde30_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM228=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM228
+LDIFF_SYM226=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM226
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM229=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM229
+LDIFF_SYM227=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM227
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM230=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM230
+LDIFF_SYM228=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM228
 Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_PureBarcode_System_Nullable_1_bool
 
-LDIFF_SYM231=Lme_47 - ZXing_Mobile_MobileBarcodeScanningOptions_set_PureBarcode_System_Nullable_1_bool
-	.long LDIFF_SYM231
+LDIFF_SYM229=Lme_47 - ZXing_Mobile_MobileBarcodeScanningOptions_set_PureBarcode_System_Nullable_1_bool
+	.long LDIFF_SYM229
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24558,22 +20932,22 @@ Lfde31_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM232=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM232
+LDIFF_SYM230=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM230
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM233=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM233
+LDIFF_SYM231=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM231
 Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate
 
-LDIFF_SYM234=Lme_48 - ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate
-	.long LDIFF_SYM234
+LDIFF_SYM232=Lme_48 - ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate
+	.long LDIFF_SYM232
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24592,27 +20966,27 @@ Lfde32_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM235=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM235
+LDIFF_SYM233=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM233
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM236=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM236
+LDIFF_SYM234=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM234
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM237=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM237
+LDIFF_SYM235=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM235
 Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_AutoRotate_System_Nullable_1_bool
 
-LDIFF_SYM238=Lme_49 - ZXing_Mobile_MobileBarcodeScanningOptions_set_AutoRotate_System_Nullable_1_bool
-	.long LDIFF_SYM238
+LDIFF_SYM236=Lme_49 - ZXing_Mobile_MobileBarcodeScanningOptions_set_AutoRotate_System_Nullable_1_bool
+	.long LDIFF_SYM236
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24631,22 +21005,22 @@ Lfde33_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM239=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM239
+LDIFF_SYM237=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM237
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM240=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM240
+LDIFF_SYM238=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM238
 Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_CharacterSet
 
-LDIFF_SYM241=Lme_4a - ZXing_Mobile_MobileBarcodeScanningOptions_get_CharacterSet
-	.long LDIFF_SYM241
+LDIFF_SYM239=Lme_4a - ZXing_Mobile_MobileBarcodeScanningOptions_get_CharacterSet
+	.long LDIFF_SYM239
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24665,27 +21039,27 @@ Lfde34_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM242=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM242
+LDIFF_SYM240=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM240
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM243=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM243
+LDIFF_SYM241=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM241
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM244=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM244
+LDIFF_SYM242=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM242
 Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_CharacterSet_string
 
-LDIFF_SYM245=Lme_4b - ZXing_Mobile_MobileBarcodeScanningOptions_set_CharacterSet_string
-	.long LDIFF_SYM245
+LDIFF_SYM243=Lme_4b - ZXing_Mobile_MobileBarcodeScanningOptions_set_CharacterSet_string
+	.long LDIFF_SYM243
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24704,22 +21078,22 @@ Lfde35_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM246=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM246
+LDIFF_SYM244=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM244
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM247=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM247
+LDIFF_SYM245=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM245
 Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_TryInverted
 
-LDIFF_SYM248=Lme_4c - ZXing_Mobile_MobileBarcodeScanningOptions_get_TryInverted
-	.long LDIFF_SYM248
+LDIFF_SYM246=Lme_4c - ZXing_Mobile_MobileBarcodeScanningOptions_get_TryInverted
+	.long LDIFF_SYM246
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24738,27 +21112,27 @@ Lfde36_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM249=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM249
+LDIFF_SYM247=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM247
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM250
+LDIFF_SYM248=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM248
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM251=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM251
+LDIFF_SYM249=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM249
 Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_TryInverted_System_Nullable_1_bool
 
-LDIFF_SYM252=Lme_4d - ZXing_Mobile_MobileBarcodeScanningOptions_set_TryInverted_System_Nullable_1_bool
-	.long LDIFF_SYM252
+LDIFF_SYM250=Lme_4d - ZXing_Mobile_MobileBarcodeScanningOptions_set_TryInverted_System_Nullable_1_bool
+	.long LDIFF_SYM250
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24777,22 +21151,22 @@ Lfde37_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM253=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM253
+LDIFF_SYM251=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM251
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM254=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM254
+LDIFF_SYM252=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM252
 Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_UseFrontCameraIfAvailable
 
-LDIFF_SYM255=Lme_4e - ZXing_Mobile_MobileBarcodeScanningOptions_get_UseFrontCameraIfAvailable
-	.long LDIFF_SYM255
+LDIFF_SYM253=Lme_4e - ZXing_Mobile_MobileBarcodeScanningOptions_get_UseFrontCameraIfAvailable
+	.long LDIFF_SYM253
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24811,27 +21185,27 @@ Lfde38_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM256=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM256
+LDIFF_SYM254=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM254
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM257=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM255=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM255
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM258=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM258
+LDIFF_SYM256=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM256
 Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_UseFrontCameraIfAvailable_System_Nullable_1_bool
 
-LDIFF_SYM259=Lme_4f - ZXing_Mobile_MobileBarcodeScanningOptions_set_UseFrontCameraIfAvailable_System_Nullable_1_bool
-	.long LDIFF_SYM259
+LDIFF_SYM257=Lme_4f - ZXing_Mobile_MobileBarcodeScanningOptions_set_UseFrontCameraIfAvailable_System_Nullable_1_bool
+	.long LDIFF_SYM257
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -24850,22 +21224,22 @@ Lfde39_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM260=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM260
+LDIFF_SYM258=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM261=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM261
+LDIFF_SYM259=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM259
 Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_UseNativeScanning
 
-LDIFF_SYM262=Lme_50 - ZXing_Mobile_MobileBarcodeScanningOptions_get_UseNativeScanning
-	.long LDIFF_SYM262
+LDIFF_SYM260=Lme_50 - ZXing_Mobile_MobileBarcodeScanningOptions_get_UseNativeScanning
+	.long LDIFF_SYM260
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24884,27 +21258,27 @@ Lfde40_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM263=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM263
+LDIFF_SYM261=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM261
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM264=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM264
+LDIFF_SYM262=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM262
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM265=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM265
+LDIFF_SYM263=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM263
 Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_UseNativeScanning_bool
 
-LDIFF_SYM266=Lme_51 - ZXing_Mobile_MobileBarcodeScanningOptions_set_UseNativeScanning_bool
-	.long LDIFF_SYM266
+LDIFF_SYM264=Lme_51 - ZXing_Mobile_MobileBarcodeScanningOptions_set_UseNativeScanning_bool
+	.long LDIFF_SYM264
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24923,22 +21297,22 @@ Lfde41_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM267=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM265=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM265
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM268=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM268
+LDIFF_SYM266=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM266
 Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenContinuousScans
 
-LDIFF_SYM269=Lme_52 - ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenContinuousScans
-	.long LDIFF_SYM269
+LDIFF_SYM267=Lme_52 - ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenContinuousScans
+	.long LDIFF_SYM267
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24957,27 +21331,27 @@ Lfde42_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM270=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM268=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM268
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM271=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM269=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM269
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM272=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM272
+LDIFF_SYM270=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM270
 Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenContinuousScans_int
 
-LDIFF_SYM273=Lme_53 - ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenContinuousScans_int
-	.long LDIFF_SYM273
+LDIFF_SYM271=Lme_53 - ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenContinuousScans_int
+	.long LDIFF_SYM271
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -24996,22 +21370,22 @@ Lfde43_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM274=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM274
+LDIFF_SYM272=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM272
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM275=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM275
+LDIFF_SYM273=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM273
 Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenAnalyzingFrames
 
-LDIFF_SYM276=Lme_54 - ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenAnalyzingFrames
-	.long LDIFF_SYM276
+LDIFF_SYM274=Lme_54 - ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenAnalyzingFrames
+	.long LDIFF_SYM274
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25030,27 +21404,27 @@ Lfde44_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM277=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM275=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM275
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM278=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM276
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM279=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM279
+LDIFF_SYM277=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM277
 Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenAnalyzingFrames_int
 
-LDIFF_SYM280=Lme_55 - ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenAnalyzingFrames_int
-	.long LDIFF_SYM280
+LDIFF_SYM278=Lme_55 - ZXing_Mobile_MobileBarcodeScanningOptions_set_DelayBetweenAnalyzingFrames_int
+	.long LDIFF_SYM278
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25069,22 +21443,22 @@ Lfde45_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM281=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM281
+LDIFF_SYM279=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM279
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM282=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM282
+LDIFF_SYM280=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM280
 Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_InitialDelayBeforeAnalyzingFrames
 
-LDIFF_SYM283=Lme_56 - ZXing_Mobile_MobileBarcodeScanningOptions_get_InitialDelayBeforeAnalyzingFrames
-	.long LDIFF_SYM283
+LDIFF_SYM281=Lme_56 - ZXing_Mobile_MobileBarcodeScanningOptions_get_InitialDelayBeforeAnalyzingFrames
+	.long LDIFF_SYM281
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25103,27 +21477,27 @@ Lfde46_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM284=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM284
+LDIFF_SYM282=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM285=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM286=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM286
+LDIFF_SYM284=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM284
 Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_set_InitialDelayBeforeAnalyzingFrames_int
 
-LDIFF_SYM287=Lme_57 - ZXing_Mobile_MobileBarcodeScanningOptions_set_InitialDelayBeforeAnalyzingFrames_int
-	.long LDIFF_SYM287
+LDIFF_SYM285=Lme_57 - ZXing_Mobile_MobileBarcodeScanningOptions_set_InitialDelayBeforeAnalyzingFrames_int
+	.long LDIFF_SYM285
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25143,16 +21517,16 @@ Lfde47_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM288=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM288
+LDIFF_SYM286=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM286
 Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_get_Default
 
-LDIFF_SYM289=Lme_58 - ZXing_Mobile_MobileBarcodeScanningOptions_get_Default
-	.long LDIFF_SYM289
+LDIFF_SYM287=Lme_58 - ZXing_Mobile_MobileBarcodeScanningOptions_get_Default
+	.long LDIFF_SYM287
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25167,87 +21541,87 @@ LTDIE_21:
 	.byte 16,7
 	.asciz "ZXing_Reader"
 
-LDIFF_SYM290=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM290
+LDIFF_SYM288=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM288
 LTDIE_21_POINTER:
 
 	.byte 13
-LDIFF_SYM291=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM291
+LDIFF_SYM289=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM289
 LTDIE_21_REFERENCE:
 
 	.byte 14
-LDIFF_SYM292=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM292
+LDIFF_SYM290=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM290
 LTDIE_22:
 
 	.byte 5
 	.asciz "System_Func`5"
 
 	.byte 112,16
-LDIFF_SYM293=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM291=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM291
 	.byte 2,35,0,0,7
 	.asciz "System_Func`5"
 
-LDIFF_SYM294=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM292=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM292
 LTDIE_22_POINTER:
 
 	.byte 13
-LDIFF_SYM295=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM295
+LDIFF_SYM293=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM293
 LTDIE_22_REFERENCE:
 
 	.byte 14
-LDIFF_SYM296=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM296
+LDIFF_SYM294=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM294
 LTDIE_23:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM297=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM295=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM295
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM298=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM296=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM296
 LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM299=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM297=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM297
 LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM300=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM298=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM298
 LTDIE_24:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM301=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM299=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM299
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM302=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM300=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM300
 LTDIE_24_POINTER:
 
 	.byte 13
-LDIFF_SYM303=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM301=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM301
 LTDIE_24_REFERENCE:
 
 	.byte 14
-LDIFF_SYM304=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM302=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM302
 LTDIE_26:
 
 	.byte 17
@@ -25256,201 +21630,201 @@ LTDIE_26:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM305=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM303=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM303
 LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM306=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM304=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM304
 LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM307=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM307
+LDIFF_SYM305=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM305
 LTDIE_27:
 
 	.byte 5
 	.asciz "System_Action`2"
 
 	.byte 112,16
-LDIFF_SYM308=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM308
+LDIFF_SYM306=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM306
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM309=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM307=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM307
 LTDIE_27_POINTER:
 
 	.byte 13
-LDIFF_SYM310=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM308=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM308
 LTDIE_27_REFERENCE:
 
 	.byte 14
-LDIFF_SYM311=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM311
+LDIFF_SYM309=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM309
 LTDIE_25:
 
 	.byte 5
 	.asciz "ZXing_Common_DecodingOptions"
 
 	.byte 32,16
-LDIFF_SYM312=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM310=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM310
 	.byte 2,35,0,6
 	.asciz "<Hints>k__BackingField"
 
-LDIFF_SYM313=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM313
+LDIFF_SYM311=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM311
 	.byte 2,35,16,6
 	.asciz "ValueChanged"
 
-LDIFF_SYM314=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM312=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM312
 	.byte 2,35,24,0,7
 	.asciz "ZXing_Common_DecodingOptions"
 
-LDIFF_SYM315=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM315
+LDIFF_SYM313=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM313
 LTDIE_25_POINTER:
 
 	.byte 13
-LDIFF_SYM316=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM314=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM314
 LTDIE_25_REFERENCE:
 
 	.byte 14
-LDIFF_SYM317=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM315=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM315
 LTDIE_28:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM318=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM318
+LDIFF_SYM316=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM316
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM319=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM317=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM317
 LTDIE_28_POINTER:
 
 	.byte 13
-LDIFF_SYM320=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM318=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM318
 LTDIE_28_REFERENCE:
 
 	.byte 14
-LDIFF_SYM321=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM319=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM319
 LTDIE_20:
 
 	.byte 5
 	.asciz "ZXing_BarcodeReaderGeneric`1"
 
 	.byte 80,16
-LDIFF_SYM322=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM322
+LDIFF_SYM320=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 2,35,0,6
 	.asciz "reader"
 
-LDIFF_SYM323=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM321=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM321
 	.byte 2,35,16,6
 	.asciz "createRGBLuminanceSource"
 
-LDIFF_SYM324=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM322=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM322
 	.byte 2,35,24,6
 	.asciz "createLuminanceSource"
 
-LDIFF_SYM325=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM325
+LDIFF_SYM323=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM323
 	.byte 2,35,32,6
 	.asciz "createBinarizer"
 
-LDIFF_SYM326=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM326
+LDIFF_SYM324=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 2,35,40,6
 	.asciz "usePreviousState"
 
-LDIFF_SYM327=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM327
+LDIFF_SYM325=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM325
 	.byte 2,35,72,6
 	.asciz "options"
 
-LDIFF_SYM328=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM328
+LDIFF_SYM326=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM326
 	.byte 2,35,48,6
 	.asciz "explicitResultPointFound"
 
-LDIFF_SYM329=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM329
+LDIFF_SYM327=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM327
 	.byte 2,35,56,6
 	.asciz "ResultFound"
 
-LDIFF_SYM330=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM330
+LDIFF_SYM328=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM328
 	.byte 2,35,64,6
 	.asciz "<AutoRotate>k__BackingField"
 
-LDIFF_SYM331=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM329=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 2,35,73,6
 	.asciz "<TryInverted>k__BackingField"
 
-LDIFF_SYM332=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM330=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 2,35,74,0,7
 	.asciz "ZXing_BarcodeReaderGeneric`1"
 
-LDIFF_SYM333=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM331=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM331
 LTDIE_20_POINTER:
 
 	.byte 13
-LDIFF_SYM334=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM332=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM332
 LTDIE_20_REFERENCE:
 
 	.byte 14
-LDIFF_SYM335=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM333=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM333
 LTDIE_19:
 
 	.byte 5
 	.asciz "ZXing_BarcodeReader"
 
 	.byte 80,16
-LDIFF_SYM336=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM334=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM334
 	.byte 2,35,0,0,7
 	.asciz "ZXing_BarcodeReader"
 
-LDIFF_SYM337=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM335=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM335
 LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM338=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM336=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM336
 LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM339=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM339
+LDIFF_SYM337=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM337
 LTDIE_29:
 
 	.byte 8
 	.asciz "ZXing_BarcodeFormat"
 
 	.byte 4
-LDIFF_SYM340=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM338=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM338
 	.byte 9
 	.asciz "AZTEC"
 
@@ -25517,18 +21891,18 @@ LDIFF_SYM340=LDIE_I4 - Ldebug_info_start
 	.byte 222,227,3,0,7
 	.asciz "ZXing_BarcodeFormat"
 
-LDIFF_SYM341=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM341
+LDIFF_SYM339=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM339
 LTDIE_29_POINTER:
 
 	.byte 13
-LDIFF_SYM342=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM342
+LDIFF_SYM340=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM340
 LTDIE_29_REFERENCE:
 
 	.byte 14
-LDIFF_SYM343=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM341=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2
 	.asciz "ZXing.Mobile.MobileBarcodeScanningOptions:BuildBarcodeReader"
 	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions_BuildBarcodeReader"
@@ -25540,42 +21914,42 @@ LDIFF_SYM343=LTDIE_29 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM344=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM342=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM342
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM345=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM343=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM343
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM346=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM346
+LDIFF_SYM344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 3,141,176,1,11
 	.asciz "V_2"
 
-LDIFF_SYM347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM347
+LDIFF_SYM345=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM345
 	.byte 3,141,152,1,11
 	.asciz "V_3"
 
-LDIFF_SYM348=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM346=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM349=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM349
+LDIFF_SYM347=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM347
 Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_BuildBarcodeReader
 
-LDIFF_SYM350=Lme_59 - ZXing_Mobile_MobileBarcodeScanningOptions_BuildBarcodeReader
-	.long LDIFF_SYM350
+LDIFF_SYM348=Lme_59 - ZXing_Mobile_MobileBarcodeScanningOptions_BuildBarcodeReader
+	.long LDIFF_SYM348
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,68,154,28
 	.align 3
@@ -25590,147 +21964,142 @@ LTDIE_31:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM351=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM349=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM349
 LTDIE_31_POINTER:
 
 	.byte 13
-LDIFF_SYM352=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM350=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM350
 LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM353=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM353
+LDIFF_SYM351=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM351
 LTDIE_32:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM354=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM354
+LDIFF_SYM352=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM352
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM355=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM353=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM356=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM354=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM354
 LTDIE_32_POINTER:
 
 	.byte 13
-LDIFF_SYM357=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM357
+LDIFF_SYM355=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM355
 LTDIE_32_REFERENCE:
 
 	.byte 14
-LDIFF_SYM358=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM356=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM356
 LTDIE_33:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM359=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM357=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM360=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM358=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM361=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM359=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM359
 LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM362=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM360=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM360
 LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM363=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM361=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM361
 LTDIE_30:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-	.byte 80,16
-LDIFF_SYM364=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM364
+	.byte 72,16
+LDIFF_SYM362=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM365=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM365
+LDIFF_SYM363=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM366=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM364=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 2,35,24,6
 	.asciz "count"
+
+LDIFF_SYM365=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM365
+	.byte 2,35,56,6
+	.asciz "version"
+
+LDIFF_SYM366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM366
+	.byte 2,35,60,6
+	.asciz "freeList"
 
 LDIFF_SYM367=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM367
 	.byte 2,35,64,6
-	.asciz "version"
+	.asciz "freeCount"
 
 LDIFF_SYM368=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM368
 	.byte 2,35,68,6
-	.asciz "freeList"
-
-LDIFF_SYM369=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM369
-	.byte 2,35,72,6
-	.asciz "freeCount"
-
-LDIFF_SYM370=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM370
-	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM371=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM369=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM372=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM370=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM373=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM373
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM374=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM374
-	.byte 2,35,56,0,7
+LDIFF_SYM371=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM371
+	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM375=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM372=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM372
 LTDIE_30_POINTER:
 
 	.byte 13
-LDIFF_SYM376=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM373=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM373
 LTDIE_30_REFERENCE:
 
 	.byte 14
-LDIFF_SYM377=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM374=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 2
 	.asciz "ZXing.Mobile.MobileBarcodeScanningOptions:BuildMultiFormatReader"
 	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions_BuildMultiFormatReader"
@@ -25742,32 +22111,32 @@ LDIFF_SYM377=LTDIE_30 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM378=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM378
+LDIFF_SYM375=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM375
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM379=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM379
+LDIFF_SYM376=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM376
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM380=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM377=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM381=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM381
+LDIFF_SYM378=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM378
 Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_BuildMultiFormatReader
 
-LDIFF_SYM382=Lme_5a - ZXing_Mobile_MobileBarcodeScanningOptions_BuildMultiFormatReader
-	.long LDIFF_SYM382
+LDIFF_SYM379=Lme_5a - ZXing_Mobile_MobileBarcodeScanningOptions_BuildMultiFormatReader
+	.long LDIFF_SYM379
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,152,19,68,153,18,154,17
 	.align 3
@@ -25779,44 +22148,39 @@ LTDIE_34:
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
-	.byte 40,16
-LDIFF_SYM383=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM383
+	.byte 32,16
+LDIFF_SYM380=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM380
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM384=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM381=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM385=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM385
-	.byte 2,35,32,6
+LDIFF_SYM382=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM382
+	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM386=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM386
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM387=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM387
-	.byte 2,35,24,0,7
+LDIFF_SYM383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM383
+	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM388=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM384=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM384
 LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM389=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM385=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM385
 LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM390=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM386=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM386
 	.byte 2
 	.asciz "ZXing.Mobile.MobileBarcodeScanningOptions:GetResolution"
 	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution"
@@ -25828,37 +22192,37 @@ LDIFF_SYM390=LTDIE_34 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM391=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM387=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM387
 	.byte 2,141,32,3
 	.asciz "availableResolutions"
 
-LDIFF_SYM392=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM388=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM393=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM389=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM394=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM390=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM390
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM395=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM395
+LDIFF_SYM391=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM391
 Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
 
-LDIFF_SYM396=Lme_5b - ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
-	.long LDIFF_SYM396
+LDIFF_SYM392=Lme_5b - ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
+	.long LDIFF_SYM392
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
 	.align 3
@@ -25871,66 +22235,66 @@ LTDIE_36:
 	.asciz "System_Int64"
 
 	.byte 24,16
-LDIFF_SYM397=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM393=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM393
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM398=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM394=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 2,35,16,0,7
 	.asciz "System_Int64"
 
-LDIFF_SYM399=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM399
+LDIFF_SYM395=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM395
 LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM400=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM396=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM396
 LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM401=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM397=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM397
 LTDIE_35:
 
 	.byte 5
 	.asciz "System_Diagnostics_Stopwatch"
 
 	.byte 40,16
-LDIFF_SYM402=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM402
+LDIFF_SYM398=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 2,35,0,6
 	.asciz "elapsed"
 
-LDIFF_SYM403=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM403
+LDIFF_SYM399=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,35,16,6
 	.asciz "started"
 
-LDIFF_SYM404=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM400=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 2,35,24,6
 	.asciz "is_running"
 
-LDIFF_SYM405=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM401=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 2,35,32,0,7
 	.asciz "System_Diagnostics_Stopwatch"
 
-LDIFF_SYM406=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM406
+LDIFF_SYM402=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM402
 LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM407=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM403=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM403
 LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM408=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM404=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 2
 	.asciz "ZXing.Mobile.PerformanceCounter:Start"
 	.asciz "ZXing_Mobile_PerformanceCounter_Start"
@@ -25942,32 +22306,32 @@ LDIFF_SYM408=LTDIE_35 - Ldebug_info_start
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM409=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM405=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM405
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM410=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM406=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM406
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM411=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM407=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM412=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM412
+LDIFF_SYM408=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM408
 Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_PerformanceCounter_Start
 
-LDIFF_SYM413=Lme_60 - ZXing_Mobile_PerformanceCounter_Start
-	.long LDIFF_SYM413
+LDIFF_SYM409=Lme_60 - ZXing_Mobile_PerformanceCounter_Start
+	.long LDIFF_SYM409
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
@@ -25986,22 +22350,22 @@ Lfde52_end:
 	.byte 2,118,16,3
 	.asciz "guid"
 
-LDIFF_SYM414=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM414
+LDIFF_SYM410=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM410
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM415=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM415
+LDIFF_SYM411=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM411
 Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_PerformanceCounter_Stop_string
 
-LDIFF_SYM416=Lme_61 - ZXing_Mobile_PerformanceCounter_Stop_string
-	.long LDIFF_SYM416
+LDIFF_SYM412=Lme_61 - ZXing_Mobile_PerformanceCounter_Stop_string
+	.long LDIFF_SYM412
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -26020,27 +22384,27 @@ Lfde53_end:
 	.byte 2,118,16,3
 	.asciz "guid"
 
-LDIFF_SYM417=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM413=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 2,141,24,3
 	.asciz "msg"
 
-LDIFF_SYM418=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM418
+LDIFF_SYM414=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM419=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM419
+LDIFF_SYM415=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM415
 Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_PerformanceCounter_Stop_string_string
 
-LDIFF_SYM420=Lme_62 - ZXing_Mobile_PerformanceCounter_Stop_string_string
-	.long LDIFF_SYM420
+LDIFF_SYM416=Lme_62 - ZXing_Mobile_PerformanceCounter_Stop_string_string
+	.long LDIFF_SYM416
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -26053,23 +22417,23 @@ LTDIE_37:
 	.asciz "ZXing_Mobile_PerformanceCounter"
 
 	.byte 16,16
-LDIFF_SYM421=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM417=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM417
 	.byte 2,35,0,0,7
 	.asciz "ZXing_Mobile_PerformanceCounter"
 
-LDIFF_SYM422=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM422
+LDIFF_SYM418=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM418
 LTDIE_37_POINTER:
 
 	.byte 13
-LDIFF_SYM423=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM419=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM419
 LTDIE_37_REFERENCE:
 
 	.byte 14
-LDIFF_SYM424=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM420=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 2
 	.asciz "ZXing.Mobile.PerformanceCounter:.ctor"
 	.asciz "ZXing_Mobile_PerformanceCounter__ctor"
@@ -26081,22 +22445,22 @@ LDIFF_SYM424=LTDIE_37 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM425=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM425
+LDIFF_SYM421=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM426=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM426
+LDIFF_SYM422=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM422
 Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_PerformanceCounter__ctor
 
-LDIFF_SYM427=Lme_63 - ZXing_Mobile_PerformanceCounter__ctor
-	.long LDIFF_SYM427
+LDIFF_SYM423=Lme_63 - ZXing_Mobile_PerformanceCounter__ctor
+	.long LDIFF_SYM423
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26116,16 +22480,16 @@ Lfde55_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM428=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM428
+LDIFF_SYM424=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM424
 Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Mobile_PerformanceCounter__cctor
 
-LDIFF_SYM429=Lme_64 - ZXing_Mobile_PerformanceCounter__cctor
-	.long LDIFF_SYM429
+LDIFF_SYM425=Lme_64 - ZXing_Mobile_PerformanceCounter__cctor
+	.long LDIFF_SYM425
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26138,56 +22502,56 @@ LTDIE_39:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM430=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM430
+LDIFF_SYM426=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM431=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM427=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM427
 LTDIE_39_POINTER:
 
 	.byte 13
-LDIFF_SYM432=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM432
+LDIFF_SYM428=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM428
 LTDIE_39_REFERENCE:
 
 	.byte 14
-LDIFF_SYM433=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM433
+LDIFF_SYM429=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM429
 LTDIE_38:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM434=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM434
+LDIFF_SYM430=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM430
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM435=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM431=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM436
+LDIFF_SYM432=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM437=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM437
+LDIFF_SYM433=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM433
 LTDIE_38_POINTER:
 
 	.byte 13
-LDIFF_SYM438=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM438
+LDIFF_SYM434=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM434
 LTDIE_38_REFERENCE:
 
 	.byte 14
-LDIFF_SYM439=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM435=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM435
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_INT>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_INT__ctor_System_Array"
@@ -26199,27 +22563,27 @@ LDIFF_SYM439=LTDIE_38 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM440=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM440
+LDIFF_SYM436=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM436
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM441=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM441
+LDIFF_SYM437=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM442=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM442
+LDIFF_SYM438=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM438
 Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
 
-LDIFF_SYM443=Lme_7b - System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
-	.long LDIFF_SYM443
+LDIFF_SYM439=Lme_7b - System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+	.long LDIFF_SYM439
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -26238,22 +22602,22 @@ Lfde57_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM444=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM444
+LDIFF_SYM440=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM440
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM445=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM445
+LDIFF_SYM441=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM441
 Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT_Dispose
 
-LDIFF_SYM446=Lme_7c - System_Array_InternalEnumerator_1_T_INT_Dispose
-	.long LDIFF_SYM446
+LDIFF_SYM442=Lme_7c - System_Array_InternalEnumerator_1_T_INT_Dispose
+	.long LDIFF_SYM442
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26272,27 +22636,27 @@ Lfde58_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM447=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM443=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM448=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM449=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM449
+LDIFF_SYM445=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM445
 Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT_MoveNext
 
-LDIFF_SYM450=Lme_7d - System_Array_InternalEnumerator_1_T_INT_MoveNext
-	.long LDIFF_SYM450
+LDIFF_SYM446=Lme_7d - System_Array_InternalEnumerator_1_T_INT_MoveNext
+	.long LDIFF_SYM446
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -26311,94 +22675,26 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM451=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM451
+LDIFF_SYM447=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM452=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM452
+LDIFF_SYM448=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM448
 Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT_get_Current
 
-LDIFF_SYM453=Lme_7e - System_Array_InternalEnumerator_1_T_INT_get_Current
-	.long LDIFF_SYM453
+LDIFF_SYM449=Lme_7e - System_Array_InternalEnumerator_1_T_INT_get_Current
+	.long LDIFF_SYM449
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
 Lfde60_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INT>:System.Collections.IEnumerator.Reset"
-	.asciz "System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset"
-
-	.byte 1,245,1
-	.quad System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
-	.quad Lme_7f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM454=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM454
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM455=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM455
-Lfde61_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
-
-LDIFF_SYM456=Lme_7f - System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM456
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde61_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INT>:System.Collections.IEnumerator.get_Current"
-	.asciz "System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current"
-
-	.byte 1,250,1
-	.quad System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
-	.quad Lme_80
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM457=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM457
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM458=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM458
-Lfde62_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
-
-LDIFF_SYM459=Lme_80 - System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM459
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26408,31 +22704,31 @@ Lfde62_end:
 
 	.byte 1,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
-	.quad Lme_81
+	.quad Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM460=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM460
+LDIFF_SYM450=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM461=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM461
-Lfde63_start:
+LDIFF_SYM451=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM451
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
 
-LDIFF_SYM462=Lme_81 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
-	.long LDIFF_SYM462
+LDIFF_SYM452=Lme_7f - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+	.long LDIFF_SYM452
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde63_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26442,31 +22738,31 @@ Lfde63_end:
 
 	.byte 1,61
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_89
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM463=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM463
+LDIFF_SYM453=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM453
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM464=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM464
-Lfde64_start:
+LDIFF_SYM454=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM454
+Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM465=Lme_89 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM465
+LDIFF_SYM455=Lme_87 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM455
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde64_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26476,31 +22772,31 @@ Lfde64_end:
 
 	.byte 1,66
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_8a
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM466=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM466
+LDIFF_SYM456=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM456
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM467=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM467
-Lfde65_start:
+LDIFF_SYM457=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM457
+Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM468=Lme_8a - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM468
+LDIFF_SYM458=Lme_88 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM458
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde65_end:
+Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26510,31 +22806,31 @@ Lfde65_end:
 
 	.byte 1,76
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_8b
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM469=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM469
+LDIFF_SYM459=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM470=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM470
-Lfde66_start:
+LDIFF_SYM460=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM460
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM471=Lme_8b - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM471
+LDIFF_SYM461=Lme_89 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM461
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde66_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26544,36 +22840,36 @@ Lfde66_end:
 
 	.byte 1,81
 	.quad System_Array_InternalArray__ICollection_Add_T_INT_T_INT
-	.quad Lme_8c
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM472=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM472
+LDIFF_SYM462=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM462
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM473=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM473
+LDIFF_SYM463=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM463
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM474=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM474
-Lfde67_start:
+LDIFF_SYM464=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM464
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_INT_T_INT
 
-LDIFF_SYM475=Lme_8c - System_Array_InternalArray__ICollection_Add_T_INT_T_INT
-	.long LDIFF_SYM475
+LDIFF_SYM465=Lme_8a - System_Array_InternalArray__ICollection_Add_T_INT_T_INT
+	.long LDIFF_SYM465
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde67_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26583,36 +22879,36 @@ Lfde67_end:
 
 	.byte 1,86
 	.quad System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
-	.quad Lme_8d
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM476=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM476
+LDIFF_SYM466=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM477=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM477
+LDIFF_SYM467=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM478=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM478
-Lfde68_start:
+LDIFF_SYM468=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM468
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
 
-LDIFF_SYM479=Lme_8d - System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
-	.long LDIFF_SYM479
+LDIFF_SYM469=Lme_8b - System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
+	.long LDIFF_SYM469
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde68_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26622,51 +22918,51 @@ Lfde68_end:
 
 	.byte 1,91
 	.quad System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
-	.quad Lme_8e
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM480=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM480
+LDIFF_SYM470=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM470
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM481=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM471=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM471
 	.byte 3,141,200,0,11
 	.asciz "length"
 
-LDIFF_SYM482=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM472=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM472
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM483=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM483
+LDIFF_SYM473=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM473
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM484=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM484
+LDIFF_SYM474=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM474
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM485=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM485
-Lfde69_start:
+LDIFF_SYM475=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM475
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
 
-LDIFF_SYM486=Lme_8e - System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
-	.long LDIFF_SYM486
+LDIFF_SYM476=Lme_8c - System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
+	.long LDIFF_SYM476
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10
 	.align 3
-Lfde69_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26676,41 +22972,41 @@ Lfde69_end:
 
 	.byte 1,116
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
-	.quad Lme_8f
+	.quad Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM487=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM487
+LDIFF_SYM477=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM488=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM478=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM478
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM489=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM479=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM479
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM490=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM490
-Lfde70_start:
+LDIFF_SYM480=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM480
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
 
-LDIFF_SYM491=Lme_8f - System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
-	.long LDIFF_SYM491
+LDIFF_SYM481=Lme_8d - System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
+	.long LDIFF_SYM481
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
-Lfde70_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_40:
@@ -26719,54 +23015,54 @@ LTDIE_40:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM492=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM492
+LDIFF_SYM482=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM482
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM493=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM493
+LDIFF_SYM483=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM483
 LTDIE_40_POINTER:
 
 	.byte 13
-LDIFF_SYM494=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM494
+LDIFF_SYM484=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM484
 LTDIE_40_REFERENCE:
 
 	.byte 14
-LDIFF_SYM495=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM495
+LDIFF_SYM485=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM485
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_INT>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_INT_get_Default"
 
 	.byte 2,32
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
-	.quad Lme_91
+	.quad Lme_8f
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM496=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM486=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM486
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM497=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM497
-Lfde71_start:
+LDIFF_SYM487=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM487
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
 
-LDIFF_SYM498=Lme_91 - System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
-	.long LDIFF_SYM498
+LDIFF_SYM488=Lme_8f - System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
+	.long LDIFF_SYM488
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde71_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_42:
@@ -26775,186 +23071,186 @@ LTDIE_42:
 	.asciz "System_Reflection_TypeInfo"
 
 	.byte 24,16
-LDIFF_SYM499=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM499
+LDIFF_SYM489=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM489
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_TypeInfo"
 
-LDIFF_SYM500=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM500
+LDIFF_SYM490=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM490
 LTDIE_42_POINTER:
 
 	.byte 13
-LDIFF_SYM501=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM501
+LDIFF_SYM491=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM491
 LTDIE_42_REFERENCE:
 
 	.byte 14
-LDIFF_SYM502=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM502
+LDIFF_SYM492=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM492
 LTDIE_46:
 
 	.byte 5
 	.asciz "System_Reflection_ConstructorInfo"
 
 	.byte 16,16
-LDIFF_SYM503=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM503
+LDIFF_SYM493=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM493
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_ConstructorInfo"
 
-LDIFF_SYM504=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM504
+LDIFF_SYM494=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM494
 LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM505=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM505
+LDIFF_SYM495=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM495
 LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM506=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM506
+LDIFF_SYM496=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM496
 LTDIE_45:
 
 	.byte 5
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
 	.byte 16,16
-LDIFF_SYM507=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM507
+LDIFF_SYM497=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM497
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
-LDIFF_SYM508=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM508
+LDIFF_SYM498=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM498
 LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM509=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM509
+LDIFF_SYM499=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM499
 LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM510=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM510
+LDIFF_SYM500=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM500
 LTDIE_44:
 
 	.byte 5
 	.asciz "System_Reflection_MonoCMethod"
 
 	.byte 40,16
-LDIFF_SYM511=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM511
+LDIFF_SYM501=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM501
 	.byte 2,35,0,6
 	.asciz "mhandle"
 
-LDIFF_SYM512=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM512
+LDIFF_SYM502=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM502
 	.byte 2,35,16,6
 	.asciz "name"
 
-LDIFF_SYM513=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM513
+LDIFF_SYM503=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM503
 	.byte 2,35,24,6
 	.asciz "reftype"
 
-LDIFF_SYM514=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM514
+LDIFF_SYM504=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM504
 	.byte 2,35,32,0,7
 	.asciz "System_Reflection_MonoCMethod"
 
-LDIFF_SYM515=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM515
+LDIFF_SYM505=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM505
 LTDIE_44_POINTER:
 
 	.byte 13
-LDIFF_SYM516=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM516
+LDIFF_SYM506=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM506
 LTDIE_44_REFERENCE:
 
 	.byte 14
-LDIFF_SYM517=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM517
+LDIFF_SYM507=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM507
 LTDIE_43:
 
 	.byte 5
 	.asciz "System_MonoTypeInfo"
 
 	.byte 32,16
-LDIFF_SYM518=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM518
+LDIFF_SYM508=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM508
 	.byte 2,35,0,6
 	.asciz "full_name"
 
-LDIFF_SYM519=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM519
+LDIFF_SYM509=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM509
 	.byte 2,35,16,6
 	.asciz "default_ctor"
 
-LDIFF_SYM520=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM520
+LDIFF_SYM510=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM510
 	.byte 2,35,24,0,7
 	.asciz "System_MonoTypeInfo"
 
-LDIFF_SYM521=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM521
+LDIFF_SYM511=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM511
 LTDIE_43_POINTER:
 
 	.byte 13
-LDIFF_SYM522=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM522
+LDIFF_SYM512=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM512
 LTDIE_43_REFERENCE:
 
 	.byte 14
-LDIFF_SYM523=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM523
+LDIFF_SYM513=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM513
 LTDIE_41:
 
 	.byte 5
 	.asciz "System_RuntimeType"
 
 	.byte 48,16
-LDIFF_SYM524=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM524
+LDIFF_SYM514=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM514
 	.byte 2,35,0,6
 	.asciz "type_info"
 
-LDIFF_SYM525=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM525
+LDIFF_SYM515=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM515
 	.byte 2,35,24,6
 	.asciz "GenericCache"
 
-LDIFF_SYM526=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM526
+LDIFF_SYM516=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM516
 	.byte 2,35,32,6
 	.asciz "m_serializationCtor"
 
-LDIFF_SYM527=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM527
+LDIFF_SYM517=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM517
 	.byte 2,35,40,0,7
 	.asciz "System_RuntimeType"
 
-LDIFF_SYM528=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM528
+LDIFF_SYM518=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM518
 LTDIE_41_POINTER:
 
 	.byte 13
-LDIFF_SYM529=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM529
+LDIFF_SYM519=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM519
 LTDIE_41_REFERENCE:
 
 	.byte 14
-LDIFF_SYM530=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM530
+LDIFF_SYM520=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM520
 LTDIE_47:
 
 	.byte 8
 	.asciz "System_TypeCode"
 
 	.byte 4
-LDIFF_SYM531=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM531
+LDIFF_SYM521=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM521
 	.byte 9
 	.asciz "Empty"
 
@@ -27012,59 +23308,59 @@ LDIFF_SYM531=LDIE_I4 - Ldebug_info_start
 	.byte 18,0,7
 	.asciz "System_TypeCode"
 
-LDIFF_SYM532=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM532
+LDIFF_SYM522=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM522
 LTDIE_47_POINTER:
 
 	.byte 13
-LDIFF_SYM533=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM533
+LDIFF_SYM523=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM523
 LTDIE_47_REFERENCE:
 
 	.byte 14
-LDIFF_SYM534=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM534
+LDIFF_SYM524=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM524
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_INT>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer"
 
 	.byte 2,49
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
-	.quad Lme_92
+	.quad Lme_90
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM535=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM535
+LDIFF_SYM525=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM525
 	.byte 1,106,11
 	.asciz "u"
 
-LDIFF_SYM536=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM536
+LDIFF_SYM526=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM526
 	.byte 1,105,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM537=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM537
+LDIFF_SYM527=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM527
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM538=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM538
-Lfde72_start:
+LDIFF_SYM528=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM528
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
 
-LDIFF_SYM539=Lme_92 - System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
-	.long LDIFF_SYM539
+LDIFF_SYM529=Lme_90 - System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
+	.long LDIFF_SYM529
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,68,149,31,150,30,68,151,29,152,28,68,153,27,154,26
 	.align 3
-Lfde72_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27074,61 +23370,61 @@ Lfde72_end:
 
 	.byte 2,129,1
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
-	.quad Lme_95
+	.quad Lme_93
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM540=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM540
+LDIFF_SYM530=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM530
 	.byte 2,141,56,3
 	.asciz "array"
 
-LDIFF_SYM541=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM541
+LDIFF_SYM531=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM531
 	.byte 1,103,3
 	.asciz "value"
 
-LDIFF_SYM542=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM542
+LDIFF_SYM532=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM532
 	.byte 1,104,3
 	.asciz "startIndex"
 
-LDIFF_SYM543=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM543
+LDIFF_SYM533=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM533
 	.byte 1,105,3
 	.asciz "count"
 
-LDIFF_SYM544=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM544
+LDIFF_SYM534=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM534
 	.byte 3,141,192,0,11
 	.asciz "endIndex"
 
-LDIFF_SYM545=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM545
+LDIFF_SYM535=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM535
 	.byte 1,102,11
 	.asciz "i"
 
-LDIFF_SYM546=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM546
+LDIFF_SYM536=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM536
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM547=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM547
-Lfde73_start:
+LDIFF_SYM537=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM537
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
 
-LDIFF_SYM548=Lme_95 - System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
-	.long LDIFF_SYM548
+LDIFF_SYM538=Lme_93 - System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
+	.long LDIFF_SYM538
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.align 3
-Lfde73_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27138,61 +23434,61 @@ Lfde73_end:
 
 	.byte 2,137,1
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_LastIndexOf_T_INT___T_INT_int_int
-	.quad Lme_96
+	.quad Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM549=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM549
+LDIFF_SYM539=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM539
 	.byte 2,141,56,3
 	.asciz "array"
 
-LDIFF_SYM550=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM550
+LDIFF_SYM540=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM540
 	.byte 1,103,3
 	.asciz "value"
 
-LDIFF_SYM551=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM551
+LDIFF_SYM541=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM541
 	.byte 1,104,3
 	.asciz "startIndex"
 
-LDIFF_SYM552=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM552
+LDIFF_SYM542=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM542
 	.byte 1,105,3
 	.asciz "count"
 
-LDIFF_SYM553=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM553
+LDIFF_SYM543=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM543
 	.byte 3,141,192,0,11
 	.asciz "endIndex"
 
-LDIFF_SYM554=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM554
+LDIFF_SYM544=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM544
 	.byte 1,102,11
 	.asciz "i"
 
-LDIFF_SYM555=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM545=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM545
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM556=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM556
-Lfde74_start:
+LDIFF_SYM546=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM546
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_LastIndexOf_T_INT___T_INT_int_int
 
-LDIFF_SYM557=Lme_96 - System_Collections_Generic_EqualityComparer_1_T_INT_LastIndexOf_T_INT___T_INT_int_int
-	.long LDIFF_SYM557
+LDIFF_SYM547=Lme_94 - System_Collections_Generic_EqualityComparer_1_T_INT_LastIndexOf_T_INT___T_INT_int_int
+	.long LDIFF_SYM547
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.align 3
-Lfde74_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27202,36 +23498,36 @@ Lfde74_end:
 
 	.byte 2,145,1
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
-	.quad Lme_97
+	.quad Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM558=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM548=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM548
 	.byte 2,141,24,3
 	.asciz "obj"
 
-LDIFF_SYM559=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM559
+LDIFF_SYM549=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM549
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM560=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM560
-Lfde75_start:
+LDIFF_SYM550=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM550
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
 
-LDIFF_SYM561=Lme_97 - System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
-	.long LDIFF_SYM561
+LDIFF_SYM551=Lme_95 - System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
+	.long LDIFF_SYM551
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde75_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27241,41 +23537,41 @@ Lfde75_end:
 
 	.byte 2,152,1
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
-	.quad Lme_98
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM562=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM552=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM552
 	.byte 2,141,32,3
 	.asciz "x"
 
-LDIFF_SYM563=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM563
+LDIFF_SYM553=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM553
 	.byte 1,105,3
 	.asciz "y"
 
-LDIFF_SYM564=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM564
+LDIFF_SYM554=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM554
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM565=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM565
-Lfde76_start:
+LDIFF_SYM555=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM555
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
 
-LDIFF_SYM566=Lme_98 - System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
-	.long LDIFF_SYM566
+LDIFF_SYM556=Lme_96 - System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
+	.long LDIFF_SYM556
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
-Lfde76_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27285,31 +23581,31 @@ Lfde76_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT__ctor
-	.quad Lme_99
+	.quad Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM567=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM557=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM557
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM568=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM568
-Lfde77_start:
+LDIFF_SYM558=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM558
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_INT__ctor
 
-LDIFF_SYM569=Lme_99 - System_Collections_Generic_EqualityComparer_1_T_INT__ctor
-	.long LDIFF_SYM569
+LDIFF_SYM559=Lme_97 - System_Collections_Generic_EqualityComparer_1_T_INT__ctor
+	.long LDIFF_SYM559
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde77_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_49:
@@ -27318,92 +23614,92 @@ LTDIE_49:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM570=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM570
+LDIFF_SYM560=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM560
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM571=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM571
+LDIFF_SYM561=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM561
 LTDIE_49_POINTER:
 
 	.byte 13
-LDIFF_SYM572=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM572
+LDIFF_SYM562=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM562
 LTDIE_49_REFERENCE:
 
 	.byte 14
-LDIFF_SYM573=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM573
+LDIFF_SYM563=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM563
 LTDIE_48:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EnumEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM574=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM574
+LDIFF_SYM564=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM564
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EnumEqualityComparer`1"
 
-LDIFF_SYM575=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM575
+LDIFF_SYM565=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM565
 LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM576=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM576
+LDIFF_SYM566=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM566
 LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM577=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM577
+LDIFF_SYM567=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM567
 	.byte 2
 	.asciz "System.Collections.Generic.EnumEqualityComparer`1<T_INT>:Equals"
 	.asciz "System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT"
 
 	.byte 2,169,3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
-	.quad Lme_9a
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM578=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM578
+LDIFF_SYM568=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM568
 	.byte 2,141,24,3
 	.asciz "x"
 
-LDIFF_SYM579=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM579
+LDIFF_SYM569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 2,141,32,3
 	.asciz "y"
 
-LDIFF_SYM580=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM580
+LDIFF_SYM570=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM570
 	.byte 2,141,40,11
 	.asciz "y_final"
 
-LDIFF_SYM581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM581
+LDIFF_SYM571=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM571
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM582=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM582
-Lfde78_start:
+LDIFF_SYM572=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM572
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
 
-LDIFF_SYM583=Lme_9a - System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
-	.long LDIFF_SYM583
+LDIFF_SYM573=Lme_98 - System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
+	.long LDIFF_SYM573
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16
 	.align 3
-Lfde78_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27413,41 +23709,41 @@ Lfde78_end:
 
 	.byte 2,176,3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
-	.quad Lme_9b
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM584=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM574=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM574
 	.byte 2,141,16,3
 	.asciz "obj"
 
-LDIFF_SYM585=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM575=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM575
 	.byte 2,141,24,11
 	.asciz "x_final"
 
-LDIFF_SYM586=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM586
+LDIFF_SYM576=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM576
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM587=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM587
-Lfde79_start:
+LDIFF_SYM577=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM577
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
 
-LDIFF_SYM588=Lme_9b - System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
-	.long LDIFF_SYM588
+LDIFF_SYM578=Lme_99 - System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
+	.long LDIFF_SYM578
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde79_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27457,326 +23753,31 @@ Lfde79_end:
 
 	.byte 2,180,3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
-	.quad Lme_9c
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM589=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM579=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM579
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM590=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM590
-Lfde80_start:
+LDIFF_SYM580=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM580
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
 
-LDIFF_SYM591=Lme_9c - System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
-	.long LDIFF_SYM591
+LDIFF_SYM581=Lme_9a - System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
+	.long LDIFF_SYM581
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde80_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_52:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM592=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM592
-LTDIE_52_POINTER:
-
-	.byte 13
-LDIFF_SYM593=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM593
-LTDIE_52_REFERENCE:
-
-	.byte 14
-LDIFF_SYM594=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM594
-LTDIE_53:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM595=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM595
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM596=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM596
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM597=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM597
-LTDIE_53_POINTER:
-
-	.byte 13
-LDIFF_SYM598=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM598
-LTDIE_53_REFERENCE:
-
-	.byte 14
-LDIFF_SYM599=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM599
-LTDIE_54:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM600=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM600
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM601=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
-
-LDIFF_SYM602=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM602
-LTDIE_54_POINTER:
-
-	.byte 13
-LDIFF_SYM603=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM603
-LTDIE_54_REFERENCE:
-
-	.byte 14
-LDIFF_SYM604=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM604
-LTDIE_51:
-
-	.byte 5
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-	.byte 80,16
-LDIFF_SYM605=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM605
-	.byte 2,35,0,6
-	.asciz "buckets"
-
-LDIFF_SYM606=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM606
-	.byte 2,35,16,6
-	.asciz "entries"
-
-LDIFF_SYM607=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM607
-	.byte 2,35,24,6
-	.asciz "count"
-
-LDIFF_SYM608=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM608
-	.byte 2,35,64,6
-	.asciz "version"
-
-LDIFF_SYM609=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM609
-	.byte 2,35,68,6
-	.asciz "freeList"
-
-LDIFF_SYM610=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM610
-	.byte 2,35,72,6
-	.asciz "freeCount"
-
-LDIFF_SYM611=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM611
-	.byte 2,35,76,6
-	.asciz "comparer"
-
-LDIFF_SYM612=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM612
-	.byte 2,35,32,6
-	.asciz "keys"
-
-LDIFF_SYM613=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM613
-	.byte 2,35,40,6
-	.asciz "values"
-
-LDIFF_SYM614=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM614
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM615=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM615
-	.byte 2,35,56,0,7
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-LDIFF_SYM616=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM616
-LTDIE_51_POINTER:
-
-	.byte 13
-LDIFF_SYM617=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM617
-LTDIE_51_REFERENCE:
-
-	.byte 14
-LDIFF_SYM618=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM618
-LTDIE_55:
-
-	.byte 17
-	.asciz "System_Runtime_Serialization_IFormatterConverter"
-
-	.byte 16,7
-	.asciz "System_Runtime_Serialization_IFormatterConverter"
-
-LDIFF_SYM619=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM619
-LTDIE_55_POINTER:
-
-	.byte 13
-LDIFF_SYM620=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM620
-LTDIE_55_REFERENCE:
-
-	.byte 14
-LDIFF_SYM621=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM621
-LTDIE_50:
-
-	.byte 5
-	.asciz "System_Runtime_Serialization_SerializationInfo"
-
-	.byte 88,16
-LDIFF_SYM622=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM622
-	.byte 2,35,0,6
-	.asciz "m_members"
-
-LDIFF_SYM623=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM623
-	.byte 2,35,16,6
-	.asciz "m_data"
-
-LDIFF_SYM624=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM624
-	.byte 2,35,24,6
-	.asciz "m_types"
-
-LDIFF_SYM625=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM625
-	.byte 2,35,32,6
-	.asciz "m_nameToIndex"
-
-LDIFF_SYM626=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM626
-	.byte 2,35,40,6
-	.asciz "m_currMember"
-
-LDIFF_SYM627=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM627
-	.byte 2,35,80,6
-	.asciz "m_converter"
-
-LDIFF_SYM628=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM628
-	.byte 2,35,48,6
-	.asciz "m_fullTypeName"
-
-LDIFF_SYM629=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM629
-	.byte 2,35,56,6
-	.asciz "m_assemName"
-
-LDIFF_SYM630=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM630
-	.byte 2,35,64,6
-	.asciz "objectType"
-
-LDIFF_SYM631=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM631
-	.byte 2,35,72,6
-	.asciz "isFullTypeNameSetExplicit"
-
-LDIFF_SYM632=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM632
-	.byte 2,35,84,6
-	.asciz "isAssemblyNameSetExplicit"
-
-LDIFF_SYM633=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM633
-	.byte 2,35,85,6
-	.asciz "requireSameTokenInPartialTrust"
-
-LDIFF_SYM634=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM634
-	.byte 2,35,86,0,7
-	.asciz "System_Runtime_Serialization_SerializationInfo"
-
-LDIFF_SYM635=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM635
-LTDIE_50_POINTER:
-
-	.byte 13
-LDIFF_SYM636=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM636
-LTDIE_50_REFERENCE:
-
-	.byte 14
-LDIFF_SYM637=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM637
-	.byte 2
-	.asciz "System.Collections.Generic.EnumEqualityComparer`1<T_INT>:.ctor"
-	.asciz "System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext"
-
-	.byte 2,183,3
-	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
-	.quad Lme_9d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM638=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM638
-	.byte 2,141,16,3
-	.asciz "information"
-
-LDIFF_SYM639=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM639
-	.byte 2,141,24,3
-	.asciz "context"
-
-LDIFF_SYM640=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM640
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM641=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM641
-Lfde81_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
-
-LDIFF_SYM642=Lme_9d - System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
-	.long LDIFF_SYM642
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde81_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27786,36 +23787,36 @@ Lfde81_end:
 
 	.byte 2,195,3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
-	.quad Lme_9e
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM643=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM582=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM582
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM644=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM583=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM583
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM645=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM645
-Lfde82_start:
+LDIFF_SYM584=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM584
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
 
-LDIFF_SYM646=Lme_9e - System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
-	.long LDIFF_SYM646
+LDIFF_SYM585=Lme_9b - System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
+	.long LDIFF_SYM585
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,68,153,7
 	.align 3
-Lfde82_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27825,291 +23826,291 @@ Lfde82_end:
 
 	.byte 2,200,3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
-	.quad Lme_9f
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM647=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM647
+LDIFF_SYM586=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM586
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM648=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM648
-Lfde83_start:
+LDIFF_SYM587=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM587
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
 
-LDIFF_SYM649=Lme_9f - System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
-	.long LDIFF_SYM649
+LDIFF_SYM588=Lme_9c - System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
+	.long LDIFF_SYM588
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde83_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_56:
+LTDIE_50:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM650=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM650
+LDIFF_SYM589=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM589
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM651=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM651
-LTDIE_56_POINTER:
+LDIFF_SYM590=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM590
+LTDIE_50_POINTER:
 
 	.byte 13
-LDIFF_SYM652=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM652
-LTDIE_56_REFERENCE:
+LDIFF_SYM591=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM591
+LTDIE_50_REFERENCE:
 
 	.byte 14
-LDIFF_SYM653=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM592=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM592
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<ZXing.BarcodeFormat>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
-	.quad Lme_a4
+	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM654=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM654
+LDIFF_SYM593=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM593
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM655=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM655
+LDIFF_SYM594=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM594
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM656=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM595=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM595
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM657=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM657
+LDIFF_SYM596=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM596
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM658=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM658
+LDIFF_SYM597=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM597
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM659=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM659
+LDIFF_SYM598=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM598
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM660=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM599=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM599
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM661=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM600=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM600
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM662=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM662
-Lfde84_start:
+LDIFF_SYM601=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM601
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
 
-LDIFF_SYM663=Lme_a4 - wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
-	.long LDIFF_SYM663
+LDIFF_SYM602=Lme_a1 - wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
+	.long LDIFF_SYM602
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde84_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_57:
+LTDIE_51:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM664=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM603=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM603
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM665=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM665
-LTDIE_57_POINTER:
+LDIFF_SYM604=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM604
+LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM666=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM666
-LTDIE_57_REFERENCE:
+LDIFF_SYM605=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM605
+LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM667=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM667
+LDIFF_SYM606=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM606
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<ZXing.BarcodeFormat>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
-	.quad Lme_aa
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM668=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM607=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM669=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM608=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM670=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM609=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM609
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM671=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM610=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM610
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM672=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM611
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM673=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM612=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM612
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM674=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM613=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM613
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM675=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM675
+LDIFF_SYM614=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM614
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM676=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM676
+LDIFF_SYM615=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM677=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM677
-Lfde85_start:
+LDIFF_SYM616=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM616
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
 
-LDIFF_SYM678=Lme_aa - wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
-	.long LDIFF_SYM678
+LDIFF_SYM617=Lme_a7 - wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
+	.long LDIFF_SYM617
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde85_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_58:
+LTDIE_52:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 18,16
-LDIFF_SYM679=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM679
+LDIFF_SYM618=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM680=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM619=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM619
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM681=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM620=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 2,35,17,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM682=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM682
-LTDIE_58_POINTER:
+LDIFF_SYM621=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM621
+LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM683=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM683
-LTDIE_58_REFERENCE:
+LDIFF_SYM622=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM622
+LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM684=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM623=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM623
 	.byte 2
 	.asciz "System.Nullable`1<bool>:.ctor"
 	.asciz "System_Nullable_1_bool__ctor_bool"
 
 	.byte 3,94
 	.quad System_Nullable_1_bool__ctor_bool
-	.quad Lme_ab
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM685=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM624=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM624
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM686=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM625=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM687=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM687
-Lfde86_start:
+LDIFF_SYM626=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM626
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool__ctor_bool
 
-LDIFF_SYM688=Lme_ab - System_Nullable_1_bool__ctor_bool
-	.long LDIFF_SYM688
+LDIFF_SYM627=Lme_a8 - System_Nullable_1_bool__ctor_bool
+	.long LDIFF_SYM627
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde86_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28119,31 +24120,31 @@ Lfde86_end:
 
 	.byte 3,99
 	.quad System_Nullable_1_bool_get_HasValue
-	.quad Lme_ac
+	.quad Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM689=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM628=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM628
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM690=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM690
-Lfde87_start:
+LDIFF_SYM629=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM629
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_HasValue
 
-LDIFF_SYM691=Lme_ac - System_Nullable_1_bool_get_HasValue
-	.long LDIFF_SYM691
+LDIFF_SYM630=Lme_a9 - System_Nullable_1_bool_get_HasValue
+	.long LDIFF_SYM630
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde87_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28153,31 +24154,31 @@ Lfde87_end:
 
 	.byte 3,104
 	.quad System_Nullable_1_bool_get_Value
-	.quad Lme_ad
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM692=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM631=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM631
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM693=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM693
-Lfde88_start:
+LDIFF_SYM632=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM632
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_Value
 
-LDIFF_SYM694=Lme_ad - System_Nullable_1_bool_get_Value
-	.long LDIFF_SYM694
+LDIFF_SYM633=Lme_aa - System_Nullable_1_bool_get_Value
+	.long LDIFF_SYM633
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde88_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28187,36 +24188,36 @@ Lfde88_end:
 
 	.byte 3,113
 	.quad System_Nullable_1_bool_Equals_object
-	.quad Lme_ae
+	.quad Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM695=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM695
+LDIFF_SYM634=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM634
 	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM696=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM635=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM635
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM697=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM697
-Lfde89_start:
+LDIFF_SYM636=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM636
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Equals_object
 
-LDIFF_SYM698=Lme_ae - System_Nullable_1_bool_Equals_object
-	.long LDIFF_SYM698
+LDIFF_SYM637=Lme_ab - System_Nullable_1_bool_Equals_object
+	.long LDIFF_SYM637
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde89_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28226,36 +24227,36 @@ Lfde89_end:
 
 	.byte 3,123
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.quad Lme_af
+	.quad Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM699=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM699
+LDIFF_SYM638=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM638
 	.byte 1,106,3
 	.asciz "other"
 
-LDIFF_SYM700=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM700
+LDIFF_SYM639=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM639
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM701=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM701
-Lfde90_start:
+LDIFF_SYM640=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM640
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
 
-LDIFF_SYM702=Lme_af - System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.long LDIFF_SYM702
+LDIFF_SYM641=Lme_ac - System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.long LDIFF_SYM641
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde90_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28265,31 +24266,31 @@ Lfde90_end:
 
 	.byte 3,134,1
 	.quad System_Nullable_1_bool_GetHashCode
-	.quad Lme_b0
+	.quad Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM703=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM642=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM704=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM704
-Lfde91_start:
+LDIFF_SYM643=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM643
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetHashCode
 
-LDIFF_SYM705=Lme_b0 - System_Nullable_1_bool_GetHashCode
-	.long LDIFF_SYM705
+LDIFF_SYM644=Lme_ad - System_Nullable_1_bool_GetHashCode
+	.long LDIFF_SYM644
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde91_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28299,31 +24300,31 @@ Lfde91_end:
 
 	.byte 3,142,1
 	.quad System_Nullable_1_bool_GetValueOrDefault
-	.quad Lme_b1
+	.quad Lme_ae
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM706=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM645=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM645
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM707=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM707
-Lfde92_start:
+LDIFF_SYM646=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM646
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault
 
-LDIFF_SYM708=Lme_b1 - System_Nullable_1_bool_GetValueOrDefault
-	.long LDIFF_SYM708
+LDIFF_SYM647=Lme_ae - System_Nullable_1_bool_GetValueOrDefault
+	.long LDIFF_SYM647
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde92_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28333,31 +24334,31 @@ Lfde92_end:
 
 	.byte 3,152,1
 	.quad System_Nullable_1_bool_ToString
-	.quad Lme_b2
+	.quad Lme_af
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM709=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM648=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM710=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM710
-Lfde93_start:
+LDIFF_SYM649=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM649
+Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_ToString
 
-LDIFF_SYM711=Lme_b2 - System_Nullable_1_bool_ToString
-	.long LDIFF_SYM711
+LDIFF_SYM650=Lme_af - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM650
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde93_end:
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28367,31 +24368,31 @@ Lfde93_end:
 
 	.byte 3,177,1
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.quad Lme_b3
+	.quad Lme_b0
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM712=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM651=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM651
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM713=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM713
-Lfde94_start:
+LDIFF_SYM652=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM652
+Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
 
-LDIFF_SYM714=Lme_b3 - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM714
+LDIFF_SYM653=Lme_b0 - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM653
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde94_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28401,179 +24402,179 @@ Lfde94_end:
 
 	.byte 3,185,1
 	.quad System_Nullable_1_bool_Unbox_object
-	.quad Lme_b4
+	.quad Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM715=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM654=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM654
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM716=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM655=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM655
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM717=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM717
-Lfde95_start:
+LDIFF_SYM656=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM656
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Unbox_object
 
-LDIFF_SYM718=Lme_b4 - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM718
+LDIFF_SYM657=Lme_b1 - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM657
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde95_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_60:
+LTDIE_54:
 
 	.byte 5
 	.asciz "System_Single"
 
 	.byte 20,16
-LDIFF_SYM719=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM719
+LDIFF_SYM658=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM658
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM720=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM720
+LDIFF_SYM659=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 2,35,16,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM721=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM721
-LTDIE_60_POINTER:
+LDIFF_SYM660=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM660
+LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM722=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM722
-LTDIE_60_REFERENCE:
+LDIFF_SYM661=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM661
+LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM723=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM723
-LTDIE_59:
+LDIFF_SYM662=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM662
+LTDIE_53:
 
 	.byte 5
 	.asciz "ZXing_ResultPoint"
 
 	.byte 48,16
-LDIFF_SYM724=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM663=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 2,35,0,6
 	.asciz "x"
 
-LDIFF_SYM725=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM664=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM664
 	.byte 2,35,40,6
 	.asciz "y"
 
-LDIFF_SYM726=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM726
+LDIFF_SYM665=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 2,35,44,6
 	.asciz "bytesX"
 
-LDIFF_SYM727=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM727
+LDIFF_SYM666=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM666
 	.byte 2,35,16,6
 	.asciz "bytesY"
 
-LDIFF_SYM728=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM667=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM667
 	.byte 2,35,24,6
 	.asciz "toString"
 
-LDIFF_SYM729=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM729
+LDIFF_SYM668=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM668
 	.byte 2,35,32,0,7
 	.asciz "ZXing_ResultPoint"
 
-LDIFF_SYM730=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM730
-LTDIE_59_POINTER:
+LDIFF_SYM669=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM669
+LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM731=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM731
-LTDIE_59_REFERENCE:
+LDIFF_SYM670=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM670
+LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM732=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM671=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM671
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<ZXing.ResultPoint>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
-	.quad Lme_b5
+	.quad Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM733=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM672=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM672
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM734=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM673=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM673
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM735=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM674=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM674
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM736=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM675=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM675
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM737=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM737
+LDIFF_SYM676=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM738=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM677=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM677
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM739=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM678=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM678
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM740=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM740
-Lfde96_start:
+LDIFF_SYM679=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM679
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
 
-LDIFF_SYM741=Lme_b5 - wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
-	.long LDIFF_SYM741
+LDIFF_SYM680=Lme_b2 - wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
+	.long LDIFF_SYM680
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde96_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_62:
+LTDIE_56:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IDictionary`2"
@@ -28581,133 +24582,133 @@ LTDIE_62:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM742=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM742
-LTDIE_62_POINTER:
+LDIFF_SYM681=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM681
+LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM743=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM743
-LTDIE_62_REFERENCE:
+LDIFF_SYM682=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM682
+LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM744=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM744
-LTDIE_61:
+LDIFF_SYM683=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM683
+LTDIE_55:
 
 	.byte 5
 	.asciz "ZXing_Result"
 
 	.byte 64,16
-LDIFF_SYM745=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM684=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM684
 	.byte 2,35,0,6
 	.asciz "<Text>k__BackingField"
 
-LDIFF_SYM746=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM685=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM685
 	.byte 2,35,16,6
 	.asciz "<RawBytes>k__BackingField"
 
-LDIFF_SYM747=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM686=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 2,35,24,6
 	.asciz "<ResultPoints>k__BackingField"
 
-LDIFF_SYM748=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM687=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM687
 	.byte 2,35,32,6
 	.asciz "<BarcodeFormat>k__BackingField"
 
-LDIFF_SYM749=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM749
+LDIFF_SYM688=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM688
 	.byte 2,35,48,6
 	.asciz "<ResultMetadata>k__BackingField"
 
-LDIFF_SYM750=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM750
+LDIFF_SYM689=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM689
 	.byte 2,35,40,6
 	.asciz "<Timestamp>k__BackingField"
 
-LDIFF_SYM751=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM690=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM690
 	.byte 2,35,56,0,7
 	.asciz "ZXing_Result"
 
-LDIFF_SYM752=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM752
-LTDIE_61_POINTER:
+LDIFF_SYM691=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM691
+LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM753=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM753
-LTDIE_61_REFERENCE:
+LDIFF_SYM692=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM692
+LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM754=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM693=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM693
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<ZXing.Result>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
-	.quad Lme_b6
+	.quad Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM755=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM694=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM694
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM756=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM695=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM695
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM757=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM696=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM758=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM759=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM759
+LDIFF_SYM698=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM698
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM760=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM699=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM699
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM761=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM700=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM700
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM762=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM762
-Lfde97_start:
+LDIFF_SYM701=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM701
+Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
 
-LDIFF_SYM763=Lme_b6 - wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
-	.long LDIFF_SYM763
+LDIFF_SYM702=Lme_b3 - wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
+	.long LDIFF_SYM702
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde97_end:
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28717,41 +24718,41 @@ Lfde97_end:
 
 	.byte 1,136,1
 	.quad System_Array_InternalArray__Insert_T_INT_int_T_INT
-	.quad Lme_bc
+	.quad Lme_b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM764=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM764
+LDIFF_SYM703=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM765=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM704=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM766=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM705=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM705
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM767=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM767
-Lfde98_start:
+LDIFF_SYM706=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM706
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__Insert_T_INT_int_T_INT
 
-LDIFF_SYM768=Lme_bc - System_Array_InternalArray__Insert_T_INT_int_T_INT
-	.long LDIFF_SYM768
+LDIFF_SYM707=Lme_b9 - System_Array_InternalArray__Insert_T_INT_int_T_INT
+	.long LDIFF_SYM707
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde98_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28761,36 +24762,36 @@ Lfde98_end:
 
 	.byte 1,141,1
 	.quad System_Array_InternalArray__RemoveAt_int
-	.quad Lme_bd
+	.quad Lme_ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM769=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM708=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM709=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM771=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM771
-Lfde99_start:
+LDIFF_SYM710=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM710
+Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__RemoveAt_int
 
-LDIFF_SYM772=Lme_bd - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM772
+LDIFF_SYM711=Lme_ba - System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM711
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde99_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28800,52 +24801,52 @@ Lfde99_end:
 
 	.byte 1,146,1
 	.quad System_Array_InternalArray__IndexOf_T_INT_T_INT
-	.quad Lme_be
+	.quad Lme_bb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM773=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM712=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM774=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM713=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM775=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM714=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM714
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM776=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM715=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM777=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM777
+LDIFF_SYM716=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM778=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM778
-Lfde100_start:
+LDIFF_SYM717=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM717
+Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IndexOf_T_INT_T_INT
 
-LDIFF_SYM779=Lme_be - System_Array_InternalArray__IndexOf_T_INT_T_INT
-	.long LDIFF_SYM779
+LDIFF_SYM718=Lme_bb - System_Array_InternalArray__IndexOf_T_INT_T_INT
+	.long LDIFF_SYM718
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,153,18
 	.byte 154,17
 	.align 3
-Lfde100_end:
+Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28855,41 +24856,41 @@ Lfde100_end:
 
 	.byte 1,173,1
 	.quad System_Array_InternalArray__get_Item_T_INT_int
-	.quad Lme_bf
+	.quad Lme_bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM780=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM719=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM781=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM720=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM782=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM721=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM783=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM783
-Lfde101_start:
+LDIFF_SYM722=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM722
+Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_INT_int
 
-LDIFF_SYM784=Lme_bf - System_Array_InternalArray__get_Item_T_INT_int
-	.long LDIFF_SYM784
+LDIFF_SYM723=Lme_bc - System_Array_InternalArray__get_Item_T_INT_int
+	.long LDIFF_SYM723
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde101_end:
+Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28899,255 +24900,255 @@ Lfde101_end:
 
 	.byte 1,183,1
 	.quad System_Array_InternalArray__set_Item_T_INT_int_T_INT
-	.quad Lme_c0
+	.quad Lme_bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM785=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM724=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM786=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM725=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM725
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM787=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM726=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM726
 	.byte 3,141,200,0,11
 	.asciz "oarray"
 
-LDIFF_SYM788=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM727=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM727
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM789=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM789
-Lfde102_start:
+LDIFF_SYM728=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM728
+Lfde99_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__set_Item_T_INT_int_T_INT
 
-LDIFF_SYM790=Lme_c0 - System_Array_InternalArray__set_Item_T_INT_int_T_INT
-	.long LDIFF_SYM790
+LDIFF_SYM729=Lme_bd - System_Array_InternalArray__set_Item_T_INT_int_T_INT
+	.long LDIFF_SYM729
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde102_end:
+Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_63:
+LTDIE_57:
 
 	.byte 5
 	.asciz "ZXing_LuminanceSource"
 
 	.byte 24,16
-LDIFF_SYM791=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM730=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM730
 	.byte 2,35,0,6
 	.asciz "width"
 
-LDIFF_SYM792=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM731=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM731
 	.byte 2,35,16,6
 	.asciz "height"
 
-LDIFF_SYM793=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM732=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,35,20,0,7
 	.asciz "ZXing_LuminanceSource"
 
-LDIFF_SYM794=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM794
-LTDIE_63_POINTER:
+LDIFF_SYM733=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM733
+LTDIE_57_POINTER:
 
 	.byte 13
-LDIFF_SYM795=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM795
-LTDIE_63_REFERENCE:
+LDIFF_SYM734=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM734
+LTDIE_57_REFERENCE:
 
 	.byte 14
-LDIFF_SYM796=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM735=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM735
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<byte[],_ZXing.LuminanceSource>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResult_T_byte__"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResult_T_byte__
-	.quad Lme_c1
+	.quad Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM797=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM736=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM736
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM798=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM798
+LDIFF_SYM737=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM799=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM799
+LDIFF_SYM738=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM800=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM739=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM739
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM801=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM740=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM740
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM802=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM741=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM803=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM742=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM804=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM804
+LDIFF_SYM743=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM805=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM805
-Lfde103_start:
+LDIFF_SYM744=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM744
+Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResult_T_byte__
 
-LDIFF_SYM806=Lme_c1 - wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResult_T_byte__
-	.long LDIFF_SYM806
+LDIFF_SYM745=Lme_be - wrapper_delegate_invoke_System_Func_2_byte___ZXing_LuminanceSource_invoke_TResult_T_byte__
+	.long LDIFF_SYM745
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde103_end:
+Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_64:
+LTDIE_58:
 
 	.byte 5
 	.asciz "ZXing_Binarizer"
 
 	.byte 24,16
-LDIFF_SYM807=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM807
+LDIFF_SYM746=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 2,35,0,6
 	.asciz "source"
 
-LDIFF_SYM808=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM808
+LDIFF_SYM747=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM747
 	.byte 2,35,16,0,7
 	.asciz "ZXing_Binarizer"
 
-LDIFF_SYM809=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM809
-LTDIE_64_POINTER:
+LDIFF_SYM748=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM748
+LTDIE_58_POINTER:
 
 	.byte 13
-LDIFF_SYM810=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM810
-LTDIE_64_REFERENCE:
+LDIFF_SYM749=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM749
+LTDIE_58_REFERENCE:
 
 	.byte 14
-LDIFF_SYM811=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM750=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM750
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<ZXing.LuminanceSource,_ZXing.Binarizer>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
-	.quad Lme_c2
+	.quad Lme_bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM812=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM751=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM751
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM813=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM752=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM814=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM753=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM815=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM754=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM816=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM755=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM817=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM756=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM818=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM757=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM819=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM758=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM820=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM820
-Lfde104_start:
+LDIFF_SYM759=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM759
+Lfde101_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
 
-LDIFF_SYM821=Lme_c2 - wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
-	.long LDIFF_SYM821
+LDIFF_SYM760=Lme_bf - wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
+	.long LDIFF_SYM760
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde104_end:
+Lfde101_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_65:
+LTDIE_59:
 
 	.byte 8
 	.asciz "_BitmapFormat"
 
 	.byte 4
-LDIFF_SYM822=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM761=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 9
 	.asciz "Unknown"
 
@@ -29181,100 +25182,100 @@ LDIFF_SYM822=LDIE_I4 - Ldebug_info_start
 	.byte 9,0,7
 	.asciz "_BitmapFormat"
 
-LDIFF_SYM823=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM823
-LTDIE_65_POINTER:
+LDIFF_SYM762=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM762
+LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM824=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM824
-LTDIE_65_REFERENCE:
+LDIFF_SYM763=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM763
+LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM825=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM764=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`5<byte[],_int,_int,_ZXing.RGBLuminanceSource/BitmapFormat,_ZXing.LuminanceSource>:invoke_TResult_T1_T2_T3_T4"
 	.asciz "wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
-	.quad Lme_c7
+	.quad Lme_c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM826=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM826
+LDIFF_SYM765=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM765
 	.byte 1,102,3
 	.asciz "param0"
 
-LDIFF_SYM827=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM827
+LDIFF_SYM766=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM766
 	.byte 1,103,3
 	.asciz "param1"
 
-LDIFF_SYM828=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM767=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 1,104,3
 	.asciz "param2"
 
-LDIFF_SYM829=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM768=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM768
 	.byte 1,105,3
 	.asciz "param3"
 
-LDIFF_SYM830=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM769=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM769
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM831=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM831
+LDIFF_SYM770=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 1,101,11
 	.asciz "V_1"
 
-LDIFF_SYM832=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM771=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 1,100,11
 	.asciz "V_2"
 
-LDIFF_SYM833=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM772=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 1,99,11
 	.asciz "V_3"
 
-LDIFF_SYM834=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM773=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM773
 	.byte 1,106,11
 	.asciz "V_4"
 
-LDIFF_SYM835=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM774=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM774
 	.byte 3,141,240,0,11
 	.asciz "V_5"
 
-LDIFF_SYM836=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM775=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM775
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM837=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM837
-Lfde105_start:
+LDIFF_SYM776=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM776
+Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
 
-LDIFF_SYM838=Lme_c7 - wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
-	.long LDIFF_SYM838
+LDIFF_SYM777=Lme_c4 - wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
+	.long LDIFF_SYM777
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11
 	.align 3
-Lfde105_end:
+Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29284,155 +25285,150 @@ Lfde105_end:
 
 	.byte 1,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_c8
+	.quad Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM839=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM778=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM778
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM840=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM840
-Lfde106_start:
+LDIFF_SYM779=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM779
+Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM841=Lme_c8 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM841
+LDIFF_SYM780=Lme_c5 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM780
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde106_end:
+Lfde103_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_67:
+LTDIE_61:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
-	.byte 40,16
-LDIFF_SYM842=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM842
+	.byte 32,16
+LDIFF_SYM781=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM843=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM782=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM844=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM844
-	.byte 2,35,32,6
+LDIFF_SYM783=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM783
+	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM845=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM845
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM846=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM846
-	.byte 2,35,24,0,7
+LDIFF_SYM784=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM784
+	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM847=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM847
-LTDIE_67_POINTER:
+LDIFF_SYM785=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM785
+LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM848=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM848
-LTDIE_67_REFERENCE:
+LDIFF_SYM786=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM786
+LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM849=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM849
-LTDIE_66:
+LDIFF_SYM787=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM787
+LTDIE_60:
 
 	.byte 5
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM850=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM788=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 2,35,0,6
 	.asciz "list"
 
-LDIFF_SYM851=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM789=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,35,16,6
 	.asciz "index"
 
-LDIFF_SYM852=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM790=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM790
 	.byte 2,35,24,6
 	.asciz "version"
 
-LDIFF_SYM853=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM791=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,35,28,6
 	.asciz "current"
 
-LDIFF_SYM854=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM792=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM792
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM855=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM855
-LTDIE_66_POINTER:
+LDIFF_SYM793=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM793
+LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM856=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM856
-LTDIE_66_REFERENCE:
+LDIFF_SYM794=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM794
+LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM857=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM795=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM795
 	.byte 2
 	.asciz "System.Collections.Generic.List`1/Enumerator<T_INT>:.ctor"
 	.asciz "System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT"
 
 	.byte 4,133,9
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
-	.quad Lme_c9
+	.quad Lme_c6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM858=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM796=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM796
 	.byte 1,105,3
 	.asciz "list"
 
-LDIFF_SYM859=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM797=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM797
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM860=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM860
-Lfde107_start:
+LDIFF_SYM798=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM798
+Lfde104_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
 
-LDIFF_SYM861=Lme_c9 - System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
-	.long LDIFF_SYM861
+LDIFF_SYM799=Lme_c6 - System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
+	.long LDIFF_SYM799
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde107_end:
+Lfde104_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29442,31 +25438,31 @@ Lfde107_end:
 
 	.byte 4,140,9
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
-	.quad Lme_ca
+	.quad Lme_c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM862=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM800=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM800
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM863=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM863
-Lfde108_start:
+LDIFF_SYM801=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM801
+Lfde105_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
 
-LDIFF_SYM864=Lme_ca - System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
-	.long LDIFF_SYM864
+LDIFF_SYM802=Lme_c7 - System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
+	.long LDIFF_SYM802
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde108_end:
+Lfde105_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29476,36 +25472,36 @@ Lfde108_end:
 
 	.byte 4,144,9
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
-	.quad Lme_cb
+	.quad Lme_c8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM865=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM803=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM803
 	.byte 1,106,11
 	.asciz "localList"
 
-LDIFF_SYM866=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM804=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM804
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM867=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM867
-Lfde109_start:
+LDIFF_SYM805=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM805
+Lfde106_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
 
-LDIFF_SYM868=Lme_cb - System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
-	.long LDIFF_SYM868
+LDIFF_SYM806=Lme_c8 - System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
+	.long LDIFF_SYM806
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde109_end:
+Lfde106_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29515,31 +25511,31 @@ Lfde109_end:
 
 	.byte 4,157,9
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
-	.quad Lme_cc
+	.quad Lme_c9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM869=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM807=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM807
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM870=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM870
-Lfde110_start:
+LDIFF_SYM808=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM808
+Lfde107_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
 
-LDIFF_SYM871=Lme_cc - System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
-	.long LDIFF_SYM871
+LDIFF_SYM809=Lme_c9 - System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
+	.long LDIFF_SYM809
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde110_end:
+Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29549,455 +25545,107 @@ Lfde110_end:
 
 	.byte 4,168,9
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
-	.quad Lme_cd
+	.quad Lme_ca
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM872=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM810=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM810
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM873=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM873
-Lfde111_start:
+LDIFF_SYM811=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM811
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
 
-LDIFF_SYM874=Lme_cd - System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
-	.long LDIFF_SYM874
+LDIFF_SYM812=Lme_ca - System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
+	.long LDIFF_SYM812
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde111_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.List`1/Enumerator<T_INT>:System.Collections.IEnumerator.get_Current"
-	.asciz "System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current"
-
-	.byte 4,174,9
-	.quad System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
-	.quad Lme_ce
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM875=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM875
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM876=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM876
-Lfde112_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
-
-LDIFF_SYM877=Lme_ce - System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM877
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.align 3
-Lfde112_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.List`1/Enumerator<T_INT>:System.Collections.IEnumerator.Reset"
-	.asciz "System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset"
-
-	.byte 4,182,9
-	.quad System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
-	.quad Lme_cf
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM878=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM878
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM879=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM879
-Lfde113_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
-
-LDIFF_SYM880=Lme_cf - System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM880
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
-	.align 3
-Lfde113_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_68:
-
-	.byte 5
-	.asciz "_InternalEnumerator`1"
-
-	.byte 32,16
-LDIFF_SYM881=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM881
-	.byte 2,35,0,6
-	.asciz "array"
-
-LDIFF_SYM882=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM882
-	.byte 2,35,16,6
-	.asciz "idx"
-
-LDIFF_SYM883=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM883
-	.byte 2,35,24,0,7
-	.asciz "_InternalEnumerator`1"
-
-LDIFF_SYM884=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM884
-LTDIE_68_POINTER:
-
-	.byte 13
-LDIFF_SYM885=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM885
-LTDIE_68_REFERENCE:
-
-	.byte 14
-LDIFF_SYM886=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM886
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
-	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
-
-	.byte 1,215,1
-	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.quad Lme_db
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM887=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM887
-	.byte 1,105,3
-	.asciz "array"
-
-LDIFF_SYM888=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM888
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM889=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM889
-Lfde114_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-
-LDIFF_SYM890=Lme_db - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long LDIFF_SYM890
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
-	.align 3
-Lfde114_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:Dispose"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_Dispose"
-
-	.byte 1,221,1
-	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-	.quad Lme_dc
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM891=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM891
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM892=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM892
-Lfde115_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-
-LDIFF_SYM893=Lme_dc - System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long LDIFF_SYM893
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde115_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
-
-	.byte 1,226,1
-	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.quad Lme_dd
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM894=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM894
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM895
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM896=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM896
-Lfde116_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
-
-LDIFF_SYM897=Lme_dd - System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long LDIFF_SYM897
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
-	.align 3
-Lfde116_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:get_Current"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_get_Current"
-
-	.byte 1,234,1
-	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
-	.quad Lme_de
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM898=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM898
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM899=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM899
-Lfde117_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
-
-LDIFF_SYM900=Lme_de - System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long LDIFF_SYM900
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
-	.align 3
-Lfde117_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.Reset"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset"
-
-	.byte 1,245,1
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.quad Lme_df
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM901=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM901
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM902=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM902
-Lfde118_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-
-LDIFF_SYM903=Lme_df - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM903
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde118_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.get_Current"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current"
-
-	.byte 1,250,1
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.quad Lme_e0
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM904=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM904
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM905=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM905
-Lfde119_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-
-LDIFF_SYM906=Lme_e0 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM906
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
-	.align 3
-Lfde119_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_INST>"
-	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST"
-
-	.byte 1,71
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.quad Lme_e1
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM907=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM907
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM908=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM908
-Lfde120_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-
-LDIFF_SYM909=Lme_e1 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long LDIFF_SYM909
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
-	.align 3
-Lfde120_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_69:
+LTDIE_62:
 
 	.byte 5
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
 	.byte 32,16
-LDIFF_SYM910=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM813=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 2,35,0,6
 	.asciz "key"
 
-LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM814=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 2,35,16,6
 	.asciz "value"
 
-LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM815=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
-LDIFF_SYM913=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM913
-LTDIE_69_POINTER:
+LDIFF_SYM816=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM816
+LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM914=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM914
-LTDIE_69_REFERENCE:
+LDIFF_SYM817=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM817
+LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM915=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM818=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM818
 	.byte 2
 	.asciz "System.Collections.Generic.KeyValuePair`2<TKey_INT,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF"
 
 	.byte 5,58
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF
-	.quad Lme_e2
+	.quad Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM916=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM819=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM819
 	.byte 1,104,3
 	.asciz "key"
 
-LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM820=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM918=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM821=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM821
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM919=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM919
-Lfde121_start:
+LDIFF_SYM822=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM822
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF
 
-LDIFF_SYM920=Lme_e2 - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF
-	.long LDIFF_SYM920
+LDIFF_SYM823=Lme_cd - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF__ctor_TKey_INT_TValue_REF
+	.long LDIFF_SYM823
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
 	.align 3
-Lfde121_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30007,31 +25655,31 @@ Lfde121_end:
 
 	.byte 5,64
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key
-	.quad Lme_e3
+	.quad Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM921=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM824=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM824
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM922=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM922
-Lfde122_start:
+LDIFF_SYM825=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM825
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key
 
-LDIFF_SYM923=Lme_e3 - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key
-	.long LDIFF_SYM923
+LDIFF_SYM826=Lme_ce - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Key
+	.long LDIFF_SYM826
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde122_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30041,31 +25689,31 @@ Lfde122_end:
 
 	.byte 5,69
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value
-	.quad Lme_e4
+	.quad Lme_cf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM924=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM827=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM925=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM925
-Lfde123_start:
+LDIFF_SYM828=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM828
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value
 
-LDIFF_SYM926=Lme_e4 - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value
-	.long LDIFF_SYM926
+LDIFF_SYM829=Lme_cf - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_get_Value
+	.long LDIFF_SYM829
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde123_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30075,34 +25723,34 @@ Lfde123_end:
 
 	.byte 5,74
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString
-	.quad Lme_e5
+	.quad Lme_d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM927=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM830=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM830
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM928=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM928
-Lfde124_start:
+LDIFF_SYM831=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM831
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString
 
-LDIFF_SYM929=Lme_e5 - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString
-	.long LDIFF_SYM929
+LDIFF_SYM832=Lme_d0 - System_Collections_Generic_KeyValuePair_2_TKey_INT_TValue_REF_ToString
+	.long LDIFF_SYM832
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde124_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_72:
+LTDIE_65:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -30110,217 +25758,178 @@ LTDIE_72:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM930=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM930
-LTDIE_72_POINTER:
+LDIFF_SYM833=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM833
+LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM931=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM931
-LTDIE_72_REFERENCE:
+LDIFF_SYM834=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM834
+LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM932=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM932
-LTDIE_73:
+LDIFF_SYM835=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM835
+LTDIE_66:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM933=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM836=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM836
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM934=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM837=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM837
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM935=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM935
-LTDIE_73_POINTER:
+LDIFF_SYM838=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM838
+LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM936=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM936
-LTDIE_73_REFERENCE:
+LDIFF_SYM839=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM839
+LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM937=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM937
-LTDIE_71:
+LDIFF_SYM840=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM840
+LTDIE_64:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-	.byte 80,16
-LDIFF_SYM938=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM938
+	.byte 72,16
+LDIFF_SYM841=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM841
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM939=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM842=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM940=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM843=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM941=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM941
-	.byte 2,35,64,6
+LDIFF_SYM844=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM844
+	.byte 2,35,56,6
 	.asciz "version"
 
-LDIFF_SYM942=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM942
-	.byte 2,35,68,6
+LDIFF_SYM845=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM845
+	.byte 2,35,60,6
 	.asciz "freeList"
 
-LDIFF_SYM943=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM943
-	.byte 2,35,72,6
+LDIFF_SYM846=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM846
+	.byte 2,35,64,6
 	.asciz "freeCount"
 
-LDIFF_SYM944=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM944
-	.byte 2,35,76,6
+LDIFF_SYM847=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM847
+	.byte 2,35,68,6
 	.asciz "comparer"
 
-LDIFF_SYM945=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM848=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM946=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM849=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM947=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM947
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM948=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM948
-	.byte 2,35,56,0,7
+LDIFF_SYM850=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM850
+	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM949=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM949
-LTDIE_71_POINTER:
+LDIFF_SYM851=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM851
+LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM950=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM950
-LTDIE_71_REFERENCE:
+LDIFF_SYM852=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM852
+LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM951=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM951
-LTDIE_70:
+LDIFF_SYM853=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM853
+LTDIE_63:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM952=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM854=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM854
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM953=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM855=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM855
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM954=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM954
-LTDIE_70_POINTER:
+LDIFF_SYM856=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM856
+LTDIE_63_POINTER:
 
 	.byte 13
-LDIFF_SYM955=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM955
-LTDIE_70_REFERENCE:
+LDIFF_SYM857=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM857
+LTDIE_63_REFERENCE:
 
 	.byte 14
-LDIFF_SYM956=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM858=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM858
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection<TKey_INT,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF"
 
 	.byte 6,234,7
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.quad Lme_e6
+	.quad Lme_d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM957=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM859=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM859
 	.byte 2,141,24,3
 	.asciz "dictionary"
 
-LDIFF_SYM958=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM958
+LDIFF_SYM860=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM860
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM959=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM959
-Lfde125_start:
+LDIFF_SYM861=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM861
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 
-LDIFF_SYM960=Lme_e6 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.long LDIFF_SYM960
+LDIFF_SYM862=Lme_d1 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
+	.long LDIFF_SYM862
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde125_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection<TKey_INT,_TValue_REF>:GetEnumerator"
-	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator"
-
-	.byte 6,245,7
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator
-	.quad Lme_e7
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM961=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM961
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM962=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM962
-Lfde126_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator
-
-LDIFF_SYM963=Lme_e7 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_GetEnumerator
-	.long LDIFF_SYM963
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
-	.align 3
-Lfde126_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30330,56 +25939,56 @@ Lfde126_end:
 
 	.byte 6,250,7
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo_TKey_INT___int
-	.quad Lme_e8
+	.quad Lme_d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM964=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM964
+LDIFF_SYM863=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM863
 	.byte 3,141,192,0,3
 	.asciz "array"
 
-LDIFF_SYM965=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM965
+LDIFF_SYM864=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM966=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM865=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM865
 	.byte 1,106,11
 	.asciz "count"
 
-LDIFF_SYM967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM866=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 1,104,11
 	.asciz "entries"
 
-LDIFF_SYM968=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM968
+LDIFF_SYM867=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM969=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM969
+LDIFF_SYM868=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM970=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM970
-Lfde127_start:
+LDIFF_SYM869=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM869
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo_TKey_INT___int
 
-LDIFF_SYM971=Lme_e8 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo_TKey_INT___int
-	.long LDIFF_SYM971
+LDIFF_SYM870=Lme_d2 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_CopyTo_TKey_INT___int
+	.long LDIFF_SYM870
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde127_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30389,31 +25998,31 @@ Lfde127_end:
 
 	.byte 6,148,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Count
-	.quad Lme_e9
+	.quad Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM972=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM972
+LDIFF_SYM871=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM973=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM973
-Lfde128_start:
+LDIFF_SYM872=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM872
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Count
 
-LDIFF_SYM974=Lme_e9 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Count
-	.long LDIFF_SYM974
+LDIFF_SYM873=Lme_d3 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_get_Count
+	.long LDIFF_SYM873
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde128_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30423,31 +26032,31 @@ Lfde128_end:
 
 	.byte 6,153,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
-	.quad Lme_ea
+	.quad Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM975=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM975
+LDIFF_SYM874=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM874
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM976=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM976
-Lfde129_start:
+LDIFF_SYM875=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM875
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
 
-LDIFF_SYM977=Lme_ea - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
-	.long LDIFF_SYM977
+LDIFF_SYM876=Lme_d4 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
+	.long LDIFF_SYM876
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde129_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30457,36 +26066,36 @@ Lfde129_end:
 
 	.byte 6,158,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Add_TKey_INT
-	.quad Lme_eb
+	.quad Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM978=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM877=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM877
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM979=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM979
+LDIFF_SYM878=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM878
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM980=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM980
-Lfde130_start:
+LDIFF_SYM879=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM879
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Add_TKey_INT
 
-LDIFF_SYM981=Lme_eb - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Add_TKey_INT
-	.long LDIFF_SYM981
+LDIFF_SYM880=Lme_d5 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Add_TKey_INT
+	.long LDIFF_SYM880
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde130_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30496,31 +26105,31 @@ Lfde130_end:
 
 	.byte 6,163,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Clear
-	.quad Lme_ec
+	.quad Lme_d6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM982=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM982
+LDIFF_SYM881=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM881
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM983=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM983
-Lfde131_start:
+LDIFF_SYM882=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM882
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Clear
 
-LDIFF_SYM984=Lme_ec - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Clear
-	.long LDIFF_SYM984
+LDIFF_SYM883=Lme_d6 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Clear
+	.long LDIFF_SYM883
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde131_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30530,36 +26139,36 @@ Lfde131_end:
 
 	.byte 6,168,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Contains_TKey_INT
-	.quad Lme_ed
+	.quad Lme_d7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM985=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM884=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM884
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM986=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM986
+LDIFF_SYM885=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM987=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM987
-Lfde132_start:
+LDIFF_SYM886=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM886
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Contains_TKey_INT
 
-LDIFF_SYM988=Lme_ed - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Contains_TKey_INT
-	.long LDIFF_SYM988
+LDIFF_SYM887=Lme_d7 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Contains_TKey_INT
+	.long LDIFF_SYM887
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde132_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30569,36 +26178,36 @@ Lfde132_end:
 
 	.byte 6,173,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Remove_TKey_INT
-	.quad Lme_ee
+	.quad Lme_d8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM989=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM989
+LDIFF_SYM888=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM888
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM889=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM889
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM991=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM991
-Lfde133_start:
+LDIFF_SYM890=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM890
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Remove_TKey_INT
 
-LDIFF_SYM992=Lme_ee - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Remove_TKey_INT
-	.long LDIFF_SYM992
+LDIFF_SYM891=Lme_d8 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TKey_Remove_TKey_INT
+	.long LDIFF_SYM891
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde133_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30608,31 +26217,31 @@ Lfde133_end:
 
 	.byte 6,178,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
-	.quad Lme_ef
+	.quad Lme_d9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM993=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM892=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM892
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM994=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM994
-Lfde134_start:
+LDIFF_SYM893=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM893
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
 
-LDIFF_SYM995=Lme_ef - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
-	.long LDIFF_SYM995
+LDIFF_SYM894=Lme_d9 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
+	.long LDIFF_SYM894
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde134_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30642,172 +26251,34 @@ Lfde134_end:
 
 	.byte 6,183,8
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
-	.quad Lme_f0
+	.quad Lme_da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM996=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM996
+LDIFF_SYM895=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM997=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM997
-Lfde135_start:
+LDIFF_SYM896=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM896
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM998=Lme_f0 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM998
+LDIFF_SYM897=Lme_da - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM897
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde135_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection<TKey_INT,_TValue_REF>:System.Collections.ICollection.CopyTo"
-	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int"
-
-	.byte 6,188,8
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-	.quad Lme_f1
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM999=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM999
-	.byte 3,141,208,0,3
-	.asciz "array"
-
-LDIFF_SYM1000=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1000
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM1001=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1001
-	.byte 1,106,11
-	.asciz "keys"
-
-LDIFF_SYM1002=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1002
-	.byte 1,104,11
-	.asciz "objects"
-
-LDIFF_SYM1003=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1003
-	.byte 1,103,11
-	.asciz "count"
-
-LDIFF_SYM1004=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1004
-	.byte 1,102,11
-	.asciz "entries"
-
-LDIFF_SYM1005=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1005
-	.byte 1,101,11
-	.asciz "i"
-
-LDIFF_SYM1006=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1006
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1007=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1007
-Lfde136_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-
-LDIFF_SYM1008=Lme_f1 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM1008
-	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
-	.byte 154,21
-	.align 3
-Lfde136_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection<TKey_INT,_TValue_REF>:System.Collections.ICollection.get_IsSynchronized"
-	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized"
-
-	.byte 6,245,8
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-	.quad Lme_f2
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1009=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1009
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1010=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1010
-Lfde137_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-
-LDIFF_SYM1011=Lme_f2 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM1011
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde137_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection<TKey_INT,_TValue_REF>:System.Collections.ICollection.get_SyncRoot"
-	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot"
-
-	.byte 6,250,8
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-	.quad Lme_f3
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1012=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1012
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1013=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1013
-Lfde138_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-
-LDIFF_SYM1014=Lme_f3 - System_Collections_Generic_Dictionary_2_KeyCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM1014
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde138_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_76:
+LTDIE_69:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -30815,183 +26286,178 @@ LTDIE_76:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1015=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM1015
-LTDIE_76_POINTER:
+LDIFF_SYM898=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM898
+LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM1016=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM1016
-LTDIE_76_REFERENCE:
+LDIFF_SYM899=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM899
+LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1017=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM1017
-LTDIE_77:
+LDIFF_SYM900=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM900
+LTDIE_70:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1018=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM901=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM901
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1019=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1019
+LDIFF_SYM902=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM902
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1020=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM1020
-LTDIE_77_POINTER:
+LDIFF_SYM903=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM903
+LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM1021=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM1021
-LTDIE_77_REFERENCE:
+LDIFF_SYM904=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM904
+LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1022=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM1022
-LTDIE_75:
+LDIFF_SYM905=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM905
+LTDIE_68:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-	.byte 80,16
-LDIFF_SYM1023=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1023
+	.byte 72,16
+LDIFF_SYM906=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1024=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM907=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM907
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1025=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM908=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1026=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1026
-	.byte 2,35,64,6
+LDIFF_SYM909=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM909
+	.byte 2,35,56,6
 	.asciz "version"
 
-LDIFF_SYM1027=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1027
-	.byte 2,35,68,6
+LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM910
+	.byte 2,35,60,6
 	.asciz "freeList"
 
-LDIFF_SYM1028=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1028
-	.byte 2,35,72,6
+LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM911
+	.byte 2,35,64,6
 	.asciz "freeCount"
 
-LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1029
-	.byte 2,35,76,6
+LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM912
+	.byte 2,35,68,6
 	.asciz "comparer"
 
-LDIFF_SYM1030=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
+LDIFF_SYM913=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM913
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1031=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1031
+LDIFF_SYM914=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1032=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1032
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM1033=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1033
-	.byte 2,35,56,0,7
+LDIFF_SYM915=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
+	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1034=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1034
-LTDIE_75_POINTER:
+LDIFF_SYM916=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM916
+LTDIE_68_POINTER:
 
 	.byte 13
-LDIFF_SYM1035=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1035
-LTDIE_75_REFERENCE:
+LDIFF_SYM917=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM917
+LTDIE_68_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1036=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1036
-LTDIE_74:
+LDIFF_SYM918=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM918
+LTDIE_67:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1037=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM919=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1038=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1038
+LDIFF_SYM920=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1039=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM1039
-LTDIE_74_POINTER:
+LDIFF_SYM921=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM921
+LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM1040=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM1040
-LTDIE_74_REFERENCE:
+LDIFF_SYM922=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM922
+LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1041=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM1041
+LDIFF_SYM923=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection<TKey_INT,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF"
 
 	.byte 6,209,9
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.quad Lme_f4
+	.quad Lme_db
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1042=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM924=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 2,141,24,3
 	.asciz "dictionary"
 
-LDIFF_SYM1043=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1043
+LDIFF_SYM925=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1044=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1044
-Lfde139_start:
+LDIFF_SYM926=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM926
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 
-LDIFF_SYM1045=Lme_f4 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.long LDIFF_SYM1045
+LDIFF_SYM927=Lme_db - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
+	.long LDIFF_SYM927
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde139_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31001,31 +26467,31 @@ Lfde139_end:
 
 	.byte 6,220,9
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetEnumerator
-	.quad Lme_f5
+	.quad Lme_dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1046=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1046
+LDIFF_SYM928=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1047=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1047
-Lfde140_start:
+LDIFF_SYM929=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM929
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetEnumerator
 
-LDIFF_SYM1048=Lme_f5 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetEnumerator
-	.long LDIFF_SYM1048
+LDIFF_SYM930=Lme_dc - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_GetEnumerator
+	.long LDIFF_SYM930
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde140_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31035,56 +26501,56 @@ Lfde140_end:
 
 	.byte 6,225,9
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_CopyTo_TValue_REF___int
-	.quad Lme_f6
+	.quad Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1049=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1049
+LDIFF_SYM931=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM931
 	.byte 3,141,192,0,3
 	.asciz "array"
 
-LDIFF_SYM1050=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM932=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM932
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1051=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 1,106,11
 	.asciz "count"
 
-LDIFF_SYM1052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM934=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 1,104,11
 	.asciz "entries"
 
-LDIFF_SYM1053=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM935=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM935
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM1054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1054
+LDIFF_SYM936=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1055=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1055
-Lfde141_start:
+LDIFF_SYM937=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM937
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_CopyTo_TValue_REF___int
 
-LDIFF_SYM1056=Lme_f6 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_CopyTo_TValue_REF___int
-	.long LDIFF_SYM1056
+LDIFF_SYM938=Lme_dd - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_CopyTo_TValue_REF___int
+	.long LDIFF_SYM938
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde141_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31094,31 +26560,31 @@ Lfde141_end:
 
 	.byte 6,251,9
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_get_Count
-	.quad Lme_f7
+	.quad Lme_de
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1057=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM939=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM939
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1058=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM1058
-Lfde142_start:
+LDIFF_SYM940=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM940
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_get_Count
 
-LDIFF_SYM1059=Lme_f7 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_get_Count
-	.long LDIFF_SYM1059
+LDIFF_SYM941=Lme_de - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_get_Count
+	.long LDIFF_SYM941
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde142_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31128,31 +26594,31 @@ Lfde142_end:
 
 	.byte 6,128,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
-	.quad Lme_f8
+	.quad Lme_df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1060=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM942=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1061=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM1061
-Lfde143_start:
+LDIFF_SYM943=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM943
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
 
-LDIFF_SYM1062=Lme_f8 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
-	.long LDIFF_SYM1062
+LDIFF_SYM944=Lme_df - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
+	.long LDIFF_SYM944
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde143_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31162,36 +26628,36 @@ Lfde143_end:
 
 	.byte 6,133,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Add_TValue_REF
-	.quad Lme_f9
+	.quad Lme_e0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1063=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM945=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1064=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1065=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1065
-Lfde144_start:
+LDIFF_SYM947=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM947
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Add_TValue_REF
 
-LDIFF_SYM1066=Lme_f9 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Add_TValue_REF
-	.long LDIFF_SYM1066
+LDIFF_SYM948=Lme_e0 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Add_TValue_REF
+	.long LDIFF_SYM948
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde144_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31201,36 +26667,36 @@ Lfde144_end:
 
 	.byte 6,138,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Remove_TValue_REF
-	.quad Lme_fa
+	.quad Lme_e1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1067=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM949=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM949
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1068=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM950=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1069=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1069
-Lfde145_start:
+LDIFF_SYM951=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM951
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Remove_TValue_REF
 
-LDIFF_SYM1070=Lme_fa - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Remove_TValue_REF
-	.long LDIFF_SYM1070
+LDIFF_SYM952=Lme_e1 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Remove_TValue_REF
+	.long LDIFF_SYM952
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde145_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31240,31 +26706,31 @@ Lfde145_end:
 
 	.byte 6,143,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Clear
-	.quad Lme_fb
+	.quad Lme_e2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1071=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM953=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1072=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1072
-Lfde146_start:
+LDIFF_SYM954=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM954
+Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Clear
 
-LDIFF_SYM1073=Lme_fb - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Clear
-	.long LDIFF_SYM1073
+LDIFF_SYM955=Lme_e2 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Clear
+	.long LDIFF_SYM955
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde146_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31274,36 +26740,36 @@ Lfde146_end:
 
 	.byte 6,148,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Contains_TValue_REF
-	.quad Lme_fc
+	.quad Lme_e3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1074=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM956=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1075=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM957
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1076=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1076
-Lfde147_start:
+LDIFF_SYM958=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM958
+Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Contains_TValue_REF
 
-LDIFF_SYM1077=Lme_fc - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Contains_TValue_REF
-	.long LDIFF_SYM1077
+LDIFF_SYM959=Lme_e3 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_ICollection_TValue_Contains_TValue_REF
+	.long LDIFF_SYM959
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde147_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31313,31 +26779,31 @@ Lfde147_end:
 
 	.byte 6,153,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
-	.quad Lme_fd
+	.quad Lme_e4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1078=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM960=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1079=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1079
-Lfde148_start:
+LDIFF_SYM961=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM961
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
 
-LDIFF_SYM1080=Lme_fd - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
-	.long LDIFF_SYM1080
+LDIFF_SYM962=Lme_e4 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
+	.long LDIFF_SYM962
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde148_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31347,449 +26813,31 @@ Lfde148_end:
 
 	.byte 6,158,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
-	.quad Lme_fe
+	.quad Lme_e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1081=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM963=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM963
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1082=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1082
-Lfde149_start:
+LDIFF_SYM964=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM964
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM1083=Lme_fe - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM1083
+LDIFF_SYM965=Lme_e5 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM965
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde149_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection<TKey_INT,_TValue_REF>:System.Collections.ICollection.CopyTo"
-	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int"
-
-	.byte 6,163,10
-	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-	.quad Lme_ff
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1084=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1084
-	.byte 3,141,208,0,3
-	.asciz "array"
-
-LDIFF_SYM1085=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1085
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM1086=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1086
-	.byte 1,106,11
-	.asciz "values"
-
-LDIFF_SYM1087=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1087
-	.byte 1,104,11
-	.asciz "objects"
-
-LDIFF_SYM1088=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1088
-	.byte 1,103,11
-	.asciz "count"
-
-LDIFF_SYM1089=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1089
-	.byte 1,102,11
-	.asciz "entries"
-
-LDIFF_SYM1090=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1090
-	.byte 1,101,11
-	.asciz "i"
-
-LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1091
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1092=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1092
-Lfde150_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-
-LDIFF_SYM1093=Lme_ff - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM1093
-	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
-	.byte 154,21
-	.align 3
-Lfde150_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection<TKey_INT,_TValue_REF>:System.Collections.ICollection.get_IsSynchronized"
-	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized"
-
-	.byte 6,218,10
-	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-	.quad Lme_100
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1094=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1094
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1095=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1095
-Lfde151_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-
-LDIFF_SYM1096=Lme_100 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM1096
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde151_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection<TKey_INT,_TValue_REF>:System.Collections.ICollection.get_SyncRoot"
-	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot"
-
-	.byte 6,223,10
-	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-	.quad Lme_101
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1097=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1097
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1098=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1098
-Lfde152_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-
-LDIFF_SYM1099=Lme_101 - System_Collections_Generic_Dictionary_2_ValueCollection_TKey_INT_TValue_REF_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM1099
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde152_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_78:
-
-	.byte 5
-	.asciz "_InternalEnumerator`1"
-
-	.byte 32,16
-LDIFF_SYM1100=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1100
-	.byte 2,35,0,6
-	.asciz "array"
-
-LDIFF_SYM1101=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1101
-	.byte 2,35,16,6
-	.asciz "idx"
-
-LDIFF_SYM1102=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1102
-	.byte 2,35,24,0,7
-	.asciz "_InternalEnumerator`1"
-
-LDIFF_SYM1103=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1103
-LTDIE_78_POINTER:
-
-	.byte 13
-LDIFF_SYM1104=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1104
-LTDIE_78_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1105=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1105
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
-	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0"
-
-	.byte 1,215,1
-	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0
-	.quad Lme_103
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1106=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1106
-	.byte 1,105,3
-	.asciz "array"
-
-LDIFF_SYM1107=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1107
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1108=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1108
-Lfde153_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0
-
-LDIFF_SYM1109=Lme_103 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array_0
-	.long LDIFF_SYM1109
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
-	.align 3
-Lfde153_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:Dispose"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_Dispose_0"
-
-	.byte 1,221,1
-	.quad System_Array_InternalEnumerator_1_T_INST_Dispose_0
-	.quad Lme_104
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1110=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1110
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1111=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1111
-Lfde154_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_Dispose_0
-
-LDIFF_SYM1112=Lme_104 - System_Array_InternalEnumerator_1_T_INST_Dispose_0
-	.long LDIFF_SYM1112
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde154_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext_0"
-
-	.byte 1,226,1
-	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext_0
-	.quad Lme_105
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1113=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1113
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1114=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1114
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1115=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1115
-Lfde155_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext_0
-
-LDIFF_SYM1116=Lme_105 - System_Array_InternalEnumerator_1_T_INST_MoveNext_0
-	.long LDIFF_SYM1116
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
-	.align 3
-Lfde155_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:get_Current"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_get_Current_0"
-
-	.byte 1,234,1
-	.quad System_Array_InternalEnumerator_1_T_INST_get_Current_0
-	.quad Lme_106
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1117=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1117
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1118=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM1118
-Lfde156_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_get_Current_0
-
-LDIFF_SYM1119=Lme_106 - System_Array_InternalEnumerator_1_T_INST_get_Current_0
-	.long LDIFF_SYM1119
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
-	.align 3
-Lfde156_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.Reset"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0"
-
-	.byte 1,245,1
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0
-	.quad Lme_107
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1120=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1120
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1121=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1121
-Lfde157_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0
-
-LDIFF_SYM1122=Lme_107 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset_0
-	.long LDIFF_SYM1122
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde157_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.get_Current"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0"
-
-	.byte 1,250,1
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0
-	.quad Lme_108
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1123=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1123
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1124=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1124
-Lfde158_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0
-
-LDIFF_SYM1125=Lme_108 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current_0
-	.long LDIFF_SYM1125
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
-	.align 3
-Lfde158_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_INST>"
-	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0"
-
-	.byte 1,71
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0
-	.quad Lme_109
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1126=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1126
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1127=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1127
-Lfde159_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0
-
-LDIFF_SYM1128=Lme_109 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST_0
-	.long LDIFF_SYM1128
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
-	.align 3
-Lfde159_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31799,36 +26847,36 @@ Lfde159_end:
 
 	.byte 1,81
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_10a
+	.quad Lme_e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1129=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1129
+LDIFF_SYM966=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1130=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM967=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1131=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM1131
-Lfde160_start:
+LDIFF_SYM968=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM968
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1132=Lme_10a - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1132
+LDIFF_SYM969=Lme_e6 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM969
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde160_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31838,36 +26886,36 @@ Lfde160_end:
 
 	.byte 1,86
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_10b
+	.quad Lme_e7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1133=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
+LDIFF_SYM970=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1134=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1134
+LDIFF_SYM971=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1135=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1135
-Lfde161_start:
+LDIFF_SYM972=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM972
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1136=Lme_10b - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1136
+LDIFF_SYM973=Lme_e7 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM973
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde161_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31877,51 +26925,51 @@ Lfde161_end:
 
 	.byte 1,91
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_10c
+	.quad Lme_e8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1137=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1137
+LDIFF_SYM974=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM974
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM1138=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1138
+LDIFF_SYM975=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM1139=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM976=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM976
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1140=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM977=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM977
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM1141=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1141
+LDIFF_SYM978=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM978
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1142=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM1142
-Lfde162_start:
+LDIFF_SYM979=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM979
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1143=Lme_10c - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1143
+LDIFF_SYM980=Lme_e8 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM980
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde162_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31931,230 +26979,230 @@ Lfde162_end:
 
 	.byte 1,116
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_10d
+	.quad Lme_e9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1144=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM981=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1145=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM982=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM982
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM1146=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1146
+LDIFF_SYM983=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM983
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1147=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1147
-Lfde163_start:
+LDIFF_SYM984=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM984
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1148=Lme_10d - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1148
+LDIFF_SYM985=Lme_e9 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM985
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
-Lfde163_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_79:
+LTDIE_71:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1149=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1149
+LDIFF_SYM986=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM986
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1150=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM1150
-LTDIE_79_POINTER:
+LDIFF_SYM987=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM987
+LTDIE_71_POINTER:
 
 	.byte 13
-LDIFF_SYM1151=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM1151
-LTDIE_79_REFERENCE:
+LDIFF_SYM988=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM988
+LTDIE_71_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1152=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM989=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<ZXing.Mobile.CameraResolution>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
-	.quad Lme_10e
+	.quad Lme_ea
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1153=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM990=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM990
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1154=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM991=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1155=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1156=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM993=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM993
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1157=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM994=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM994
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1158=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM995=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1159=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM996=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM996
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1160=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM997=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM997
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1161
-Lfde164_start:
+LDIFF_SYM998=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM998
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
 
-LDIFF_SYM1162=Lme_10e - wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
-	.long LDIFF_SYM1162
+LDIFF_SYM999=Lme_ea - wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
+	.long LDIFF_SYM999
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde164_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_80:
+LTDIE_72:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1163=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1000=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1000
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1164=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM1164
-LTDIE_80_POINTER:
+LDIFF_SYM1001=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM1001
+LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM1165=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM1165
-LTDIE_80_REFERENCE:
+LDIFF_SYM1002=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM1002
+LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1166=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM1166
+LDIFF_SYM1003=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM1003
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<ZXing.Mobile.CameraResolution>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
-	.quad Lme_10f
+	.quad Lme_eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1167=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1004=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1168=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1005=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1005
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1169=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1006=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1006
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1170=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1007=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1007
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1171=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1008
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1172=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1009=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1009
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1173=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1010=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1010
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1174=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1011=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1011
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1012
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1176=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1176
-Lfde165_start:
+LDIFF_SYM1013=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1013
+Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
 
-LDIFF_SYM1177=Lme_10f - wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
-	.long LDIFF_SYM1177
+LDIFF_SYM1014=Lme_eb - wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
+	.long LDIFF_SYM1014
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde165_end:
+Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -32164,59 +27212,59 @@ Lfde165_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.quad Lme_110
+	.quad Lme_ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1178
+LDIFF_SYM1015=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1015
 	.byte 1,104,3
 	.asciz "params"
 
-LDIFF_SYM1179=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1016=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1016
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM1180=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1180
+LDIFF_SYM1017=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1017
 	.byte 3,141,192,0,3
 	.asciz "method"
 
-LDIFF_SYM1181=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1018=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1018
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1182=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1019=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1019
 	.byte 3,141,128,1,11
 	.asciz "V_1"
 
-LDIFF_SYM1183=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1020=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1020
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1184=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1184
-Lfde166_start:
+LDIFF_SYM1021=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1021
+Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
 
-LDIFF_SYM1185=Lme_110 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.long LDIFF_SYM1185
+LDIFF_SYM1022=Lme_ec - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+	.long LDIFF_SYM1022
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19
 	.align 3
-Lfde166_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_81:
+LTDIE_73:
 
 	.byte 17
 	.asciz "_<Module>"
@@ -32224,169 +27272,169 @@ LTDIE_81:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM1186=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM1186
-LTDIE_81_POINTER:
+LDIFF_SYM1023=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1023
+LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM1187=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM1187
-LTDIE_81_REFERENCE:
+LDIFF_SYM1024=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1024
+LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1188=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1025=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_CameraResolution_List`1<CameraResolution>"
 	.asciz "wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
-	.quad Lme_111
+	.quad Lme_ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1189=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1026=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1026
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1190=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1027=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1027
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1028=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1028
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1192=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1029
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1193=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1030=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1030
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1194=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1031=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1195=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1032=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1032
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1196=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1033=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1033
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1197=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1197
-Lfde167_start:
+LDIFF_SYM1034=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1034
+Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
 
-LDIFF_SYM1198=Lme_111 - wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
-	.long LDIFF_SYM1198
+LDIFF_SYM1035=Lme_ed - wrapper_delegate_invoke__Module_invoke_CameraResolution_List_1_CameraResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
+	.long LDIFF_SYM1035
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde167_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_82:
+LTDIE_74:
 
 	.byte 5
 	.asciz "System_AsyncCallback"
 
 	.byte 112,16
-LDIFF_SYM1199=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1036=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1036
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1200=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM1200
-LTDIE_82_POINTER:
+LDIFF_SYM1037=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM1037
+LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM1201=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM1201
-LTDIE_82_REFERENCE:
+LDIFF_SYM1038=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM1038
+LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1202=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1039=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM1039
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___List`1<CameraResolution>_AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_CameraResolution_AsyncCallback_object_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_CameraResolution_AsyncCallback_object_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_System_AsyncCallback_object
-	.quad Lme_112
+	.quad Lme_ee
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1203=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1040=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1204=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1041=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1041
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM1205=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1042=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1042
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM1206=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1043=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 3,141,200,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1207=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1044=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1044
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1208=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1045=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1045
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1209=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1209
-Lfde168_start:
+LDIFF_SYM1046=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM1046
+Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_CameraResolution_AsyncCallback_object_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_System_AsyncCallback_object
 
-LDIFF_SYM1210=Lme_112 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_CameraResolution_AsyncCallback_object_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_System_AsyncCallback_object
-	.long LDIFF_SYM1210
+LDIFF_SYM1047=Lme_ee - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___List_1_CameraResolution_AsyncCallback_object_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_System_AsyncCallback_object
+	.long LDIFF_SYM1047
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
-Lfde168_end:
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_83:
+LTDIE_75:
 
 	.byte 17
 	.asciz "System_IAsyncResult"
@@ -32394,140 +27442,135 @@ LTDIE_83:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1211=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1211
-LTDIE_83_POINTER:
+LDIFF_SYM1048=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1048
+LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM1212=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1212
-LTDIE_83_REFERENCE:
+LDIFF_SYM1049=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1049
+LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1213=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1050=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1050
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_CameraResolution__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncResult_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_113
+	.quad Lme_ef
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1214=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1051=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1051
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1215=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1052=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1052
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1216=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1053=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1217=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1054=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1218=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1218
-Lfde169_start:
+LDIFF_SYM1055=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM1055
+Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM1219=Lme_113 - wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM1219
+LDIFF_SYM1056=Lme_ef - wrapper_delegate_end_invoke__Module_end_invoke_CameraResolution__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM1056
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
 	.align 3
-Lfde169_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_84:
+LTDIE_76:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
-	.byte 40,16
-LDIFF_SYM1220=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1220
+	.byte 32,16
+LDIFF_SYM1057=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1221=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1058=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1222
-	.byte 2,35,32,6
+LDIFF_SYM1059=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1059
+	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM1223=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1223
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM1224=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1224
-	.byte 2,35,24,0,7
+LDIFF_SYM1060=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1060
+	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1225=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1225
-LTDIE_84_POINTER:
+LDIFF_SYM1061=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM1061
+LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM1226=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1226
-LTDIE_84_REFERENCE:
+LDIFF_SYM1062=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM1062
+LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1227=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1227
+LDIFF_SYM1063=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_INT>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_INT__ctor"
 
 	.byte 4,52
 	.quad System_Collections_Generic_List_1_T_INT__ctor
-	.quad Lme_114
+	.quad Lme_f0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1228=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1228
+LDIFF_SYM1064=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1229=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1229
-Lfde170_start:
+LDIFF_SYM1065=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1065
+Lfde144_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_INT__ctor
 
-LDIFF_SYM1230=Lme_114 - System_Collections_Generic_List_1_T_INT__ctor
-	.long LDIFF_SYM1230
+LDIFF_SYM1066=Lme_f0 - System_Collections_Generic_List_1_T_INT__ctor
+	.long LDIFF_SYM1066
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde170_end:
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -32537,31 +27580,31 @@ Lfde170_end:
 
 	.byte 4,193,4
 	.quad System_Collections_Generic_List_1_T_INT_GetEnumerator
-	.quad Lme_115
+	.quad Lme_f1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1231=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1067=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1232=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1232
-Lfde171_start:
+LDIFF_SYM1068=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1068
+Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_INT_GetEnumerator
 
-LDIFF_SYM1233=Lme_115 - System_Collections_Generic_List_1_T_INT_GetEnumerator
-	.long LDIFF_SYM1233
+LDIFF_SYM1069=Lme_f1 - System_Collections_Generic_List_1_T_INT_GetEnumerator
+	.long LDIFF_SYM1069
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde171_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -32571,31 +27614,509 @@ Lfde171_end:
 
 	.byte 4,140,1
 	.quad System_Collections_Generic_List_1_T_INT_get_Count
-	.quad Lme_116
+	.quad Lme_f2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1234=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1070=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1070
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1235=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1235
-Lfde172_start:
+LDIFF_SYM1071=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1071
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_INT_get_Count
 
-LDIFF_SYM1236=Lme_116 - System_Collections_Generic_List_1_T_INT_get_Count
-	.long LDIFF_SYM1236
+LDIFF_SYM1072=Lme_f2 - System_Collections_Generic_List_1_T_INT_get_Count
+	.long LDIFF_SYM1072
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde172_end:
+Lfde146_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_78:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM1073=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1073
+LTDIE_78_POINTER:
+
+	.byte 13
+LDIFF_SYM1074=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1074
+LTDIE_78_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1075=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1075
+LTDIE_79:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 24,16
+LDIFF_SYM1076=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1076
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM1077=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1077
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM1078=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM1078
+LTDIE_79_POINTER:
+
+	.byte 13
+LDIFF_SYM1079=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM1079
+LTDIE_79_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1080=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM1080
+LTDIE_80:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 24,16
+LDIFF_SYM1081=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1081
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM1082=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1082
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM1083=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM1083
+LTDIE_80_POINTER:
+
+	.byte 13
+LDIFF_SYM1084=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM1084
+LTDIE_80_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1085=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM1085
+LTDIE_77:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 72,16
+LDIFF_SYM1086=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1086
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM1087=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1087
+	.byte 2,35,16,6
+	.asciz "entries"
+
+LDIFF_SYM1088=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1088
+	.byte 2,35,24,6
+	.asciz "count"
+
+LDIFF_SYM1089=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1089
+	.byte 2,35,56,6
+	.asciz "version"
+
+LDIFF_SYM1090=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1090
+	.byte 2,35,60,6
+	.asciz "freeList"
+
+LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1091
+	.byte 2,35,64,6
+	.asciz "freeCount"
+
+LDIFF_SYM1092=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1092
+	.byte 2,35,68,6
+	.asciz "comparer"
+
+LDIFF_SYM1093=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1093
+	.byte 2,35,32,6
+	.asciz "keys"
+
+LDIFF_SYM1094=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1094
+	.byte 2,35,40,6
+	.asciz "values"
+
+LDIFF_SYM1095=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1095
+	.byte 2,35,48,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM1096=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM1096
+LTDIE_77_POINTER:
+
+	.byte 13
+LDIFF_SYM1097=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM1097
+LTDIE_77_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1098=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM1098
+	.byte 2
+	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:Add"
+	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF"
+
+	.byte 6,234,1
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
+	.quad Lme_f3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1099=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1099
+	.byte 2,141,16,3
+	.asciz "key"
+
+LDIFF_SYM1100=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1100
+	.byte 2,141,24,3
+	.asciz "value"
+
+LDIFF_SYM1101=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1101
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1102=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1102
+Lfde147_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
+
+LDIFF_SYM1103=Lme_f3 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
+	.long LDIFF_SYM1103
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde147_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:.ctor"
+	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor"
+
+	.byte 6,70
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
+	.quad Lme_f4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1104=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1104
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1105=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1105
+Lfde148_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
+
+LDIFF_SYM1106=Lme_f4 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
+	.long LDIFF_SYM1106
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde148_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_82:
+
+	.byte 5
+	.asciz "System_Collections_Generic_EqualityComparer`1"
+
+	.byte 16,16
+LDIFF_SYM1107=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1107
+	.byte 2,35,0,0,7
+	.asciz "System_Collections_Generic_EqualityComparer`1"
+
+LDIFF_SYM1108=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM1108
+LTDIE_82_POINTER:
+
+	.byte 13
+LDIFF_SYM1109=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM1109
+LTDIE_82_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1110=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM1110
+LTDIE_81:
+
+	.byte 5
+	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
+
+	.byte 16,16
+LDIFF_SYM1111=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM1111
+	.byte 2,35,0,0,7
+	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
+
+LDIFF_SYM1112=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM1112
+LTDIE_81_POINTER:
+
+	.byte 13
+LDIFF_SYM1113=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM1113
+LTDIE_81_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1114=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM1114
+	.byte 2
+	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_INT>:.ctor"
+	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor"
+
+	.byte 0,0
+	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
+	.quad Lme_f5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1115=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1115
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1116=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1116
+Lfde149_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
+
+LDIFF_SYM1117=Lme_f5 - System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
+	.long LDIFF_SYM1117
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde149_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.JitHelpers:UnsafeEnumCast<T_INT>"
+	.asciz "System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT"
+
+	.byte 7,14
+	.quad System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
+	.quad Lme_f6
+
+	.byte 2,118,16,3
+	.asciz "val"
+
+LDIFF_SYM1118=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1118
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1119=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1119
+Lfde150_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
+
+LDIFF_SYM1120=Lme_f6 - System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
+	.long LDIFF_SYM1120
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde150_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_83:
+
+	.byte 5
+	.asciz "_InternalEnumerator`1"
+
+	.byte 32,16
+LDIFF_SYM1121=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1121
+	.byte 2,35,0,6
+	.asciz "array"
+
+LDIFF_SYM1122=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1122
+	.byte 2,35,16,6
+	.asciz "idx"
+
+LDIFF_SYM1123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 2,35,24,0,7
+	.asciz "_InternalEnumerator`1"
+
+LDIFF_SYM1124=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1124
+LTDIE_83_POINTER:
+
+	.byte 13
+LDIFF_SYM1125=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1125
+LTDIE_83_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1126=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1126
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
+	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
+
+	.byte 1,215,1
+	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.quad Lme_f7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1127=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1127
+	.byte 1,105,3
+	.asciz "array"
+
+LDIFF_SYM1128=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1128
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1129=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1129
+Lfde151_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+
+LDIFF_SYM1130=Lme_f7 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1130
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde151_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:get_Count"
+	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count"
+
+	.byte 6,158,1
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
+	.quad Lme_f8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1131=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1131
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1132=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1132
+Lfde152_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
+
+LDIFF_SYM1133=Lme_f8 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
+	.long LDIFF_SYM1133
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde152_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:ContainsKey"
+	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT"
+
+	.byte 6,151,2
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
+	.quad Lme_f9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1134=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1134
+	.byte 2,141,16,3
+	.asciz "key"
+
+LDIFF_SYM1135=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1135
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1136=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1136
+Lfde153_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
+
+LDIFF_SYM1137=Lme_f9 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
+	.long LDIFF_SYM1137
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_86:
@@ -32606,756 +28127,224 @@ LTDIE_86:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1237=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1138=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1138
 LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM1238=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1139=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1139
 LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1239=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1140=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1140
 LTDIE_87:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1240=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1141=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1141
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1241=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1142=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1142
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1242=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1143=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1143
 LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM1243=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1144=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1144
 LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1244=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1145=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1145
 LTDIE_88:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1245=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1146=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1246=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1147=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1247=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1148=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1148
 LTDIE_88_POINTER:
 
 	.byte 13
-LDIFF_SYM1248=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1149=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1149
 LTDIE_88_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1249=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1150=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1150
 LTDIE_85:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-	.byte 80,16
-LDIFF_SYM1250=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1250
+	.byte 72,16
+LDIFF_SYM1151=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1151
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1251=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1152=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1252=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1153=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1253=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1253
-	.byte 2,35,64,6
+LDIFF_SYM1154=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1154
+	.byte 2,35,56,6
 	.asciz "version"
 
-LDIFF_SYM1254=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1254
-	.byte 2,35,68,6
+LDIFF_SYM1155=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1155
+	.byte 2,35,60,6
 	.asciz "freeList"
 
-LDIFF_SYM1255=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1255
-	.byte 2,35,72,6
+LDIFF_SYM1156=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1156
+	.byte 2,35,64,6
 	.asciz "freeCount"
 
-LDIFF_SYM1256=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1256
-	.byte 2,35,76,6
+LDIFF_SYM1157=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1157
+	.byte 2,35,68,6
 	.asciz "comparer"
 
-LDIFF_SYM1257=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1158=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1158
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1258=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1159=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1159
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1259=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1259
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM1260=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1260
-	.byte 2,35,56,0,7
+LDIFF_SYM1160=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1160
+	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1261=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1161=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1161
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM1262=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1162=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1162
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1263=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1263
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:Add"
-	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF"
-
-	.byte 6,234,1
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
-	.quad Lme_117
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1264=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1264
-	.byte 2,141,16,3
-	.asciz "key"
-
-LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1265
-	.byte 2,141,24,3
-	.asciz "value"
-
-LDIFF_SYM1266=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1266
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1267=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1267
-Lfde173_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
-
-LDIFF_SYM1268=Lme_117 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Add_TKey_INT_TValue_REF
-	.long LDIFF_SYM1268
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde173_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:.ctor"
-	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor"
-
-	.byte 6,70
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
-	.quad Lme_118
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1269=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1269
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1270=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1270
-Lfde174_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
-
-LDIFF_SYM1271=Lme_118 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor
-	.long LDIFF_SYM1271
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde174_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_90:
-
-	.byte 5
-	.asciz "System_Collections_Generic_EqualityComparer`1"
-
-	.byte 16,16
-LDIFF_SYM1272=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1272
-	.byte 2,35,0,0,7
-	.asciz "System_Collections_Generic_EqualityComparer`1"
-
-LDIFF_SYM1273=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1273
-LTDIE_90_POINTER:
-
-	.byte 13
-LDIFF_SYM1274=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1274
-LTDIE_90_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1275=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1275
-LTDIE_89:
-
-	.byte 5
-	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
-
-	.byte 16,16
-LDIFF_SYM1276=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1276
-	.byte 2,35,0,0,7
-	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
-
-LDIFF_SYM1277=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1277
-LTDIE_89_POINTER:
-
-	.byte 13
-LDIFF_SYM1278=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1278
-LTDIE_89_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1279=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1279
-	.byte 2
-	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_INT>:.ctor"
-	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor"
-
-	.byte 0,0
-	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
-	.quad Lme_119
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1280=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1281=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1281
-Lfde175_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
-
-LDIFF_SYM1282=Lme_119 - System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
-	.long LDIFF_SYM1282
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde175_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.JitHelpers:UnsafeEnumCast<T_INT>"
-	.asciz "System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT"
-
-	.byte 7,14
-	.quad System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
-	.quad Lme_11a
-
-	.byte 2,118,16,3
-	.asciz "val"
-
-LDIFF_SYM1283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1283
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1284=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1284
-Lfde176_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
-
-LDIFF_SYM1285=Lme_11a - System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
-	.long LDIFF_SYM1285
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde176_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_91:
-
-	.byte 5
-	.asciz "_InternalEnumerator`1"
-
-	.byte 32,16
-LDIFF_SYM1286=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1286
-	.byte 2,35,0,6
-	.asciz "array"
-
-LDIFF_SYM1287=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1287
-	.byte 2,35,16,6
-	.asciz "idx"
-
-LDIFF_SYM1288=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1288
-	.byte 2,35,24,0,7
-	.asciz "_InternalEnumerator`1"
-
-LDIFF_SYM1289=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1289
-LTDIE_91_POINTER:
-
-	.byte 13
-LDIFF_SYM1290=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1290
-LTDIE_91_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1291=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1291
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
-	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
-
-	.byte 1,215,1
-	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_11b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1292=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1292
-	.byte 1,105,3
-	.asciz "array"
-
-LDIFF_SYM1293=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1293
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1294=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1294
-Lfde177_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-
-LDIFF_SYM1295=Lme_11b - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1295
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
-	.align 3
-Lfde177_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__get_Item<T_INST>"
-	.asciz "System_Array_InternalArray__get_Item_T_INST_int"
-
-	.byte 1,173,1
-	.quad System_Array_InternalArray__get_Item_T_INST_int
-	.quad Lme_11c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1296=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1296
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM1297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1297
-	.byte 1,106,11
-	.asciz "value"
-
-LDIFF_SYM1298=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1298
-	.byte 3,141,240,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1299=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1299
-Lfde178_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__get_Item_T_INST_int
-
-LDIFF_SYM1300=Lme_11c - System_Array_InternalArray__get_Item_T_INST_int
-	.long LDIFF_SYM1300
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
-	.align 3
-Lfde178_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_94:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM1301=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1301
-LTDIE_94_POINTER:
-
-	.byte 13
-LDIFF_SYM1302=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1302
-LTDIE_94_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1303=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1303
-LTDIE_95:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM1304=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1304
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM1305=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1305
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM1306=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1306
-LTDIE_95_POINTER:
-
-	.byte 13
-LDIFF_SYM1307=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1307
-LTDIE_95_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1308=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1308
-LTDIE_96:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM1309=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1309
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM1310=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1310
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
-
-LDIFF_SYM1311=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1311
-LTDIE_96_POINTER:
-
-	.byte 13
-LDIFF_SYM1312=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1312
-LTDIE_96_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1313=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1313
-LTDIE_93:
-
-	.byte 5
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-	.byte 80,16
-LDIFF_SYM1314=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1314
-	.byte 2,35,0,6
-	.asciz "buckets"
-
-LDIFF_SYM1315=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1315
-	.byte 2,35,16,6
-	.asciz "entries"
-
-LDIFF_SYM1316=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1316
-	.byte 2,35,24,6
-	.asciz "count"
-
-LDIFF_SYM1317=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1317
-	.byte 2,35,64,6
-	.asciz "version"
-
-LDIFF_SYM1318=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1318
-	.byte 2,35,68,6
-	.asciz "freeList"
-
-LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1319
-	.byte 2,35,72,6
-	.asciz "freeCount"
-
-LDIFF_SYM1320=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1320
-	.byte 2,35,76,6
-	.asciz "comparer"
-
-LDIFF_SYM1321=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1321
-	.byte 2,35,32,6
-	.asciz "keys"
-
-LDIFF_SYM1322=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1322
-	.byte 2,35,40,6
-	.asciz "values"
-
-LDIFF_SYM1323=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1323
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM1324=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1324
-	.byte 2,35,56,0,7
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-LDIFF_SYM1325=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1325
-LTDIE_93_POINTER:
-
-	.byte 13
-LDIFF_SYM1326=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1326
-LTDIE_93_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1327=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1327
-LTDIE_92:
+LDIFF_SYM1163=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1163
+LTDIE_84:
 
 	.byte 5
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM1328=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1164=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1329=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1165=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 2,35,16,6
 	.asciz "index"
 
-LDIFF_SYM1330=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1166=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 2,35,24,6
 	.asciz "version"
 
-LDIFF_SYM1331=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 2,35,28,6
 	.asciz "currentKey"
 
-LDIFF_SYM1332=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM1333=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1333
-LTDIE_92_POINTER:
+LDIFF_SYM1169=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1169
+LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM1334=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1334
-LTDIE_92_REFERENCE:
+LDIFF_SYM1170=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1170
+LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1335=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1171=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1171
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey_INT,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF"
 
 	.byte 6,135,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.quad Lme_11d
+	.quad Lme_fa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1336=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1172=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1172
 	.byte 1,105,3
 	.asciz "dictionary"
 
-LDIFF_SYM1337=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1173=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1338=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1338
-Lfde179_start:
+LDIFF_SYM1174=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1174
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 
-LDIFF_SYM1339=Lme_11d - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.long LDIFF_SYM1339
+LDIFF_SYM1175=Lme_fa - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
+	.long LDIFF_SYM1175
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde179_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:get_Count"
-	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count"
-
-	.byte 6,158,1
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
-	.quad Lme_11e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1340=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1340
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1341=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1341
-Lfde180_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
-
-LDIFF_SYM1342=Lme_11e - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_get_Count
-	.long LDIFF_SYM1342
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde180_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:ContainsKey"
-	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT"
-
-	.byte 6,151,2
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
-	.quad Lme_11f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1343=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1343
-	.byte 2,141,16,3
-	.asciz "key"
-
-LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1344
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1345=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1345
-Lfde181_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
-
-LDIFF_SYM1346=Lme_11f - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsKey_TKey_INT
-	.long LDIFF_SYM1346
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde181_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_99:
+LTDIE_91:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -33363,356 +28352,307 @@ LTDIE_99:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1347=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1347
-LTDIE_99_POINTER:
+LDIFF_SYM1176=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1176
+LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM1348=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1348
-LTDIE_99_REFERENCE:
+LDIFF_SYM1177=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1177
+LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1349=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1349
-LTDIE_100:
+LDIFF_SYM1178=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1178
+LTDIE_92:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1350=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1350
+LDIFF_SYM1179=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1179
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1351=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1180=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1180
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1352=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1352
-LTDIE_100_POINTER:
+LDIFF_SYM1181=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1181
+LTDIE_92_POINTER:
 
 	.byte 13
-LDIFF_SYM1353=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1353
-LTDIE_100_REFERENCE:
+LDIFF_SYM1182=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1182
+LTDIE_92_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1354=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1354
-LTDIE_101:
+LDIFF_SYM1183=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1183
+LTDIE_93:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1355=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1184=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1356=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1185=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1185
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1357=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1357
-LTDIE_101_POINTER:
+LDIFF_SYM1186=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM1186
+LTDIE_93_POINTER:
 
 	.byte 13
-LDIFF_SYM1358=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1358
-LTDIE_101_REFERENCE:
+LDIFF_SYM1187=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM1187
+LTDIE_93_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1359=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1359
-LTDIE_98:
+LDIFF_SYM1188=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM1188
+LTDIE_90:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-	.byte 80,16
-LDIFF_SYM1360=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1360
+	.byte 72,16
+LDIFF_SYM1189=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1361=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1190=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1190
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1362=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1191=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1363
-	.byte 2,35,64,6
+LDIFF_SYM1192=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1192
+	.byte 2,35,56,6
 	.asciz "version"
 
-LDIFF_SYM1364=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1364
-	.byte 2,35,68,6
+LDIFF_SYM1193=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1193
+	.byte 2,35,60,6
 	.asciz "freeList"
 
-LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1365
-	.byte 2,35,72,6
+LDIFF_SYM1194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 2,35,64,6
 	.asciz "freeCount"
 
-LDIFF_SYM1366=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1366
-	.byte 2,35,76,6
+LDIFF_SYM1195=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1195
+	.byte 2,35,68,6
 	.asciz "comparer"
 
-LDIFF_SYM1367=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1196=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1196
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1368=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1197=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1369=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM1370=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1370
-	.byte 2,35,56,0,7
+LDIFF_SYM1198=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1198
+	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1371=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1371
-LTDIE_98_POINTER:
+LDIFF_SYM1199=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1199
+LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM1372=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1372
-LTDIE_98_REFERENCE:
+LDIFF_SYM1200=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1200
+LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1373=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1373
-LTDIE_97:
+LDIFF_SYM1201=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1201
+LTDIE_89:
 
 	.byte 5
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM1374=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1202=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1375=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1203=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2,35,16,6
 	.asciz "index"
 
-LDIFF_SYM1376=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1204=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 2,35,24,6
 	.asciz "version"
 
-LDIFF_SYM1377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1205=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,35,28,6
 	.asciz "currentValue"
 
-LDIFF_SYM1378=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1206=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM1379=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1379
-LTDIE_97_POINTER:
+LDIFF_SYM1207=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1207
+LTDIE_89_POINTER:
 
 	.byte 13
-LDIFF_SYM1380=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1380
-LTDIE_97_REFERENCE:
+LDIFF_SYM1208=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1208
+LTDIE_89_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1381=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1209=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey_INT,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF"
 
 	.byte 6,236,10
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.quad Lme_120
+	.quad Lme_fb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1382=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1210=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 1,105,3
 	.asciz "dictionary"
 
-LDIFF_SYM1383=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1211=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1384=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1384
-Lfde182_start:
+LDIFF_SYM1212=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1212
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
 
-LDIFF_SYM1385=Lme_120 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
-	.long LDIFF_SYM1385
+LDIFF_SYM1213=Lme_fb - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_TKey_INT_TValue_REF__ctor_System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF
+	.long LDIFF_SYM1213
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde182_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_102:
+LTDIE_94:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1386=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1214=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM1387=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1387
-LTDIE_102_POINTER:
+LDIFF_SYM1215=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1215
+LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM1388=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1388
-LTDIE_102_REFERENCE:
+LDIFF_SYM1216=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1216
+LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1389=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1217=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:ContainsValue"
 	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF"
 
 	.byte 6,156,2
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF
-	.quad Lme_121
+	.quad Lme_fc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1390=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1218=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 2,141,48,3
 	.asciz "value"
 
-LDIFF_SYM1391=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM1392=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 1,105,11
 	.asciz "c"
 
-LDIFF_SYM1393=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1221=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1394=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1222=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1395=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM1395
-Lfde183_start:
+LDIFF_SYM1223=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1223
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF
 
-LDIFF_SYM1396=Lme_121 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF
-	.long LDIFF_SYM1396
+LDIFF_SYM1224=Lme_fc - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_ContainsValue_TValue_REF
+	.long LDIFF_SYM1224
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde183_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__get_Item<T_INST>"
-	.asciz "System_Array_InternalArray__get_Item_T_INST_int_0"
-
-	.byte 1,173,1
-	.quad System_Array_InternalArray__get_Item_T_INST_int_0
-	.quad Lme_122
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1397=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1397
-	.byte 1,105,3
-	.asciz "index"
-
-LDIFF_SYM1398=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1398
-	.byte 1,106,11
-	.asciz "value"
-
-LDIFF_SYM1399=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1399
-	.byte 3,141,240,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1400=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1400
-Lfde184_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__get_Item_T_INST_int_0
-
-LDIFF_SYM1401=Lme_122 - System_Array_InternalArray__get_Item_T_INST_int_0
-	.long LDIFF_SYM1401
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
-	.align 3
-Lfde184_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_103:
+LTDIE_95:
 
 	.byte 8
 	.asciz "System_Collections_Generic_InsertionBehavior"
 
 	.byte 1
-LDIFF_SYM1402=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1225=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 9
 	.asciz "None"
 
@@ -33725,90 +28665,90 @@ LDIFF_SYM1402=LDIE_U1 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "System_Collections_Generic_InsertionBehavior"
 
-LDIFF_SYM1403=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1403
-LTDIE_103_POINTER:
+LDIFF_SYM1226=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1226
+LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM1404=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1404
-LTDIE_103_REFERENCE:
+LDIFF_SYM1227=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1227
+LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1405=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1228=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2<TKey_INT,_TValue_REF>:TryInsert"
 	.asciz "System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior"
 
 	.byte 6,132,3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior
-	.quad Lme_123
+	.quad Lme_fd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1406=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1229=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 3,141,208,0,3
 	.asciz "key"
 
-LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1230=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM1408=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1231=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 3,141,216,0,3
 	.asciz "behavior"
 
-LDIFF_SYM1409=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1232=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 3,141,224,0,11
 	.asciz "hashCode"
 
-LDIFF_SYM1410=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1233=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 1,103,11
 	.asciz "targetBucket"
 
-LDIFF_SYM1411=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1234=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 1,102,11
 	.asciz "collisionCount"
 
-LDIFF_SYM1412=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1235=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 1,101,11
 	.asciz "index"
 
-LDIFF_SYM1413=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 1,100,11
 	.asciz "i"
 
-LDIFF_SYM1414=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1415=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1415
-Lfde185_start:
+LDIFF_SYM1238=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1238
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior
 
-LDIFF_SYM1416=Lme_123 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior
-	.long LDIFF_SYM1416
+LDIFF_SYM1239=Lme_fd - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_TryInsert_TKey_INT_TValue_REF_System_Collections_Generic_InsertionBehavior
+	.long LDIFF_SYM1239
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13
 	.align 3
-Lfde185_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -33818,41 +28758,41 @@ Lfde185_end:
 
 	.byte 6,76
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Collections_Generic_IEqualityComparer_1_TKey_INT
-	.quad Lme_124
+	.quad Lme_fe
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1417=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1240=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 2,141,48,3
 	.asciz "capacity"
 
-LDIFF_SYM1418=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1241=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM1419=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1242=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1420=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1420
-Lfde186_start:
+LDIFF_SYM1243=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1243
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Collections_Generic_IEqualityComparer_1_TKey_INT
 
-LDIFF_SYM1421=Lme_124 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Collections_Generic_IEqualityComparer_1_TKey_INT
-	.long LDIFF_SYM1421
+LDIFF_SYM1244=Lme_fe - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF__ctor_int_System_Collections_Generic_IEqualityComparer_1_TKey_INT
+	.long LDIFF_SYM1244
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
-Lfde186_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -33862,102 +28802,102 @@ Lfde186_end:
 
 	.byte 6,233,2
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT
-	.quad Lme_125
+	.quad Lme_ff
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1422=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1245=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 2,141,40,3
 	.asciz "key"
 
-LDIFF_SYM1423=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1246=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 1,106,11
 	.asciz "hashCode"
 
-LDIFF_SYM1424=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1247=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1425=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1248=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1426=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1426
-Lfde187_start:
+LDIFF_SYM1249=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1249
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT
 
-LDIFF_SYM1427=Lme_125 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT
-	.long LDIFF_SYM1427
+LDIFF_SYM1250=Lme_ff - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_FindEntry_TKey_INT
+	.long LDIFF_SYM1250
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde187_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_104:
+LTDIE_96:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1428=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1251=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM1429=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1429
-LTDIE_104_POINTER:
+LDIFF_SYM1252=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1252
+LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM1430=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1430
-LTDIE_104_REFERENCE:
+LDIFF_SYM1253=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1253
+LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1431=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1254=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1254
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_REF>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_REF_get_Default"
 
 	.byte 2,32
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
-	.quad Lme_126
+	.quad Lme_100
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM1432=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1255=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1255
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1433=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM1433
-Lfde188_start:
+LDIFF_SYM1256=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1256
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 
-LDIFF_SYM1434=Lme_126 - System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
-	.long LDIFF_SYM1434
+LDIFF_SYM1257=Lme_100 - System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
+	.long LDIFF_SYM1257
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde188_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -33967,71 +28907,71 @@ Lfde188_end:
 
 	.byte 6,254,3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize_int_bool
-	.quad Lme_127
+	.quad Lme_101
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1435=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1258=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1258
 	.byte 3,141,200,0,3
 	.asciz "newSize"
 
-LDIFF_SYM1436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 1,105,3
 	.asciz "forceNewHashCodes"
 
-LDIFF_SYM1437=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1260=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 3,141,208,0,11
 	.asciz "newBuckets"
 
-LDIFF_SYM1438=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1261=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 1,104,11
 	.asciz "newEntries"
 
-LDIFF_SYM1439=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1262=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM1440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 1,102,11
 	.asciz "i"
 
-LDIFF_SYM1441=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1264
 	.byte 1,101,11
 	.asciz "i"
 
-LDIFF_SYM1442=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 1,100,11
 	.asciz "bucket"
 
-LDIFF_SYM1443=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1266=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1266
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1444=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1444
-Lfde189_start:
+LDIFF_SYM1267=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1267
+Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize_int_bool
 
-LDIFF_SYM1445=Lme_127 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize_int_bool
-	.long LDIFF_SYM1445
+LDIFF_SYM1268=Lme_101 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize_int_bool
+	.long LDIFF_SYM1268
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.align 3
-Lfde189_end:
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -34041,31 +28981,31 @@ Lfde189_end:
 
 	.byte 6,248,3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize
-	.quad Lme_128
+	.quad Lme_102
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1446=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1269=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1269
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1447=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1447
-Lfde190_start:
+LDIFF_SYM1270=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1270
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize
 
-LDIFF_SYM1448=Lme_128 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize
-	.long LDIFF_SYM1448
+LDIFF_SYM1271=Lme_102 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Resize
+	.long LDIFF_SYM1271
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde190_end:
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -34075,46 +29015,46 @@ Lfde190_end:
 
 	.byte 6,251,2
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Initialize_int
-	.quad Lme_129
+	.quad Lme_103
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1449=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1272=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 2,141,32,3
 	.asciz "capacity"
 
-LDIFF_SYM1450=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 2,141,40,11
 	.asciz "size"
 
-LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1451
+LDIFF_SYM1274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1452=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1275=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1453=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM1453
-Lfde191_start:
+LDIFF_SYM1276=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1276
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Initialize_int
 
-LDIFF_SYM1454=Lme_129 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Initialize_int
-	.long LDIFF_SYM1454
+LDIFF_SYM1277=Lme_103 - System_Collections_Generic_Dictionary_2_TKey_INT_TValue_REF_Initialize_int
+	.long LDIFF_SYM1277
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
 	.align 3
-Lfde191_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -34124,120 +29064,120 @@ Lfde191_end:
 
 	.byte 2,49
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-	.quad Lme_12a
+	.quad Lme_104
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM1455=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1455
+LDIFF_SYM1278=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 1,106,11
 	.asciz "u"
 
-LDIFF_SYM1456=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1456
+LDIFF_SYM1279=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1279
 	.byte 1,105,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM1457=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1280=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM1280
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1458=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM1458
-Lfde192_start:
+LDIFF_SYM1281=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1281
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 
-LDIFF_SYM1459=Lme_12a - System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-	.long LDIFF_SYM1459
+LDIFF_SYM1282=Lme_104 - System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
+	.long LDIFF_SYM1282
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,68,149,31,150,30,68,151,29,152,28,68,153,27,154,26
 	.align 3
-Lfde192_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_106:
+LTDIE_98:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1460=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1283=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM1461=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1461
-LTDIE_106_POINTER:
+LDIFF_SYM1284=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1284
+LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM1462=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1462
-LTDIE_106_REFERENCE:
+LDIFF_SYM1285=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1285
+LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1463=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1463
-LTDIE_105:
+LDIFF_SYM1286=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1286
+LTDIE_97:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1464=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1287=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1287
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM1465=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1465
-LTDIE_105_POINTER:
+LDIFF_SYM1288=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1288
+LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM1466=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1466
-LTDIE_105_REFERENCE:
+LDIFF_SYM1289=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1289
+LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1467=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1467
+LDIFF_SYM1290=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1290
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_REF>:.ctor"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor"
 
 	.byte 0,0
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-	.quad Lme_12b
+	.quad Lme_105
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1468=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1468
+LDIFF_SYM1291=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1469=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM1469
-Lfde193_start:
+LDIFF_SYM1292=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1292
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 
-LDIFF_SYM1470=Lme_12b - System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-	.long LDIFF_SYM1470
+LDIFF_SYM1293=Lme_105 - System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
+	.long LDIFF_SYM1293
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde193_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -34247,31 +29187,31 @@ Lfde193_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF__ctor
-	.quad Lme_12c
+	.quad Lme_106
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1471=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1471
+LDIFF_SYM1294=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1472=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM1472
-Lfde194_start:
+LDIFF_SYM1295=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1295
+Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 
-LDIFF_SYM1473=Lme_12c - System_Collections_Generic_EqualityComparer_1_T_REF__ctor
-	.long LDIFF_SYM1473
+LDIFF_SYM1296=Lme_106 - System_Collections_Generic_EqualityComparer_1_T_REF__ctor
+	.long LDIFF_SYM1296
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde194_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 

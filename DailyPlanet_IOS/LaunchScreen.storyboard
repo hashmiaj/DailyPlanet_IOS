@@ -20,7 +20,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="197">
                                 <rect key="frame" x="87" y="314" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <variation key="heightClass=regular-widthClass=compact" highlightedImage="Pics/TDP-logo-1 (1).png" image="Pics/TDP-logo-1 (1).png"/>
+                                <variation key="heightClass=regular-widthClass=compact" highlightedImage="Pics/TDP-logo-1 (1).png" image="Pics/sirach.png"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

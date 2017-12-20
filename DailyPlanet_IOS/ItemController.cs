@@ -34,6 +34,20 @@ namespace DailyPlanet_IOS
             set;
         }
 
+        //Here is how the label changes when the switch is toggled
+        partial void addSwitchValueChanged(UISwitch sender)
+        {
+            bool state = ((UISwitch)addSwitch).On;
+            if (state)
+            {
+                addLabel.Text = "Add";
+            }
+            else
+            {
+                addLabel.Text = "Remove";
+            }
+        }
+
         public ItemController() : base("ItemController", null)
         {
         }
@@ -46,14 +60,7 @@ namespace DailyPlanet_IOS
             barcodeLable.Text = barCodeLableText;
 
             //And here is where we set the addLable text
-            addLabel.Text = addLabelText;
-
-            //I was messing around trying to change the label when
-            //you switch the addSwitch on and off.
-            if(!addSwitch.State.ToString().Equals("Normal"))
-            {
-                addLabel.Text = "Remove";
-            }
+            //addLabel.Text = addLabelText;
 
         }
 

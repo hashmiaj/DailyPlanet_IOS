@@ -26,6 +26,10 @@ namespace DailyPlanet_IOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel barcodeLable { get; set; }
 
+        [Action ("addSwitchValueChanged:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void addSwitchValueChanged (UIKit.UISwitch sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (addLabel != null) {

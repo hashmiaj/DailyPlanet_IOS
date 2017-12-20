@@ -1,28 +1,19 @@
 ﻿<Properties StartupConfiguration="{7D698B11-BBA7-4290-834E-BF3C8629EF6D}|Default">
-  <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7479B3F5-108E-4224-84CD-5E95B7CAA697" automaticSigning="False">
+  <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.f4b8c6f4aa38709cbf7149c0fc212d6fce27c666" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS>
   <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/ViewController.cs">
     <Files>
-      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="85" Column="39" />
-      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="15" Column="63" />
+      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="17" Column="67" />
+      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="18" Column="9" />
       <File FileName="DailyPlanet_IOS/ItemController.xib" />
       <File FileName="DailyPlanet_IOS/Main.storyboard" />
+      <File FileName="DailyPlanet_IOS/LaunchScreen.storyboard" />
+      <File FileName="DailyPlanet_IOS/ItemController.designer.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/Main.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DailyPlanet_IOS" expanded="True">
-            <Node name="DailyPlanet_IOS" expanded="True">
-              <Node name="ItemController.cs" expanded="True" />
-              <Node name="ViewController.cs" expanded="True" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
