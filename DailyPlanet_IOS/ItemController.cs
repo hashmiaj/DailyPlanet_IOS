@@ -34,6 +34,12 @@ namespace DailyPlanet_IOS
             set;
         }
 
+        public string itemCountText
+        {
+            get;
+            set;
+        }
+
         //Here is how the label changes when the switch is toggled
         partial void addSwitchValueChanged(UISwitch sender)
         {
@@ -57,11 +63,20 @@ namespace DailyPlanet_IOS
             base.ViewDidLoad();
 
             //Here is where we set the actual barcodeLable text
-            barcodeLable.Text = barCodeLableText;
+            barcodeLabel.Text = barCodeLableText;
+
 
             //And here is where we set the addLable text
             //addLabel.Text = addLabelText;
 
+        }
+
+        partial void SubmitBtn_TouchUpInside(UIButton sender)
+        {
+            //POP Confirmation Window....
+            //Update Database....
+
+            itemCount.Text = "50";
         }
 
         public override void DidReceiveMemoryWarning()

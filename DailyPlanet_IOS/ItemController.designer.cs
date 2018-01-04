@@ -24,11 +24,23 @@ namespace DailyPlanet_IOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel barcodeLable { get; set; }
+        UIKit.UILabel barcodeLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel itemCount { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton submitBtn { get; set; }
 
         [Action ("addSwitchValueChanged:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void addSwitchValueChanged (UIKit.UISwitch sender);
+
+        [Action ("SubmitBtn_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void SubmitBtn_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
@@ -42,9 +54,19 @@ namespace DailyPlanet_IOS
                 addSwitch = null;
             }
 
-            if (barcodeLable != null) {
-                barcodeLable.Dispose ();
-                barcodeLable = null;
+            if (barcodeLabel != null) {
+                barcodeLabel.Dispose ();
+                barcodeLabel = null;
+            }
+
+            if (itemCount != null) {
+                itemCount.Dispose ();
+                itemCount = null;
+            }
+
+            if (submitBtn != null) {
+                submitBtn.Dispose ();
+                submitBtn = null;
             }
         }
     }

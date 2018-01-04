@@ -18,3 +18,24 @@
 /Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.csproj.CoreCompileInputs.cache
 /Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.exe
 /Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.pdb
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.exe.config
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.exe
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.pdb
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/MySql.Data.CF.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/System.Configuration.ConfigurationManager.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/System.Security.AccessControl.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/System.Security.Permissions.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/System.Security.Principal.Windows.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/ZXing.Net.Mobile.Core.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/zxing.portable.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/ZXingNetMobile.dll
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/actool/_PartialAppManifest.items
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/actool/_BundleResourceWithLogicalName.items
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/Pics/TDP-logo-1 (1).png
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/Pics/sirach.png
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.csprojResolveAssemblyReference.cache
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.csproj.CoreCompileInputs.cache
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.exe
+/Users/josephconteh/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.pdb

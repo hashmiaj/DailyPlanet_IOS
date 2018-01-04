@@ -10,7 +10,9 @@
                 <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
                 <outlet property="addSwitch" destination="151" id="name-outlet-151"/>
                 <outlet property="addLabel" destination="152" id="name-outlet-152"/>
-                <outlet property="barcodeLable" destination="477" id="name-outlet-477"/>
+                <outlet property="barcodeLabel" destination="477" id="name-outlet-477"/>
+                <outlet property="submitBtn" destination="2098" id="name-outlet-2098"/>
+                <outlet property="itemCount" destination="150" id="name-outlet-150"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -83,6 +85,14 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2098" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <rect key="frame" x="110" y="445" width="193" height="114"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="SubmitBtn_TouchUpInside:" destination="-1" id="2115" eventType="touchUpInside"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
