@@ -15,15 +15,15 @@ namespace DailyPlanet_IOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton itemPageBtn { get; set; }
+        UIKit.UIButton itemListButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton scanBtn { get; set; }
 
-        [Action ("ItemPageBtn_TouchUpInside:")]
+        [Action ("ItemListButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void ItemPageBtn_TouchUpInside (UIKit.UIButton sender);
+        partial void ItemListButton_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("ScanBtn_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -31,9 +31,9 @@ namespace DailyPlanet_IOS
 
         void ReleaseDesignerOutlets ()
         {
-            if (itemPageBtn != null) {
-                itemPageBtn.Dispose ();
-                itemPageBtn = null;
+            if (itemListButton != null) {
+                itemListButton.Dispose ();
+                itemListButton = null;
             }
 
             if (scanBtn != null) {

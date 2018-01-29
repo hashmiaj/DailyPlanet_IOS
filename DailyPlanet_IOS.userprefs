@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{7D698B11-BBA7-4290-834E-BF3C8629EF6D}|Default">
-  <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.12fef9cd6a2093a24a3f5cd016cef8128c3604f1" automaticSigning="False">
+  <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7479B3F5-108E-4224-84CD-5E95B7CAA697" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/ItemController.xib">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/ItemController.cs">
     <Files>
-      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="67" Column="40" />
-      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="43" Column="1" />
-      <File FileName="DailyPlanet_IOS/ItemController.xib" />
       <File FileName="DailyPlanet_IOS/Main.storyboard" />
-      <File FileName="DailyPlanet_IOS/LaunchScreen.storyboard" />
       <File FileName="DailyPlanet_IOS/ItemController.designer.cs" Line="1" Column="1" />
-      <File FileName="DailyPlanet_IOS/Main.cs" Line="1" Column="1" />
-      <File FileName="DailyPlanet_IOS/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/ItemsTable.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/app.config" Line="1" Column="1" />
       <File FileName="DailyPlanet_IOS/Info.plist" />
-      <File FileName="DailyPlanet_IOS/Entitlements.plist" />
+      <File FileName="../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="481" Column="3" />
+      <File FileName="DailyPlanet_IOS/Main.cs" Line="12" Column="1" />
+      <File FileName="DailyPlanet_IOS/ItemTVS.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/itemTableController.cs" Line="40" Column="13" />
+      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="34" Column="9" />
+      <File FileName="DailyPlanet_IOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

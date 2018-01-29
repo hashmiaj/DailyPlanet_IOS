@@ -6,6 +6,55 @@ namespace DailyPlanet_IOS
 {
     public partial class ItemController : UIViewController
     {
+        
+        partial void SubmitBtn_TouchUpInside(UIButton sender)
+        {
+            
+            var alert = UIAlertController.Create(
+                "Alert", "Are you sure you would like to " + addLabel.Text + " " + addRemoveNum.Text + " entries?", UIAlertControllerStyle.Alert);
+
+            
+            alert.AddAction(UIAlertAction.Create("Submit", UIAlertActionStyle.Default, (UIAlertAction obj) =>
+            {
+                if (addSwitch.State.Equals(true))
+                {
+                    int addNum = Convert.ToInt32(addRemoveNum.Text);
+                    int nItemNum = Convert.ToInt32(itemNum.Text);
+
+                    int sum = nItemNum + addNum;
+                    itemNum.Text = sum.ToString();
+                }
+                else
+                {
+                    itemNum.Text = itemNum.Text;
+                }
+
+            }));
+
+            alert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Default, (UIAlertAction obj) =>
+            {
+
+            }));
+
+            PresentViewController(alert, true, null);
+           // ShowViewController(alert, null);
+
+        }
+
+        partial void MinusBtn_TouchUpInside(UIButton sender)
+        {
+            int num = Convert.ToInt32(addRemoveNum.Text);
+            num--;
+            addRemoveNum.Text = num.ToString();
+        }
+
+        partial void PlusBtn_TouchUpInside(UIButton sender)
+        {
+            int num = Convert.ToInt32(addRemoveNum.Text);
+            num++;
+            addRemoveNum.Text = num.ToString();
+        }
+
         /*
          * These strings are created so that they can be accessed 
          * by the ViewController. In the ViewController.cs there
@@ -34,12 +83,6 @@ namespace DailyPlanet_IOS
             set;
         }
 
-        public string itemCountText
-        {
-            get;
-            set;
-        }
-
         //Here is how the label changes when the switch is toggled
         partial void addSwitchValueChanged(UISwitch sender)
         {
@@ -63,20 +106,11 @@ namespace DailyPlanet_IOS
             base.ViewDidLoad();
 
             //Here is where we set the actual barcodeLable text
-            barcodeLabel.Text = barCodeLableText;
-
+            barcodeLable.Text = barCodeLableText;
 
             //And here is where we set the addLable text
             //addLabel.Text = addLabelText;
 
-        }
-
-        partial void SubmitBtn_TouchUpInside(UIButton sender)
-        {
-            //POP Confirmation Window....
-            //Update Database....
-
-            itemCount.Text = "50";
         }
 
         public override void DidReceiveMemoryWarning()

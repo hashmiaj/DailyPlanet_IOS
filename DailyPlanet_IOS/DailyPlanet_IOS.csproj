@@ -121,6 +121,8 @@
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="ItemController.xib" />
+    <InterfaceDefinition Include="itemTableController.xib" />
+    <InterfaceDefinition Include="Resources\en.lproj\Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -139,10 +141,22 @@
     <Compile Include="ItemController.designer.cs">
       <DependentUpon>ItemController.cs</DependentUpon>
     </Compile>
+    <Compile Include="itemTableController.cs" />
+    <Compile Include="itemTableController.designer.cs">
+      <DependentUpon>itemTableController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemTVS.cs" />
+    <Compile Include="itemTableCell.cs" />
+    <Compile Include="itemTableCell.designer.cs">
+      <DependentUpon>itemTableCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Pics\TDP-logo-1 %281%29.png" />
     <BundleResource Include="Pics\sirach.png" />
+    <BundleResource Include="Pics\minus_button_2-512.png" />
+    <BundleResource Include="Pics\add-512.png" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="zxing.net.mobile">
