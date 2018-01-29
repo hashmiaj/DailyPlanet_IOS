@@ -11,7 +11,6 @@ namespace DailyPlanet_IOS
 {
     public partial class ViewController : UIViewController
     {
-
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -21,6 +20,7 @@ namespace DailyPlanet_IOS
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+
         }
 
         public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
@@ -32,10 +32,12 @@ namespace DailyPlanet_IOS
 
         }
 
-        partial void ItemPageBtn_TouchUpInside(UIButton sender)
+        partial void ItemListButton_TouchUpInside(UIButton sender)
         {
-            
+            itemTableController itemTable = new itemTableController();
+            this.NavigationController.PushViewController(itemTable, true);
         }
+
 
         partial void ScanBtn_TouchUpInside(UIButton sender)
         {

@@ -30,10 +30,10 @@
                                 <rect key="frame" x="64" y="273" width="286" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="62"/>
-                                <state key="normal" title="Item Page"/>
+                                <state key="normal" title="Item List"/>
                                 <connections>
-                                    <action selector="ItemPageBtn_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1430"/>
                                     <segue destination="3092" kind="push" id="6fz-Yq-D76"/>
+                                    <action selector="ItemListButton_TouchUpInside:" destination="BYZ-38-t0r" id="5042" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,7 +41,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Daily Planet Barcode Scanner" id="2780"/>
                     <connections>
-                        <outlet property="itemPageBtn" destination="1425" id="name-outlet-1425"/>
+                        <outlet property="itemListButton" destination="1425" id="name-outlet-1425"/>
                         <outlet property="scanBtn" destination="407" id="name-outlet-407"/>
                     </connections>
                 </viewController>
@@ -61,10 +61,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pics/sirach.png" translatesAutoresizingMaskIntoConstraints="NO" id="3096">
-                                <rect key="frame" x="20" y="111" width="133" height="246"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Name: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4175">
                                 <rect key="frame" x="186" y="133" width="122" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -88,17 +84,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="378" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4178">
                                 <rect key="frame" x="328" y="224" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4179">
-                                <rect key="frame" x="176" y="434" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="REMOVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4180">
-                                <rect key="frame" x="121" y="391" width="161" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -141,5 +126,7 @@
     <resources>
         <image name="Pics/sirach.png" width="153" height="500"/>
         <image name="Pics/TDP-logo-1 (1).png" width="300" height="136"/>
+        <image name="Pics/minus_button_2-512.png" width="512" height="512"/>
+        <image name="Pics/add-512.png" width="512" height="512"/>
     </resources>
 </document>

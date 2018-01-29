@@ -5,6 +5,10 @@
       <LogicalName>ItemController.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/itemTableController.nib">
+      <LogicalName>itemTableController.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib">
       <LogicalName>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</LogicalName>
       <Optimize>false</Optimize>
@@ -44,6 +48,21 @@
       <LogicalName>Main.storyboardc/UIViewController-3092.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/en.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib">
+      <LogicalName>en.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/en.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/en.lproj/Main.storyboardc/Info.plist">
+      <LogicalName>en.lproj/Main.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/en.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/en.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib">
+      <LogicalName>en.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/en.lproj/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

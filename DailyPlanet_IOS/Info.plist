@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.joseph.DailyPlanet</string>
+	<string>com.bundle.Daily</string>
 	<key>CFBundleName</key>
 	<string>DailyPlanet_IOS</string>
 	<key>CFBundleShortVersionString</key>
