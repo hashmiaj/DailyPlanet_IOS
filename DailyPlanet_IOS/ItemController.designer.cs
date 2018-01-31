@@ -32,6 +32,10 @@ namespace DailyPlanet_IOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel itemName { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel itemNum { get; set; }
 
         [Outlet]
@@ -82,6 +86,11 @@ namespace DailyPlanet_IOS
             if (barcodeLable != null) {
                 barcodeLable.Dispose ();
                 barcodeLable = null;
+            }
+
+            if (itemName != null) {
+                itemName.Dispose ();
+                itemName = null;
             }
 
             if (itemNum != null) {

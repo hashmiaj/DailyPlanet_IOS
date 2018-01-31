@@ -11,8 +11,8 @@ using UIKit;
 
 namespace DailyPlanet_IOS
 {
-    [Register ("itemTableController")]
-    partial class itemTableController
+    [Register ("itemCell")]
+    partial class itemCell
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -25,10 +25,6 @@ namespace DailyPlanet_IOS
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel itemNumberLbl { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITableView itemTableView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -45,11 +41,6 @@ namespace DailyPlanet_IOS
             if (itemNumberLbl != null) {
                 itemNumberLbl.Dispose ();
                 itemNumberLbl = null;
-            }
-
-            if (itemTableView != null) {
-                itemTableView.Dispose ();
-                itemTableView = null;
             }
         }
     }

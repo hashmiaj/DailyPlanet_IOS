@@ -32,13 +32,6 @@ namespace DailyPlanet_IOS
 
         }
 
-        partial void ItemListButton_TouchUpInside(UIButton sender)
-        {
-            itemTableController itemTable = new itemTableController();
-            this.NavigationController.PushViewController(itemTable, true);
-        }
-
-
         partial void ScanBtn_TouchUpInside(UIButton sender)
         {
             /*

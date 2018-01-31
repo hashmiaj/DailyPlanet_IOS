@@ -5,10 +5,6 @@
       <LogicalName>ItemController.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/itemTableController.nib">
-      <LogicalName>itemTableController.nib</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib">
       <LogicalName>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</LogicalName>
       <Optimize>false</Optimize>
@@ -24,8 +20,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc/3092-view-3093.nib">
-      <LogicalName>Main.storyboardc/3092-view-3093.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc/5274-view-5275.nib">
+      <LogicalName>Main.storyboardc/5274-view-5275.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
@@ -44,8 +40,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc/UIViewController-3092.nib">
-      <LogicalName>Main.storyboardc/UIViewController-3092.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc/UITableViewController-5274.nib">
+      <LogicalName>Main.storyboardc/UITableViewController-5274.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>

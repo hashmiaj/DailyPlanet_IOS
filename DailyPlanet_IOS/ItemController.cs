@@ -9,25 +9,41 @@ namespace DailyPlanet_IOS
         
         partial void SubmitBtn_TouchUpInside(UIButton sender)
         {
-            
             var alert = UIAlertController.Create(
                 "Alert", "Are you sure you would like to " + addLabel.Text + " " + addRemoveNum.Text + " entries?", UIAlertControllerStyle.Alert);
 
             
             alert.AddAction(UIAlertAction.Create("Submit", UIAlertActionStyle.Default, (UIAlertAction obj) =>
             {
-                if (addSwitch.State.Equals(true))
+                bool state = ((UISwitch)addSwitch).On;
+
+                if (state)
                 {
-                    int addNum = Convert.ToInt32(addRemoveNum.Text);
+                    int num = Convert.ToInt32(addRemoveNum.Text);
                     int nItemNum = Convert.ToInt32(itemNum.Text);
 
-                    int sum = nItemNum + addNum;
+                    int sum = nItemNum + num;
                     itemNum.Text = sum.ToString();
                 }
                 else
                 {
-                    itemNum.Text = itemNum.Text;
+                    int num = Convert.ToInt32(addRemoveNum.Text);
+                    int nItemNum = Convert.ToInt32(itemNum.Text);
+
+                    int sum = nItemNum - num;
+                    itemNum.Text = sum.ToString();
                 }
+
+
+                var finishedAlert = UIAlertController.Create(
+                    "Done!", "You have just updated the item quantity to " + itemNum.Text + ".", UIAlertControllerStyle.Alert);
+
+                finishedAlert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, (UIAlertAction OBJ) =>
+                {
+                    
+                }));
+
+                PresentViewController(finishedAlert, true, null);
 
             }));
 
@@ -35,6 +51,7 @@ namespace DailyPlanet_IOS
             {
 
             }));
+
 
             PresentViewController(alert, true, null);
            // ShowViewController(alert, null);
@@ -83,6 +100,18 @@ namespace DailyPlanet_IOS
             set;
         }
 
+        public string itemNameText
+        {
+            get;
+            set;
+        }
+
+        public string itemNumberText
+        {
+            get;
+            set;
+        }
+
         //Here is how the label changes when the switch is toggled
         partial void addSwitchValueChanged(UISwitch sender)
         {
@@ -107,7 +136,8 @@ namespace DailyPlanet_IOS
 
             //Here is where we set the actual barcodeLable text
             barcodeLable.Text = barCodeLableText;
-
+            itemName.Text = itemNameText;
+            itemNum.Text = itemNumberText;
             //And here is where we set the addLable text
             //addLabel.Text = addLabelText;
 

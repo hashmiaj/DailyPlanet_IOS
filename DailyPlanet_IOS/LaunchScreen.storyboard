@@ -44,5 +44,7 @@
     <resources>
         <image name="Pics/TDP-logo-1 (1).png" width="300" height="136"/>
         <image name="Pics/sirach.png" width="153" height="500"/>
+        <image name="Pics/minus_button_2-512.png" width="512" height="512"/>
+        <image name="Pics/add-512.png" width="512" height="512"/>
     </resources>
 </document>
