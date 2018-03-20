@@ -18,11 +18,20 @@ namespace DailyPlanet_IOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITableView itemTable { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISearchDisplayController searchDisplayController { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (itemTable != null) {
                 itemTable.Dispose ();
                 itemTable = null;
+            }
+
+            if (searchDisplayController != null) {
+                searchDisplayController.Dispose ();
+                searchDisplayController = null;
             }
         }
     }

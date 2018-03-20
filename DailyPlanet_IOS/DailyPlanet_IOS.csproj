@@ -116,12 +116,14 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Pics\" />
+    <Folder Include="Excel\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="ItemController.xib" />
     <InterfaceDefinition Include="Resources\en.lproj\Main.storyboard" />
+    <InterfaceDefinition Include="ItemCellX.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -150,6 +152,8 @@
     <Compile Include="itemListController.designer.cs">
       <DependentUpon>itemListController.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaseTableViewController.cs" />
+    <Compile Include="ResultsTableController.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Pics\TDP-logo-1 %281%29.png" />

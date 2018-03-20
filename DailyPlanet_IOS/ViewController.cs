@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MySql;
@@ -6,6 +7,7 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 using UIKit;
 using ZXing.Mobile;
+using System.IO;
 
 namespace DailyPlanet_IOS
 {
@@ -35,26 +37,23 @@ namespace DailyPlanet_IOS
         partial void ScanBtn_TouchUpInside(UIButton sender)
         {
             /*
-             * Below is Database code. You'll notice if you try using it
-             * it wont work on the actual iphone but will connect to the
-             * database when using the simulator. I think I know the solution
-             * but I have to do a bit more research.
-
-            */
-
-
-            /*
             MySqlConnection sqlconn;
-            string connsqlstring = "Server=127.0.0.1;Port=3306;database=test;User Id=root;Password=password;charset=utf8";
+            string connsqlstring = "Server=dailyplanetdb.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dptest;User Id=dailyplanet;Password=westgrace123;charset=utf8";
             sqlconn = new MySqlConnection();
             sqlconn.ConnectionString = connsqlstring;
+            MySqlDataAdapter da;
             sqlconn.Open();
-            string queryString = "select * from test.itemTable";
+            string queryString = "select * from dptest.itemTable";
             MySqlCommand sqlcmd = new MySqlCommand(queryString, sqlconn);
+            da = new MySqlDataAdapter(sqlcmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
             String result = sqlcmd.ExecuteScalar().ToString();
             scanBarcode(result);
             sqlconn.Close();
             */
+
+
 
             scanBarcode();
         }
@@ -80,18 +79,12 @@ namespace DailyPlanet_IOS
             string code = result.Text;
             if (result != null)
             {
-                /*
-                 * Here is where we create a new item page every time 
-                 * something is scanned. You'll see this is where we
-                 * also set the strings we created in ItemController
-                 * so we can set it to what we want. Later we will set
-                 * it to whatever the database data is.
-                */
-
 
                 ItemController controller = new ItemController();
                 this.NavigationController.PushViewController(controller, true);
                 controller.barCodeLableText = code;
+                controller.itemNameText = "Bandage, Adhsv Shr Strp 1x3 (100/bx 24bx/cs) Mgm16";
+                controller.itemNumberText = "15";
                 //controller.addLabelText = query;
 
                 Console.WriteLine("Scanned Barcode: " + result.Text);

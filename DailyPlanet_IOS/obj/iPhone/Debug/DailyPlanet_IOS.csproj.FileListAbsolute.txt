@@ -33,11 +33,12 @@
 /Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.csproj.CoreCompileInputs.cache
 /Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.exe
 /Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.pdb
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/actool/_PartialAppManifest.items
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/actool/_BundleResourceWithLogicalName.items
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/Pics/TDP-logo-1 (1).png
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/Pics/sirach.png
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/Pics/minus_button_2-512.png
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/Pics/add-512.png
-/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone9.4-11.1.2/optimized/
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/actool/_PartialAppManifest.items
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/actool/_BundleResourceWithLogicalName.items
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/optimized/Pics/TDP-logo-1 (1).png
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/optimized/Pics/sirach.png
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/optimized/Pics/minus_button_2-512.png
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/optimized/Pics/add-512.png
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/optimized/Pics/bandagepic.png
+/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone10.1-11.2.1/optimized/
